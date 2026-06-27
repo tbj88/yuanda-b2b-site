@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="150" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">Yuanda Commercial Products logo</title>
+  <desc id="desc">Transparent Yuanda brand wordmark prepared for the B2B website prototype.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d4f70"/>
+      <stop offset="1" stop-color="#273747"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect x="8" y="18" width="112" height="112" rx="28" fill="url(#g)"/>
+    <path d="M32 48h22l14 25 14-25h22L78 91v21H58V91L32 48Z" fill="#fff"/>
+    <path d="M101 44v62c0 15-9 25-28 25H44v-18h27c7 0 10-3 10-9V44h20Z" fill="#f2c879" opacity=".92"/>
+    <text x="142" y="78" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" letter-spacing="3" fill="#101820">YUANDA</text>
+    <text x="145" y="109" font-family="Arial, sans-serif" font-size="16" letter-spacing="5" fill="#1d4f70">COMMERCIAL PRODUCTS</text>
+    <path d="M145 121h280" stroke="#b98b45" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
