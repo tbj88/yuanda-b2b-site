@@ -7,10 +7,10 @@
     "city": "Suzhou, Jiangsu, China",
     "email": "sales@yuanda-commercial.com",
     "positioning": {
-      "en": "Industrial-grade supermarket, retail and warehouse equipment manufacturer",
-      "zh": "工业级商超、零售与仓储设备制造商",
-      "de": "Hersteller von Supermarkt-, Einzelhandels- und Lagerausstattung in Industriequalitat",
-      "es": "Fabricante industrial de equipos para supermercados, retail y almacenes"
+      "en": "Premium retail fixture, supermarket shelving and warehouse equipment systems for global B2B projects",
+      "zh": "面向全球 B2B 项目的高端零售陈列、商超货架与仓储设备系统",
+      "de": "Premium-Systeme fur Retail-Fixtures, Supermarktregale und Lagerausstattung fur globale B2B-Projekte",
+      "es": "Sistemas premium de fixtures retail, estanterias de supermercado y equipos de almacen para proyectos B2B globales"
     },
     "sourceUrl": "https://ydhj.en.alibaba.com/"
   },
@@ -18,34 +18,34 @@
     {
       "img": "https://s.alicdn.com/@sc04/kf/H916f9ad7f8394e12989077d25e345838P/Supermarket-Shop-Store-Display-Metal-Iron-Shelf.png?hasNWGrade=1",
       "kicker": {
-        "en": "Factory-built retail infrastructure",
-        "zh": "工厂级零售基础设施",
-        "de": "Fabrikgefertigte Retail-Infrastruktur",
-        "es": "Infraestructura retail fabricada en planta"
+        "en": "2026 global B2B catalogue",
+        "zh": "2026 全球 B2B 产品册",
+        "de": "Globaler B2B-Katalog 2026",
+        "es": "Catalogo B2B global 2026"
       },
       "title": {
-        "en": "Shelving, racks and trolleys engineered for high-traffic retail operations.",
-        "zh": "面向高频零售场景的货架、仓储架与购物车系统。",
-        "de": "Regale, Lagergestelle und Einkaufswagen fur stark frequentierte Retail-Umgebungen.",
-        "es": "Estanterias, racks y carros disenados para operaciones retail de alto trafico."
+        "en": "Retail infrastructure engineered for supermarket chains, warehouses and commercial rollouts.",
+        "zh": "为连锁商超、仓储中心与商业空间扩张打造的零售基础设施。",
+        "de": "Retail-Infrastruktur fur Supermarktketten, Lagerzentren und kommerzielle Rollouts.",
+        "es": "Infraestructura retail para cadenas de supermercados, almacenes y expansiones comerciales."
       },
       "sub": {
-        "en": "20 years on Alibaba.com, 18,505 m2 floorspace, full customization and drawing-based manufacturing.",
-        "zh": "20年国际站经验，18,505平方米厂区，支持全定制与图纸定制生产。",
-        "de": "20 Jahre auf Alibaba.com, 18.505 m2 Werkflache, Vollanpassung und Fertigung nach Zeichnung.",
-        "es": "20 anos en Alibaba.com, 18.505 m2 de planta, personalizacion completa y fabricacion basada en planos."
+        "en": "Explore Yuanda Shelf Company Catalogue 2026: shelving systems, warehouse racks, shopping trolleys and baskets designed for project buyers.",
+        "zh": "浏览 Yuanda Shelf Company Catalogue 2026：面向项目采购商的货架系统、仓储架、购物车与购物篮。",
+        "de": "Entdecken Sie den Yuanda Shelf Company Catalogue 2026: Regalsysteme, Lagerregale, Einkaufswagen und Korbe fur Projektkaufer.",
+        "es": "Explore Yuanda Shelf Company Catalogue 2026: sistemas de estanterias, racks de almacen, carros y cestas para compradores de proyectos."
       },
       "ctaPrimary": {
-        "en": "Explore Catalog",
-        "zh": "查看产品目录",
-        "de": "Katalog ansehen",
-        "es": "Ver catalogo"
+        "en": "View Digital Catalogue",
+        "zh": "查看电子产品册",
+        "de": "Digitalen Katalog ansehen",
+        "es": "Ver catalogo digital"
       },
       "ctaGhost": {
-        "en": "Verify Capabilities",
-        "zh": "查看工厂能力",
-        "de": "Kapazitaten prufen",
-        "es": "Ver capacidades"
+        "en": "Download PDF",
+        "zh": "下载 PDF",
+        "de": "PDF herunterladen",
+        "es": "Descargar PDF"
       }
     },
     {
@@ -129,10 +129,10 @@
     {
       "value": "20YRS",
       "label": {
-        "en": "Alibaba.com History",
-        "zh": "国际站年限",
-        "de": "Alibaba.com Historie",
-        "es": "Historial en Alibaba.com"
+        "en": "Global B2B Track Record",
+        "zh": "全球 B2B 供应经验",
+        "de": "Globale B2B-Erfahrung",
+        "es": "Trayectoria B2B global"
       }
     },
     {
@@ -343,7 +343,7 @@
       "moq": "20 pieces",
       "category": "shelving",
       "images": [
-        "https://s.alicdn.com/@sc04/kf/HTB1tTirINSYBuNjSspjq6x73VXam/Single-Side-Wire-Mesh-Hanging-Basket-Supermarket.jpg_480x480.jpg?hasNWGrade=1"
+        "catalog-pages/page-04.jpg"
       ],
       "specs": [
         "Single side display",
@@ -377,7 +377,8 @@
         "application": "Supermarket, grocery store, warehouse or retail chain rollout",
         "customization": "Size, color, accessories and packing can be customized",
         "quality": "Material identification, QC inspection and packing check recommended"
-      }
+      },
+      "catalogPage": 4
     },
     {
       "id": "p-62360656945",
@@ -387,7 +388,7 @@
       "moq": "10 pieces",
       "category": "shelving",
       "images": [
-        "https://s.alicdn.com/@sc04/kf/H916f9ad7f8394e12989077d25e345838P/Supermarket-Shop-Store-Display-Metal-Iron-Shelf.png?hasNWGrade=1"
+        "catalog-pages/page-05.jpg"
       ],
       "specs": [
         "Metal iron shelf",
@@ -421,7 +422,8 @@
         "application": "Supermarket, grocery store, warehouse or retail chain rollout",
         "customization": "Size, color, accessories and packing can be customized",
         "quality": "Material identification, QC inspection and packing check recommended"
-      }
+      },
+      "catalogPage": 5
     },
     {
       "id": "p-60776953198",
@@ -431,7 +433,7 @@
       "moq": "10 pieces",
       "category": "trolley",
       "images": [
-        "https://s.alicdn.com/@sc04/kf/HTB14pJmv_XYBeNkHFrdq6AiuVXak/Heavy-Duty-Shopping-Trolley-for-Super-Market.jpg_480x480.jpg?hasNWGrade=1"
+        "catalog-pages/page-22.jpg"
       ],
       "specs": [
         "Heavy duty frame",
@@ -465,7 +467,8 @@
         "application": "Supermarket, grocery store, warehouse or retail chain rollout",
         "customization": "Size, color, accessories and packing can be customized",
         "quality": "Material identification, QC inspection and packing check recommended"
-      }
+      },
+      "catalogPage": 22
     },
     {
       "id": "p-1601193903040",
@@ -475,7 +478,7 @@
       "moq": "20 pieces",
       "category": "shelving",
       "images": [
-        "https://s.alicdn.com/@sc04/kf/H8fd08a495af84b59ba0c46c215e2d691H/Shop-Shelving-Retail-Display-Supermarket-Shelves-Estantes.jpg?hasNWGrade=1"
+        "catalog-pages/page-05.jpg"
       ],
       "specs": [
         "Retail display shelf",
@@ -509,7 +512,8 @@
         "application": "Supermarket, grocery store, warehouse or retail chain rollout",
         "customization": "Size, color, accessories and packing can be customized",
         "quality": "Material identification, QC inspection and packing check recommended"
-      }
+      },
+      "catalogPage": 5
     },
     {
       "id": "p-60032760336",
@@ -519,7 +523,7 @@
       "moq": "10 pieces",
       "category": "warehouse",
       "images": [
-        "https://s.alicdn.com/@sc04/kf/HTB17RbsJVXXXXcOXVXXq6xXFXXXE/Best-Quality-with-Competitive-Price-Adjustable-Steel.jpg_480x480.jpg?hasNWGrade=1"
+        "catalog-pages/page-11.jpg"
       ],
       "specs": [
         "Adjustable steel rack",
@@ -553,7 +557,8 @@
         "application": "Supermarket, grocery store, warehouse or retail chain rollout",
         "customization": "Size, color, accessories and packing can be customized",
         "quality": "Material identification, QC inspection and packing check recommended"
-      }
+      },
+      "catalogPage": 11
     },
     {
       "id": "p-1600285671312",
@@ -563,7 +568,7 @@
       "moq": "100 pieces",
       "category": "trolley",
       "images": [
-        "https://s.alicdn.com/@sc04/kf/He76181b8803c46b9b53ca1bf4ad5a7c8Q/Pink-Plastic-Supermarket-Double-Handle-Shopping-Cart.jpg?hasNWGrade=1"
+        "catalog-pages/page-25.jpg"
       ],
       "specs": [
         "Plastic basket",
@@ -597,54 +602,55 @@
         "application": "Supermarket, grocery store, warehouse or retail chain rollout",
         "customization": "Size, color, accessories and packing can be customized",
         "quality": "Material identification, QC inspection and packing check recommended"
-      }
+      },
+      "catalogPage": 25
     }
   ],
   "certs": [
     {
-      "id": "supplier-assessment",
+      "id": "manufacturing-capability",
       "title": {
-        "en": "Supplier Assessment",
-        "zh": "供应商评估",
-        "de": "Supplier Assessment",
-        "es": "Evaluacion de proveedor"
+        "en": "Manufacturing Capability",
+        "zh": "制造能力",
+        "de": "Fertigungskapazitat",
+        "es": "Capacidad de fabricacion"
       },
       "desc": {
-        "en": "Assessed supplier information and onsite verification are available on Alibaba.com.",
-        "zh": "国际站页面显示供应商评估与实地认证信息。",
-        "de": "Bewertete Lieferanteninformationen und Vor-Ort-Prufung sind verfugbar.",
-        "es": "Informacion evaluada e inspeccion onsite disponibles."
+        "en": "Factory-scale production for supermarket shelving, warehouse racks, shopping trolleys and supporting retail equipment systems.",
+        "zh": "面向商超货架、仓储架、购物车与配套零售设备系统的工厂级生产能力。",
+        "de": "Fabrikproduktion fur Supermarktregale, Lagerregale, Einkaufswagen und Retail-Systeme.",
+        "es": "Produccion industrial para estanterias, racks, carros y sistemas retail."
       },
       "image": "",
-      "verifyUrl": "https://ydhj.en.alibaba.com/company_profile.html?subpage=onsite",
+      "verifyUrl": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
       "verifyLabel": {
-        "en": "Open assessment",
-        "zh": "查看评估",
-        "de": "Assessment offnen",
-        "es": "Abrir evaluacion"
+        "en": "Open catalogue",
+        "zh": "打开产品册",
+        "de": "Katalog offnen",
+        "es": "Abrir catalogo"
       }
     },
     {
-      "id": "qc",
+      "id": "project-customization",
       "title": {
-        "en": "Quality Control",
-        "zh": "质量控制",
-        "de": "Qualitatskontrolle",
-        "es": "Control de calidad"
+        "en": "Project Customization",
+        "zh": "项目定制能力",
+        "de": "Projektanpassung",
+        "es": "Personalizacion de proyecto"
       },
       "desc": {
-        "en": "Raw material identification, traceability and 3 QA/QC inspectors are shown in the store profile.",
-        "zh": "店铺资料显示原材料识别与追溯能力，并配备3名QA/QC检验员。",
-        "de": "Materialidentifikation, Ruckverfolgbarkeit und 3 QA/QC-Inspektoren.",
-        "es": "Identificacion y trazabilidad de materias primas con 3 inspectores QA/QC."
+        "en": "Catalogue-based product systems support drawing review, size configuration, color finish and project packaging discussions.",
+        "zh": "基于产品册的产品系统支持图纸评估、尺寸配置、颜色表面处理与项目包装沟通。",
+        "de": "Katalogbasierte Systeme unterstutzen Zeichnungsprufung, Grossen, Farben und Verpackung.",
+        "es": "Sistemas de catalogo con revision de planos, medidas, acabados y embalaje."
       },
       "image": "",
-      "verifyUrl": "https://ydhj.en.alibaba.com/company_profile.html",
+      "verifyUrl": "#catalogue",
       "verifyLabel": {
-        "en": "Company profile",
-        "zh": "公司档案",
-        "de": "Firmenprofil",
-        "es": "Perfil de empresa"
+        "en": "View pages",
+        "zh": "查看页面",
+        "de": "Seiten ansehen",
+        "es": "Ver paginas"
       }
     }
   ],
@@ -856,10 +862,10 @@
     },
     "contactEmail": "sales@yuanda-commercial.com",
     "whySub": {
-      "en": "Verified manufacturing signals, project customization and export discipline are presented as buyer-facing trust assets.",
-      "zh": "把认证制造、项目定制和出口交付能力转化为买家可感知的信任资产。",
-      "de": "Verifizierte Fertigung, Projektanpassung und Exportdisziplin als Vertrauenssignale.",
-      "es": "Senales verificadas de fabricacion, personalizacion y exportacion."
+      "en": "Built for professional buyers who need repeatable specifications, project delivery discipline and export-ready product systems.",
+      "zh": "面向需要稳定规格、项目交付纪律与出口级产品系统的专业采购商。",
+      "de": "Fur professionelle Kaufer, die stabile Spezifikationen und exportbereite Systeme benotigen.",
+      "es": "Para compradores profesionales que necesitan especificaciones estables y sistemas listos para exportacion."
     },
     "fairTitle": {
       "en": "Trade show credibility",
@@ -874,16 +880,16 @@
       "es": "Area de historial de ferias para fotos, ediciones y eventos."
     },
     "catsSub": {
-      "en": "Three product systems derived from the public store: supermarket shelving, warehouse storage and retail mobility hardware.",
-      "zh": "从公开店铺提炼三大系统：商超货架、仓储设备、零售移动设备。",
-      "de": "Drei Produktsysteme aus dem Shop: Supermarktregale, Lager und Retail-Mobilitat.",
-      "es": "Tres sistemas: estanterias, almacenaje y movilidad retail."
+      "en": "Product systems reorganized from the 2026 company catalogue, not a marketplace storefront.",
+      "zh": "基于 2026 公司产品册重新组织产品系统，不再是平台店铺式展示。",
+      "de": "Produktsysteme aus dem 2026-Unternehmenskatalog, keine Marktplatz-Storefront.",
+      "es": "Sistemas de producto desde el catalogo corporativo 2026, no una tienda de marketplace."
     },
     "certSub": {
-      "en": "Keep evidence visible: assessment links, QC signals, production capacity and export-readiness.",
-      "zh": "把评估链接、质控、产能和出口能力放在买家可见位置。",
-      "de": "Nachweise sichtbar halten: Bewertung, QC, Kapazitat, Export.",
-      "es": "Mantener visible la evidencia: evaluacion, QC, capacidad y exportacion."
+      "en": "Manufacturing and project capability signals are presented as brand-owned proof points.",
+      "zh": "以品牌自有证据表达制造与项目能力，而非平台店铺背书。",
+      "de": "Fertigungs- und Projektfahigkeiten als markeneigene Nachweise.",
+      "es": "Capacidades de fabricacion y proyecto como pruebas propias de marca."
     },
     "processTitle": {
       "en": "Project cooperation workflow",
@@ -920,6 +926,24 @@
       "zh": "发送图纸、目标尺寸、数量与交付市场，便于快速准确报价。",
       "de": "Zeichnungen, Masse, Menge und Zielmarkt senden.",
       "es": "Enviar planos, medidas, cantidad y mercado destino."
+    },
+    "catalogueTitle": {
+      "en": "Yuanda Shelf Company Catalogue 2026",
+      "zh": "远大货架 2026 公司产品册",
+      "de": "Yuanda Shelf Company Catalogue 2026",
+      "es": "Yuanda Shelf Company Catalogue 2026"
+    },
+    "catalogueSub": {
+      "en": "A complete 28-page digital catalogue for project buyers: supermarket shelving, warehouse racks, shopping trolleys and retail equipment systems.",
+      "zh": "完整 28 页电子产品册，面向项目采购商展示商超货架、仓储架、购物车与零售设备系统。",
+      "de": "Ein vollstandiger 28-seitiger digitaler Katalog fur Projektkaufer.",
+      "es": "Catalogo digital completo de 28 paginas para compradores de proyectos."
+    },
+    "catalogueDownload": {
+      "en": "Download original PDF",
+      "zh": "下载原版 PDF",
+      "de": "Original-PDF herunterladen",
+      "es": "Descargar PDF original"
     }
   },
   "process": [
@@ -993,5 +1017,152 @@
     "Quantity and rollout schedule",
     "Destination port / country",
     "Sample requirement"
-  ]
+  ],
+  "catalogue": {
+    "pdf": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
+    "pageCount": 28,
+    "pages": [
+      {
+        "page": 1,
+        "img": "catalog-pages/page-01.jpg"
+      },
+      {
+        "page": 2,
+        "img": "catalog-pages/page-02.jpg"
+      },
+      {
+        "page": 3,
+        "img": "catalog-pages/page-03.jpg"
+      },
+      {
+        "page": 4,
+        "img": "catalog-pages/page-04.jpg"
+      },
+      {
+        "page": 5,
+        "img": "catalog-pages/page-05.jpg"
+      },
+      {
+        "page": 6,
+        "img": "catalog-pages/page-06.jpg"
+      },
+      {
+        "page": 7,
+        "img": "catalog-pages/page-07.jpg"
+      },
+      {
+        "page": 8,
+        "img": "catalog-pages/page-08.jpg"
+      },
+      {
+        "page": 9,
+        "img": "catalog-pages/page-09.jpg"
+      },
+      {
+        "page": 10,
+        "img": "catalog-pages/page-10.jpg"
+      },
+      {
+        "page": 11,
+        "img": "catalog-pages/page-11.jpg"
+      },
+      {
+        "page": 12,
+        "img": "catalog-pages/page-12.jpg"
+      },
+      {
+        "page": 13,
+        "img": "catalog-pages/page-13.jpg"
+      },
+      {
+        "page": 14,
+        "img": "catalog-pages/page-14.jpg"
+      },
+      {
+        "page": 15,
+        "img": "catalog-pages/page-15.jpg"
+      },
+      {
+        "page": 16,
+        "img": "catalog-pages/page-16.jpg"
+      },
+      {
+        "page": 17,
+        "img": "catalog-pages/page-17.jpg"
+      },
+      {
+        "page": 18,
+        "img": "catalog-pages/page-18.jpg"
+      },
+      {
+        "page": 19,
+        "img": "catalog-pages/page-19.jpg"
+      },
+      {
+        "page": 20,
+        "img": "catalog-pages/page-20.jpg"
+      },
+      {
+        "page": 21,
+        "img": "catalog-pages/page-21.jpg"
+      },
+      {
+        "page": 22,
+        "img": "catalog-pages/page-22.jpg"
+      },
+      {
+        "page": 23,
+        "img": "catalog-pages/page-23.jpg"
+      },
+      {
+        "page": 24,
+        "img": "catalog-pages/page-24.jpg"
+      },
+      {
+        "page": 25,
+        "img": "catalog-pages/page-25.jpg"
+      },
+      {
+        "page": 26,
+        "img": "catalog-pages/page-26.jpg"
+      },
+      {
+        "page": 27,
+        "img": "catalog-pages/page-27.jpg"
+      },
+      {
+        "page": 28,
+        "img": "catalog-pages/page-28.jpg"
+      }
+    ],
+    "sections": [
+      {
+        "range": "01-03",
+        "title": {
+          "en": "Corporate profile and catalogue overview",
+          "zh": "企业形象与产品册总览",
+          "de": "Unternehmensprofil und Katalogubersicht",
+          "es": "Perfil corporativo y catalogo"
+        }
+      },
+      {
+        "range": "04-21",
+        "title": {
+          "en": "Supermarket shelving and warehouse systems",
+          "zh": "商超货架与仓储系统",
+          "de": "Supermarktregale und Lagersysteme",
+          "es": "Estanterias y sistemas de almacen"
+        }
+      },
+      {
+        "range": "22-28",
+        "title": {
+          "en": "Shopping trolleys, baskets and retail equipment",
+          "zh": "购物车、购物篮与零售设备",
+          "de": "Einkaufswagen, Korbe und Retail-Ausstattung",
+          "es": "Carros, cestas y equipos retail"
+        }
+      }
+    ]
+  }
 }
