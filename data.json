@@ -3,7 +3,7 @@
     "id": "yuanda",
     "name": "Yuanda Commercial Products",
     "legalName": "Suzhou Yuanda Commercial Products Co., Ltd.",
-    "foundedYear": 2004,
+    "foundedYear": 1990,
     "city": "Suzhou, Jiangsu, China",
     "email": "sales@yuanda-commercial.com",
     "positioning": {
@@ -12,7 +12,7 @@
       "de": "Premium-Systeme fur Retail-Fixtures, Supermarktregale und Lagerausstattung fur globale B2B-Projekte",
       "es": "Sistemas premium de fixtures retail, estanterias de supermercado y equipos de almacen para proyectos B2B globales"
     },
-    "sourceUrl": "https://ydhj.en.alibaba.com/"
+    "sourceUrl": "Yuanda-Shelf-Company-Catalogue-2026.pdf"
   },
   "hero": [
     {
@@ -127,12 +127,12 @@
       }
     },
     {
-      "value": "20YRS",
+      "value": "1990",
       "label": {
-        "en": "Global B2B Track Record",
-        "zh": "全球 B2B 供应经验",
-        "de": "Globale B2B-Erfahrung",
-        "es": "Trayectoria B2B global"
+        "en": "Brand Origin",
+        "zh": "品牌起源",
+        "de": "Markenursprung",
+        "es": "Origen de marca"
       }
     },
     {
@@ -176,19 +176,19 @@
     {
       "icon": "ISO",
       "title": {
-        "en": "Verified custom manufacturer",
+        "en": "Retail equipment manufacturer",
         "zh": "认证定制制造商",
         "de": "Verifizierter Custom Manufacturer",
         "es": "Fabricante personalizado verificado"
       },
       "desc": {
-        "en": "Supplier assessment, onsite check and verified production capabilities support B2B project trust.",
+        "en": "Factory-scale manufacturing, catalogue-backed product systems and export project experience support professional B2B procurement.",
         "zh": "供应商评估、实地验厂与认证产能信息，支撑B2B项目采购信任。",
         "de": "Supplier Assessment, Vor-Ort-Prufung und verifizierte Produktionskapazitaten schaffen Vertrauen.",
         "es": "Evaluacion de proveedor, inspeccion onsite y capacidad verificada generan confianza."
       },
       "cta": {
-        "en": "View credentials",
+        "en": "Manufacturing proof",
         "zh": "查看资质",
         "de": "Nachweise ansehen",
         "es": "Ver credenciales"
@@ -248,7 +248,7 @@
         "es": "Equipo rapido para proyectos"
       },
       "desc": {
-        "en": "Response time within 2 hours and experienced trade staff help shorten specification cycles.",
+        "en": "Experienced commercial and project teams help shorten specification review, sample confirmation and rollout communication cycles.",
         "zh": "2小时内响应，成熟外贸团队帮助缩短规格确认周期。",
         "de": "Antwortzeit unter 2 Stunden und erfahrenes Exportteam verkurzen Abstimmungen.",
         "es": "Respuesta en 2 horas y equipo exportador experto acortan la definicion tecnica."
@@ -270,7 +270,7 @@
         "es": "Capacidad orientada a exportacion"
       },
       "desc": {
-        "en": "Main markets include Europe, North America, Oceania and South America for retail equipment buyers.",
+        "en": "Product systems are designed for retail equipment buyers, distributors and project contractors across global markets.",
         "zh": "主要市场覆盖欧洲、北美、大洋洲与南美，适合商超设备采购商。",
         "de": "Hauptmarkte sind Europa, Nordamerika, Ozeanien und Sudamerika.",
         "es": "Mercados principales: Europa, Norteamerica, Oceania y Sudamerica."
@@ -656,38 +656,40 @@
   ],
   "fairs": [
     {
-      "id": "offline-shows",
+      "id": "showroom-catalogue",
       "name": {
-        "en": "Offline Trade Shows",
-        "zh": "线下展会记录",
-        "de": "Offline-Messen",
-        "es": "Ferias presenciales"
+        "en": "Showroom & Catalogue Program",
+        "zh": "展厅与产品册体系",
+        "de": "Showroom- und Katalogprogramm",
+        "es": "Programa de showroom y catalogo"
       },
       "location": {
-        "en": "Global retail equipment fairs",
-        "zh": "全球零售设备展会",
-        "de": "Globale Retail-Ausstattungsmessen",
-        "es": "Ferias globales de equipamiento retail"
+        "en": "Yiwu showroom and global project presentations",
+        "zh": "义乌展厅与全球项目展示",
+        "de": "Yiwu-Showroom und globale Projektprasentationen",
+        "es": "Showroom de Yiwu y presentaciones globales"
       },
       "description": {
-        "en": "The Alibaba.com profile indicates offline trade shows attended twice. Add booth photos and fair names in admin mode when available.",
-        "zh": "国际站资料显示曾参加2次线下展会。后续可在管理员模式补充展会名称、展位号与照片。",
-        "de": "Das Profil zeigt zwei besuchte Offline-Messen. Messeinfos konnen im Admin-Modus erganzt werden.",
-        "es": "El perfil indica dos ferias presenciales. Se pueden anadir nombres, stands y fotos en modo admin."
+        "en": "The 2026 catalogue presents Yuanda’s supermarket shelving, warehouse rack, shopping trolley and basket systems for professional buyers. Additional exhibition photos can be added when verified assets are available.",
+        "zh": "2026 产品册系统展示远大的商超货架、仓储架、购物车与购物篮产品线，面向专业采购商。后续可补充真实展会与展厅照片。",
+        "de": "Der 2026-Katalog prasentiert Yuandas Regale, Lagerregale, Einkaufswagen und Korbe fur professionelle Kaufer.",
+        "es": "El catalogo 2026 presenta estanterias, racks, carros y cestas para compradores profesionales."
       },
       "poster": "",
       "editions": [
         {
-          "id": "show-1",
-          "dateStart": "2025-01-01",
-          "dateEnd": "2025-01-03",
-          "booth": "To be updated",
-          "photos": [],
+          "id": "catalogue-2026",
+          "dateStart": "2026-01-01",
+          "dateEnd": "2026-12-31",
+          "booth": "2026 Catalogue Release",
+          "photos": [
+            "catalog-pages/page-01.jpg"
+          ],
           "notes": {
-            "en": "Trade show record placeholder based on supplier profile.",
-            "zh": "基于供应商资料预留的展会记录。",
-            "de": "Platzhalter auf Basis des Lieferantenprofils.",
-            "es": "Marcador basado en el perfil del proveedor."
+            "en": "Official 2026 company catalogue available for download and online viewing.",
+            "zh": "2026 官方公司产品册已支持在线查看与下载。",
+            "de": "Offizieller Unternehmenskatalog 2026 online verfugbar.",
+            "es": "Catalogo corporativo oficial 2026 disponible online."
           }
         }
       ]
@@ -803,7 +805,7 @@
       {
         "cat": "Risk",
         "t": "Data gaps",
-        "c": "Public page lacks verified client names, detailed certificates, exhibition photos and direct company email. Collect before deployment."
+        "c": "Official email, verified client logos, exhibition photos and certificate originals should be collected before final commercial launch."
       },
       {
         "cat": "Pitch",
