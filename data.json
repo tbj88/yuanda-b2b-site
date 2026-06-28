@@ -36,16 +36,16 @@
         "es": "Sistemas premium de estanterias, racks, carros y cestas para compradores B2B profesionales."
       },
       "ctaPrimary": {
-        "en": "Explore Solutions",
-        "zh": "查看解决方案",
-        "de": "Losungen ansehen",
-        "es": "Ver soluciones"
+        "en": "Explore Product Systems",
+        "zh": "查看产品系统",
+        "de": "Produktsysteme ansehen",
+        "es": "Ver sistemas"
       },
       "ctaGhost": {
-        "en": "Product Systems",
-        "zh": "产品系统",
-        "de": "Produktsysteme",
-        "es": "Sistemas de producto"
+        "en": "Open Catalogue Database",
+        "zh": "打开产品数据库",
+        "de": "Produktdatenbank offnen",
+        "es": "Abrir base de productos"
       }
     },
     {
@@ -16429,10 +16429,10 @@
       "es": "Por que Yuanda"
     },
     "catsTitle": {
-      "en": "Industrial product lines",
-      "zh": "工业级产品线",
-      "de": "Industrielle Produktlinien",
-      "es": "Lineas industriales"
+      "en": "Three Product Systems",
+      "zh": "三大产品系统",
+      "de": "Drei Produktsysteme",
+      "es": "Tres sistemas de producto"
     },
     "certTitle": {
       "en": "Verified capabilities",
@@ -16454,28 +16454,28 @@
     },
     "contactEmail": "sales@yuanda-commercial.com",
     "whySub": {
-      "en": "Built for professional buyers who need repeatable specifications, project delivery discipline and export-ready product systems.",
-      "zh": "面向需要稳定规格、项目交付纪律与出口级产品系统的专业采购商。",
-      "de": "Fur professionelle Kaufer, die stabile Spezifikationen und exportbereite Systeme benotigen.",
-      "es": "Para compradores profesionales que necesitan especificaciones estables y sistemas listos para exportacion."
+      "en": "Manufacturing capability, project customization and catalogue-level product management for global B2B buyers.",
+      "zh": "面向全球 B2B 采购商的制造能力、项目定制与产品册级产品管理。",
+      "de": "Fertigung, Projektanpassung und katalogbasierte Produktverwaltung.",
+      "es": "Fabricacion, personalizacion y gestion de catalogo para compradores B2B."
     },
     "fairTitle": {
-      "en": "Trade show credibility",
-      "zh": "全球展会信任背书",
-      "de": "Messe-Vertrauen",
-      "es": "Credibilidad en ferias"
+      "en": "Showroom & Catalogue Program",
+      "zh": "展厅与产品册体系",
+      "de": "Showroom- und Katalogprogramm",
+      "es": "Programa de showroom y catalogo"
     },
     "fairSub": {
-      "en": "A structured fair history area is reserved for booth photos, editions and upcoming events.",
-      "zh": "预留结构化展会历史区域，用于补充展位照片、届次与未来参展计划。",
-      "de": "Strukturierter Messebereich fur Fotos, Ausgaben und kommende Events.",
-      "es": "Area de historial de ferias para fotos, ediciones y eventos."
+      "en": "A brand-owned catalogue and showroom structure for professional retail equipment procurement.",
+      "zh": "面向专业零售设备采购的品牌自有产品册与展厅展示体系。",
+      "de": "Markeneigener Katalog und Showroom fur professionelle Beschaffung.",
+      "es": "Catalogo y showroom propios para compra profesional."
     },
     "catsSub": {
-      "en": "Product systems reorganized from the 2026 company catalogue, not a marketplace storefront.",
-      "zh": "基于 2026 公司产品册重新组织产品系统，不再是平台店铺式展示。",
-      "de": "Produktsysteme aus dem 2026-Unternehmenskatalog, keine Marktplatz-Storefront.",
-      "es": "Sistemas de producto desde el catalogo corporativo 2026, no una tienda de marketplace."
+      "en": "Homepage categories focus on business entry points; the full 152-record database is opened separately.",
+      "zh": "首页分类只作为业务入口；完整 152 条产品数据库单独打开。",
+      "de": "Startseiten-Kategorien als Einstieg; vollstandige Datenbank separat.",
+      "es": "Categorias como entrada; base completa separada."
     },
     "certSub": {
       "en": "Manufacturing and project capability signals are presented as brand-owned proof points.",
@@ -16775,5 +16775,61 @@
     "imageFiles": 141,
     "adminEditable": true,
     "note": "Each product record is structured for future admin editing. Auto-cropped images marked needsImageReview should be manually refined before final commercial launch."
-  }
+  },
+  "homeCategories": [
+    {
+      "key": "supermarket-shelf",
+      "searchKey": "supermarket-shelf",
+      "count": 36,
+      "img": "products/supermarket-shelf/yd-s001.jpg",
+      "title": {
+        "en": "Supermarket Shelf",
+        "zh": "Supermarket Shelf",
+        "de": "Supermarket Shelf",
+        "es": "Supermarket Shelf"
+      },
+      "sub": {
+        "en": "36 editable product records with parameters and media.",
+        "zh": "36 个可编辑产品档案，包含图片与参数。",
+        "de": "36 Produktdatensatze.",
+        "es": "36 registros de producto."
+      }
+    },
+    {
+      "key": "shopping-trolley-cart",
+      "searchKey": "shopping-trolley-cart",
+      "count": 45,
+      "img": "products/shopping-trolley-cart/yd-a-100l.jpg",
+      "title": {
+        "en": "Shopping Trolley / Cart",
+        "zh": "Shopping Trolley / Cart",
+        "de": "Shopping Trolley / Cart",
+        "es": "Shopping Trolley / Cart"
+      },
+      "sub": {
+        "en": "45 editable product records with parameters and media.",
+        "zh": "45 个可编辑产品档案，包含图片与参数。",
+        "de": "45 Produktdatensatze.",
+        "es": "45 registros de producto."
+      }
+    },
+    {
+      "key": "warehouse-rack",
+      "searchKey": "warehouse-rack",
+      "count": 6,
+      "img": "products/warehouse-rack/yd-s026.jpg",
+      "title": {
+        "en": "Warehouse Rack",
+        "zh": "Warehouse Rack",
+        "de": "Warehouse Rack",
+        "es": "Warehouse Rack"
+      },
+      "sub": {
+        "en": "6 editable product records with parameters and media.",
+        "zh": "6 个可编辑产品档案，包含图片与参数。",
+        "de": "6 Produktdatensatze.",
+        "es": "6 registros de producto."
+      }
+    }
+  ]
 }
