@@ -717,7 +717,7 @@ async function load(){
   // staff/admin onboarding
   if(getMode()==="staff" && localStorage.getItem(BRAND+"_staff_ok")!=="1"){
     const pw = prompt("Staff access password:");
-    if(pw==="xxx2026888"){ localStorage.setItem(BRAND+"_staff_ok","1"); applyModeClass(); }
+    if(pw==="yuanda2026"){ localStorage.setItem(BRAND+"_staff_ok","1"); applyModeClass(); }
     else { alert("Wrong password. Redirecting to public view."); location.href = location.pathname; return; }
   }
   if(getMode()==="admin" && !localStorage.getItem(BRAND+"_admin_token")){
@@ -907,12 +907,96 @@ function renderPartnersPage(){
     </div>`).join("");
 }
 
+/* ===== Product schema adapter (兼容 v1.2 schema + yuanda schema) =====
+ * v1.2 标准 schema: {id, sku, name:{en,zh,...}, price, moq, category, images:[], specs:[{k:{...},v:...}]}
+ * yuanda schema:   {id, category, basic:{nameEn,nameZh,model,shortName,...}, parameters:{...11 keys}, commerce:{price,moq,sample,leadTime}, media:{mainImage,sourcePageImage}}
+ * 通过 pAdapt() 把任意 schema 转成统一接口供 render 用。
+ */
+const YUANDA_PARAM_LABELS = {
+  specification:    {en:"Specification",            zh:"规格", de:"Spezifikation",  es:"Especificación", fr:"Spécification", it:"Specifica",   ru:"Спецификация",   pt:"Especificação", ja:"仕様",     ko:"사양",      ar:"المواصفات", nl:"Specificatie", tr:"Spesifikasyon", th:"ข้อมูลจำเพาะ", vi:"Thông số", hi:"विनिर्देश"},
+  material:         {en:"Material",                 zh:"材质", de:"Material",       es:"Material",       fr:"Matériau",      it:"Materiale",   ru:"Материал",       pt:"Material",      ja:"材質",     ko:"재질",      ar:"المادة",     nl:"Materiaal",    tr:"Malzeme",       th:"วัสดุ",        vi:"Vật liệu", hi:"सामग्री"},
+  layers:           {en:"Layers",                   zh:"层数", de:"Ebenen",         es:"Estantes",       fr:"Niveaux",       it:"Ripiani",     ru:"Уровни",         pt:"Camadas",       ja:"段数",     ko:"단수",      ar:"الطبقات",   nl:"Lagen",        tr:"Katmanlar",     th:"จำนวนชั้น",   vi:"Số tầng",  hi:"परतें"},
+  mainMaterialThickness: {en:"Main Material Thickness", zh:"主材厚度", de:"Materialstärke", es:"Espesor",      fr:"Épaisseur",     it:"Spessore",    ru:"Толщина материала", pt:"Espessura", ja:"主材厚さ", ko:"두께",      ar:"السماكة",   nl:"Dikte",        tr:"Kalınlık",      th:"ความหนา",      vi:"Độ dày",   hi:"मोटाई"},
+  surfaceTreatment: {en:"Surface Treatment",        zh:"表面处理", de:"Oberflächenbehandlung", es:"Acabado", fr:"Traitement de surface", it:"Trattamento superficiale", ru:"Обработка поверхности", pt:"Tratamento", ja:"表面処理", ko:"표면 처리", ar:"معالجة السطح", nl:"Oppervlaktebehandeling", tr:"Yüzey İşleme", th:"การเคลือบผิว", vi:"Xử lý bề mặt", hi:"सतह उपचार"},
+  capacityPerLayer: {en:"Capacity per Layer",       zh:"每层承重", de:"Tragkraft/Ebene", es:"Carga/estante", fr:"Charge/niveau", it:"Carico/ripiano", ru:"Грузоп./уровень", pt:"Carga/camada", ja:"段あたり耐荷重", ko:"단당 하중", ar:"السعة لكل طبقة", nl:"Capaciteit/laag", tr:"Katman Kapasitesi", th:"น้ำหนักต่อชั้น", vi:"Tải mỗi tầng", hi:"प्रति परत क्षमता"},
+  volume:           {en:"Volume",                   zh:"容积", de:"Volumen",        es:"Volumen",        fr:"Volume",        it:"Volume",      ru:"Объём",          pt:"Volume",        ja:"容積",     ko:"용량",      ar:"الحجم",      nl:"Volume",       tr:"Hacim",         th:"ปริมาตร",    vi:"Dung tích",hi:"क्षमता"},
+  capacity:         {en:"Capacity",                 zh:"载重",  de:"Kapazität",      es:"Capacidad",      fr:"Capacité",      it:"Capacità",    ru:"Грузопод.",      pt:"Capacidade",    ja:"耐荷重",   ko:"용량",      ar:"السعة",      nl:"Capaciteit",   tr:"Kapasite",      th:"ความจุ",      vi:"Sức chứa",hi:"क्षमता"},
+  castors:          {en:"Castors",                  zh:"脚轮",  de:"Rollen",         es:"Ruedas",         fr:"Roulettes",     it:"Ruote",       ru:"Колёса",         pt:"Rodízios",      ja:"キャスター", ko:"캐스터",   ar:"العجلات",    nl:"Wieltjes",     tr:"Tekerlek",      th:"ล้อ",          vi:"Bánh xe", hi:"पहिये"},
+  bearing:          {en:"Bearing",                  zh:"轴承",  de:"Lager",          es:"Rodamiento",     fr:"Roulement",     it:"Cuscinetto",  ru:"Подшипник",      pt:"Rolamento",     ja:"ベアリング", ko:"베어링",   ar:"المحمل",     nl:"Lager",        tr:"Yatak",         th:"แบริ่ง",      vi:"Vòng bi", hi:"बेयरिंग"},
+  diameter:         {en:"Diameter",                 zh:"直径",  de:"Durchmesser",    es:"Diámetro",       fr:"Diamètre",      it:"Diametro",    ru:"Диаметр",        pt:"Diâmetro",      ja:"直径",     ko:"직경",      ar:"القطر",      nl:"Diameter",     tr:"Çap",           th:"เส้นผ่านศูนย์กลาง", vi:"Đường kính", hi:"व्यास"},
+};
+const YUANDA_PARAM_KEYS = Object.keys(YUANDA_PARAM_LABELS);
+
+function isYuandaProduct(p){
+  return !!(p && (p.basic || p.parameters || p.commerce || p.media));
+}
+
+function pAdapt(p){
+  if(!p) return p;
+  if(!isYuandaProduct(p)) return p;  // already v1.2
+  const b = p.basic || {};
+  const m = p.media || {};
+  const c = p.commerce || {};
+  const par = p.parameters || {};
+  // 收集图片：mainImage 优先；如果文件名带"未在PDF"等异常也保留以便后台替换
+  const images = [];
+  if(m.mainImage) images.push(m.mainImage);
+  if(Array.isArray(p.images)) p.images.forEach(x=>{if(x && !images.includes(x)) images.push(x);});
+  if(m.sourcePageImage && !images.includes(m.sourcePageImage)) images.push(m.sourcePageImage);
+  // 取一个 yuanda 字段的可读值（过滤"未在PDF中明确"等占位）
+  const placeholder = /未在|to be confirmed|n\/a|tbd|未明确/i;
+  const isPlaceholder = v => !v || placeholder.test(String(v));
+  // 构造 specs[]
+  const specs = [];
+  YUANDA_PARAM_KEYS.forEach(k=>{
+    const v = par[k];
+    if(v && !isPlaceholder(v)){
+      specs.push({k: YUANDA_PARAM_LABELS[k], v: String(v).replace(/\s+/g," ").trim()});
+    }
+  });
+  // 兜底：如果还有其它未识别的 parameters key 也加进去
+  Object.keys(par).forEach(k=>{
+    if(!YUANDA_PARAM_KEYS.includes(k)){
+      const v = par[k];
+      if(v && !isPlaceholder(v)){
+        const label = k.replace(/([A-Z])/g," $1").replace(/^./,c=>c.toUpperCase());
+        specs.push({k:{en:label,zh:label,de:label,es:label}, v:String(v)});
+      }
+    }
+  });
+  // 处理产品名：basic.nameEn 通常带中文+英文，splitName
+  const rawName = b.nameEn || b.nameZh || b.shortName || p.name || "";
+  return {
+    _yuanda: true,           // marker
+    _raw: p,                 // 保留原 ref
+    id: p.id,
+    sku: b.model || p.sku || "",
+    name: {
+      en: b.nameEn || rawName,
+      zh: b.nameZh || rawName,
+      de: rawName, es: rawName, fr: rawName, it: rawName,
+      ru: rawName, pt: rawName, ja: rawName, ko: rawName,
+      ar: rawName, nl: rawName, tr: rawName, th: rawName,
+      vi: rawName, hi: rawName
+    },
+    price: c.price || p.price || "Project quotation",
+    moq:   c.moq   || p.moq   || "Project-based",
+    leadTime: c.leadTime || "",
+    sample:   c.sample   || "",
+    category: p.category || p.categoryKey || "",
+    categoryLabel: p.categoryLabel || "",
+    images: images.length ? images : (Array.isArray(p.images)?p.images:[]),
+    specs: specs,
+    detailImgs: p.detailImgs || []
+  };
+}
+
 function renderCatalog(){
   const q = (Q("#catalogSearch")?.value || "").toLowerCase().trim();
   const f = Q("#catalogFilter")?.value || "";
   const grid = Q("#productsGrid");
   if(!grid) return;
-  const list = (DATA.products||[]).filter(p=>{
+  const list = (DATA.products||[]).map(pAdapt).filter(p=>{
     if(f && p.category!==f) return false;
     if(q){
       const text = (L(p.name)+" "+p.sku+" "+(p.category||"")).toLowerCase();
@@ -922,7 +1006,7 @@ function renderCatalog(){
   });
   const html = list.map(p=>`
     <div class="product-card" onclick="routeToProduct('${esc(p.id)}')">
-      <div class="product-card-img"><img src="${esc(p.images[0]||'')}" alt=""></div>
+      <div class="product-card-img"><img src="${esc((p.images||[])[0]||'')}" alt="" onerror="this.style.opacity=.3"></div>
       <div class="product-card-body">
         <div class="product-card-sku">${esc(p.sku)}</div>
         <div class="product-card-name">${esc(L(p.name))}</div>
@@ -938,40 +1022,50 @@ function renderCatalog(){
 
 function renderProductDetail(){
   if(!CURRENT_PRODUCT){ Q("#pdContainer").innerHTML = ""; return; }
-  const p = CURRENT_PRODUCT;
+  const p = pAdapt(CURRENT_PRODUCT);
+  const hasSpecs = p.specs && p.specs.length > 0;
+  const hasMultiImg = (p.images||[]).length > 1;
   Q("#pdContainer").innerHTML = `
     <a class="pd-back" href="#" onclick="route('catalog');return false">← ${esc(L(DATA.ui.navCatalog))}</a>
     <div class="pd-grid">
       <div class="pd-gallery">
-        <div class="pd-main-img"><img id="pdMainImg" src="${esc(p.images[0]||'')}" alt=""></div>
-        <div class="pd-thumbs">
-          ${p.images.map((im,i)=>`<div class="pd-thumb${i===0?' active':''}" onclick="pdSwitchImg(${i})"><img src="${esc(im)}"></div>`).join('')}
-        </div>
+        <div class="pd-main-img"><img id="pdMainImg" src="${esc((p.images||[])[0]||'')}" alt="${esc(L(p.name))}" onerror="this.style.opacity=.3;this.alt='Image unavailable'"></div>
+        ${hasMultiImg ? `<div class="pd-thumbs">
+          ${p.images.map((im,i)=>`<div class="pd-thumb${i===0?' active':''}" onclick="pdSwitchImg(${i})"><img src="${esc(im)}" onerror="this.style.opacity=.3"></div>`).join('')}
+        </div>` : ''}
       </div>
       <div class="pd-info">
-        <div class="pd-sku">${esc(p.sku)}</div>
+        ${p.sku ? `<div class="pd-sku">${esc(p.sku)}</div>` : ''}
         <h1>${esc(L(p.name))}</h1>
+        ${p.categoryLabel ? `<div style="font-size:13px;color:var(--c-ink-soft);margin-bottom:14px">${esc(p.categoryLabel)}</div>` : ''}
         <div class="pd-price-row">
           <div><div class="label">PRICE</div><div class="val">${esc(p.price)}</div></div>
           <div><div class="label">MOQ</div><div class="val">${esc(p.moq)}</div></div>
         </div>
         <div class="pd-quote-btn">
-          <a class="btn btn-primary" href="mailto:${esc(DATA.brand.email||'')}?subject=Quote%20Request%20-%20${encodeURIComponent(p.sku)}">${esc(L(DATA.ui.ctaInquire))}</a>
+          <a class="btn btn-primary" href="mailto:${esc(DATA.brand.email||'')}?subject=Quote%20Request%20-%20${encodeURIComponent(p.sku||p.id)}">${esc(L(DATA.ui.ctaInquire))}</a>
           <a class="btn btn-ghost" style="color:var(--c-primary);border-color:var(--c-line);background:#fff" href="mailto:${esc(DATA.brand.email||'')}">${esc(L(DATA.ui.ctaContact))}</a>
         </div>
+        ${hasSpecs ? `
         <table class="pd-specs-table">
           <tbody>
             ${p.specs.map(s=>`<tr><td>${esc(L(s.k))}</td><td>${esc(s.v)}</td></tr>`).join('')}
+            ${p.leadTime ? `<tr><td>Lead Time</td><td>${esc(p.leadTime)}</td></tr>`:''}
+            ${p.sample   ? `<tr><td>Sample</td><td>${esc(p.sample)}</td></tr>`:''}
           </tbody>
-        </table>
+        </table>` : `
+        <div style="padding:20px;background:#FAFBFC;border:1px dashed var(--c-line);border-radius:8px;color:var(--c-ink-soft);font-size:14px;line-height:1.6">
+          <strong style="color:var(--c-ink);display:block;margin-bottom:6px">Detailed specifications available on request.</strong>
+          Contact our sales team with your project requirements (dimensions, capacity, customization) — full technical specifications, drawings and samples will be confirmed by our engineering team.
+        </div>`}
       </div>
     </div>
-    ${(p.detailImgs && p.detailImgs.length)?`<div class="pd-detail-imgs">${p.detailImgs.map(im=>`<img src="${esc(im)}">`).join('')}</div>`:''}
+    ${(p.detailImgs && p.detailImgs.length)?`<div class="pd-detail-imgs">${p.detailImgs.map(im=>`<img src="${esc(im)}" onerror="this.style.display='none'">`).join('')}</div>`:''}
   `;
 }
 function pdSwitchImg(i){
-  const p = CURRENT_PRODUCT;
-  Q("#pdMainImg").src = p.images[i];
+  const p = pAdapt(CURRENT_PRODUCT);
+  Q("#pdMainImg").src = (p.images||[])[i];
   QA(".pd-thumb").forEach((t,k)=>t.classList.toggle("active", k===i));
 }
 
@@ -1084,9 +1178,34 @@ const FIELD_SCHEMAS = {
     {k:"name", type:"i18n", label:"Product Name"},
     {k:"price", type:"text", label:"Price"},
     {k:"moq", type:"text", label:"MOQ"},
-    {k:"category", type:"text", label:"Category (granulator/shredder/stripper)"},
+    {k:"category", type:"text", label:"Category"},
     {k:"images", type:"imagelist", label:"Images"},
     {k:"specs", type:"speclist", label:"Specs (key/value)"}
+  ],
+  // Yuanda 专属 schema - 字段路径用点号嵌套(支持 basic.nameEn / parameters.specification 等)
+  products_yuanda: [
+    {k:"id", type:"text", label:"ID (must stay unique)"},
+    {k:"basic.model", type:"text", label:"Model No (SKU)"},
+    {k:"basic.nameEn", type:"text", label:"Name (English)"},
+    {k:"basic.nameZh", type:"text", label:"Name (中文)"},
+    {k:"category", type:"text", label:"Category Key (slug)"},
+    {k:"categoryLabel", type:"text", label:"Category Label (display)"},
+    {k:"media.mainImage", type:"image", label:"Main Image"},
+    {k:"commerce.price", type:"text", label:"Price"},
+    {k:"commerce.moq", type:"text", label:"MOQ"},
+    {k:"commerce.leadTime", type:"text", label:"Lead Time"},
+    {k:"commerce.sample", type:"text", label:"Sample Policy"},
+    {k:"parameters.specification", type:"text", label:"Specification (L×W×H)"},
+    {k:"parameters.material", type:"text", label:"Material"},
+    {k:"parameters.layers", type:"text", label:"Layers"},
+    {k:"parameters.mainMaterialThickness", type:"text", label:"Main Material Thickness"},
+    {k:"parameters.surfaceTreatment", type:"text", label:"Surface Treatment (Zinc/Chrome/Powder)"},
+    {k:"parameters.capacityPerLayer", type:"text", label:"Capacity per Layer"},
+    {k:"parameters.volume", type:"text", label:"Volume (Litres)"},
+    {k:"parameters.capacity", type:"text", label:"Capacity (kg)"},
+    {k:"parameters.castors", type:"text", label:"Castors (inch)"},
+    {k:"parameters.bearing", type:"text", label:"Bearing"},
+    {k:"parameters.diameter", type:"text", label:"Diameter"}
   ],
   certs: [
     {k:"title", type:"i18n", label:"Certification name"},
@@ -1112,10 +1231,18 @@ function buildListEditor(key){
   const schema = FIELD_SCHEMAS[key];
   let html = `<div class="list-editor" id="listEditor_${esc(key)}">`;
   arr.forEach((item,idx)=>{
-    const thumb = item.img || item.image || (item.images && item.images[0]) || "";
-    const titleField = item.title || item.name || item.t || item.sku || item.label || "";
-    const titleText = (typeof titleField==="object") ? L(titleField) : String(titleField);
-    const subText = item.sku || L(item.sub||item.desc||"") || L(item.label||"") || "";
+    // Yuanda 产品适配 thumb / title 显示
+    let thumb, titleText, subText;
+    if(key==="products" && isYuandaProduct(item)){
+      thumb = (item.media && item.media.mainImage) || (item.images && item.images[0]) || "";
+      titleText = (item.basic && (item.basic.nameEn || item.basic.nameZh)) || item.name || "(no name)";
+      subText = ((item.basic && item.basic.model) || item.sku || "") + " — " + (item.categoryLabel || item.category || "");
+    } else {
+      thumb = item.img || item.image || (item.images && item.images[0]) || "";
+      const titleField = item.title || item.name || item.t || item.sku || item.label || "";
+      titleText = (typeof titleField==="object") ? L(titleField) : String(titleField);
+      subText = item.sku || L(item.sub||item.desc||"") || L(item.label||"") || "";
+    }
     html += `
       <div class="list-item" data-idx="${idx}">
         ${thumb?`<div class="list-item-thumb"><img src="${esc(thumb)}"></div>`:'<div class="list-item-thumb" style="display:flex;align-items:center;justify-content:center;font-size:24px;color:#94A3B8">'+esc(item.icon||item.flag||"●")+'</div>'}
@@ -1149,37 +1276,92 @@ function delItem(key, idx){
   Q("#modalBody").innerHTML = buildListEditor(key);
 }
 function addItem(key){
-  const schema = FIELD_SCHEMAS[key];
-  const blank = {};
-  schema.forEach(f=>{
-    if(f.type==="i18n") blank[f.k] = {en:"",zh:"",de:"",es:""};
-    else if(f.type==="imagelist") blank[f.k] = [];
-    else if(f.type==="speclist") blank[f.k] = [];
-    else blank[f.k] = "";
-  });
+  // 如果是 products 且现有产品都是 yuanda schema，新增也用 yuanda schema
+  const arr = DATA[key] || [];
+  const useYuanda = (key==="products" && arr.length>0 && isYuandaProduct(arr[0]));
+  const schema = useYuanda ? FIELD_SCHEMAS.products_yuanda : FIELD_SCHEMAS[key];
+  let blank;
+  if(useYuanda){
+    blank = {
+      id: "yd-new-"+Date.now(),
+      status: "draft",
+      category: "",
+      categoryLabel: "",
+      basic: {model:"", nameEn:"", nameZh:"", shortName:""},
+      parameters: {specification:"",material:"",layers:"",mainMaterialThickness:"",surfaceTreatment:"",capacityPerLayer:"",volume:"",capacity:"",castors:"",bearing:"",diameter:""},
+      commerce: {price:"Project quotation", moq:"Project-based", sample:"Sample on inquiry", leadTime:"TBC"},
+      media: {mainImage:""}
+    };
+  } else {
+    blank = {};
+    schema.forEach(f=>{
+      if(f.type==="i18n") blank[f.k] = {en:"",zh:"",de:"",es:""};
+      else if(f.type==="imagelist") blank[f.k] = [];
+      else if(f.type==="speclist") blank[f.k] = [];
+      else blank[f.k] = "";
+    });
+  }
   DATA[key] = DATA[key]||[];
   DATA[key].push(blank);
   editItem(key, DATA[key].length-1);
 }
 
+/* 点号路径工具：支持 "basic.nameEn" "parameters.specification" 等嵌套 */
+function getByPath(obj, path){
+  if(!obj || !path) return undefined;
+  const parts = String(path).split(".");
+  let cur = obj;
+  for(const p of parts){
+    if(cur == null) return undefined;
+    cur = cur[p];
+  }
+  return cur;
+}
+function setByPath(obj, path, value){
+  if(!obj || !path) return;
+  const parts = String(path).split(".");
+  let cur = obj;
+  for(let i=0;i<parts.length-1;i++){
+    if(cur[parts[i]] == null || typeof cur[parts[i]] !== "object") cur[parts[i]] = {};
+    cur = cur[parts[i]];
+  }
+  cur[parts[parts.length-1]] = value;
+}
+
+function pickSchema(key, item){
+  // products 列表里，yuanda 产品用专用 schema
+  if(key === "products" && isYuandaProduct(item) && FIELD_SCHEMAS.products_yuanda){
+    return FIELD_SCHEMAS.products_yuanda;
+  }
+  return FIELD_SCHEMAS[key];
+}
+
 function editItem(key, idx){
   const item = DATA[key][idx];
-  const schema = FIELD_SCHEMAS[key];
+  const schema = pickSchema(key, item);
+  const isYuanda = (key==="products" && isYuandaProduct(item));
   let html = `<button class="btn-cancel" style="margin-bottom:14px" onclick="Q('#modalBody').innerHTML=buildListEditor('${esc(key)}')">← Back to list</button>`;
-  html += `<h4 style="margin-bottom:14px">Item #${idx+1}</h4>`;
+  html += `<h4 style="margin-bottom:14px">Item #${idx+1}${isYuanda?' <span style="font-size:11px;font-weight:400;color:#94A3B8;background:#EEF2F7;padding:3px 8px;border-radius:4px;margin-left:8px">YUANDA SCHEMA</span>':''}</h4>`;
   schema.forEach(f=>{
-    html += renderField(key, idx, f, item[f.k]);
+    const val = f.k.includes(".") ? getByPath(item, f.k) : item[f.k];
+    html += renderField(key, idx, f, val);
   });
   Q("#modalBody").innerHTML = html;
 }
 
 function renderField(key, idx, f, val){
-  const id = `f_${key}_${idx}_${f.k}`;
+  const id = `f_${key}_${idx}_${f.k.replace(/\./g,"_")}`;
+  const isPath = f.k.includes(".");
+  // 写值 JS 片段（支持点号路径）
+  const writeJs = isPath
+    ? `setByPath(DATA['${esc(key)}'][${idx}], '${esc(f.k)}', this.value)`
+    : `DATA['${esc(key)}'][${idx}]['${esc(f.k)}']=this.value`;
   if(f.type==="text"){
-    return `<div class="field"><label>${esc(f.label)}</label><input id="${id}" value="${esc(val||'')}" oninput="DATA['${esc(key)}'][${idx}]['${esc(f.k)}']=this.value"></div>`;
+    return `<div class="field"><label>${esc(f.label)}</label><input id="${id}" value="${esc(val||'')}" oninput="${writeJs}"></div>`;
   }
   if(f.type==="i18n"){
     const v = val||{};
+    // i18n 不支持点号路径（暂未需要），用旧写法
     return `
       <div class="field">
         <label>${esc(f.label)} <span style="color:#94A3B8;font-weight:400">(EN main + 🌐 translate)</span></label>
@@ -1196,14 +1378,15 @@ function renderField(key, idx, f, val){
       </div>`;
   }
   if(f.type==="image"){
+    const uploadJs = isPath ? `uploadImagePath('${esc(key)}',${idx},'${esc(f.k)}')` : `uploadImage('${esc(key)}',${idx},'${esc(f.k)}',null)`;
     return `
       <div class="field">
         <label>${esc(f.label)}</label>
         <div class="field-row">
-          <input id="${id}" value="${esc(val||'')}" placeholder="image path or paste URL" oninput="DATA['${esc(key)}'][${idx}]['${esc(f.k)}']=this.value">
-          <button class="upload-btn" onclick="uploadImage('${esc(key)}',${idx},'${esc(f.k)}',null)">📤 Upload</button>
+          <input id="${id}" value="${esc(val||'')}" placeholder="image path or paste URL" oninput="${writeJs}">
+          <button class="upload-btn" onclick="${uploadJs}">📤 Upload</button>
         </div>
-        ${val?`<img src="${esc(val)}" style="max-width:200px;margin-top:8px;border-radius:6px;border:1px solid #E2E8F0">`:''}
+        ${val?`<img src="${esc(val)}" style="max-width:200px;margin-top:8px;border-radius:6px;border:1px solid #E2E8F0" onerror="this.style.opacity=.3">`:''}
       </div>`;
   }
   if(f.type==="imagelist"){
@@ -1261,6 +1444,26 @@ async function autoTranslate(key, idx, fld){
 }
 
 /* ===== Upload ===== */
+// 上传图片到嵌套路径（yuanda schema 用，如 media.mainImage）
+function uploadImagePath(key, idx, path){
+  const input = document.createElement("input");
+  input.type = "file";
+  input.accept = "image/*";
+  input.onchange = async ()=>{
+    const file = input.files[0];
+    if(!file) return;
+    const ext = file.name.split('.').pop().toLowerCase();
+    const dest = `uploads/u${Date.now()}.${ext}`;
+    toast("Uploading...");
+    const ok = await ghPutBinary(dest, file);
+    if(!ok) return;
+    setByPath(DATA[key][idx], path, dest);
+    editItem(key, idx);
+    toast("Uploaded.");
+  };
+  input.click();
+}
+
 function uploadImage(key, idx, fld, arrIdx){
   const input = document.createElement("input");
   input.type = "file";
