@@ -439,8 +439,8 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
       <div class="catalog-sticky" id="catalogSticky">
         <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
         <div class="catalog-toolbar">
-          <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog()">
-          <select id="catalogFilter" onchange="renderCatalog()"></select>
+          <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog();clearCatalogState()">
+          <select id="catalogFilter" onchange="renderCatalog();clearCatalogState()"></select>
         </div>
       </div>
       <div class="products-grid editable" data-edit="products" id="productsGrid">
@@ -618,12 +618,63 @@ function applyModeClass(){
 }
 
 /* ===== Routing ===== */
-function route(page){
+/* Catalog 浏览状态保留（铁律 ⑫⑬）：sessionStorage 持久化 search/filter/scrollY，30min 过期 */
+const CAT_STATE_KEY = BRAND + "_catalog_state";
+const CAT_STATE_TTL = 30 * 60 * 1000; // 30 min
+
+function saveCatalogState(){
+  if(CURRENT_PAGE !== "catalog") return;
+  const state = {
+    search: (Q("#catalogSearch")?.value) || "",
+    filter: (Q("#catalogFilter")?.value) || "",
+    scrollY: window.scrollY || 0,
+    ts: Date.now()
+  };
+  try{ sessionStorage.setItem(CAT_STATE_KEY, JSON.stringify(state)); }catch(e){}
+}
+
+function readCatalogState(){
+  try{
+    const raw = sessionStorage.getItem(CAT_STATE_KEY);
+    if(!raw) return null;
+    const s = JSON.parse(raw);
+    if(!s || (Date.now() - (s.ts||0)) > CAT_STATE_TTL){ sessionStorage.removeItem(CAT_STATE_KEY); return null; }
+    return s;
+  }catch(e){ return null; }
+}
+
+function clearCatalogState(){ try{ sessionStorage.removeItem(CAT_STATE_KEY); }catch(e){} }
+
+function restoreCatalogState(){
+  const s = readCatalogState();
+  if(!s) return false;
+  const si = Q("#catalogSearch"); if(si) si.value = s.search || "";
+  const sf = Q("#catalogFilter"); if(sf) sf.value = s.filter || "";
+  renderCatalog();
+  // 双 rAF 等布局 + 图片占位完成再 scrollTo
+  requestAnimationFrame(()=>requestAnimationFrame(()=>{
+    window.scrollTo({top: s.scrollY||0, behavior:"instant"});
+  }));
+  return true;
+}
+
+function route(page, opts){
+  opts = opts || {};
   CURRENT_PAGE = page;
   QA(".page").forEach(p=>p.classList.remove("active"));
   const target = Q("#page-"+page);
   if(target) target.classList.add("active");
-  if(page==="catalog"){ renderCatalog(); setupStickyObserver(); }
+  if(page==="catalog"){
+    if(opts.restoreCatalog && restoreCatalogState()){
+      setupStickyObserver();
+      document.getElementById("mainNav").classList.remove("open");
+      return;
+    }
+    // 主动进 catalog（非从详情返回）：清掉旧状态，避免误恢复
+    if(!opts.preserveCatalogState) clearCatalogState();
+    renderCatalog();
+    setupStickyObserver();
+  }
   if(page==="intel") renderIntel("staff_intel","intelList");
   if(page==="sop") renderIntel("staff_sop","sopList");
   if(page==="certs") renderCerts();
@@ -633,6 +684,8 @@ function route(page){
 }
 
 function routeToProduct(id){
+  // 进详情前先保存 catalog 状态（铁律 ⑬）
+  if(CURRENT_PAGE === "catalog") saveCatalogState();
   CURRENT_PRODUCT = DATA.products.find(p=>p.id===id);
   if(!CURRENT_PRODUCT) return;
   CURRENT_PAGE="product";
@@ -640,6 +693,22 @@ function routeToProduct(id){
   Q("#page-product").classList.add("active");
   renderProductDetail();
   window.scrollTo({top:0,behavior:"instant"});
+}
+
+/* 首页 6 大卡片 → 目录 + 预选分类 */
+function routeToCatalogByCategory(catKey){
+  clearCatalogState();
+  // 先切页（此时 select 已存在）
+  CURRENT_PAGE = "catalog";
+  QA(".page").forEach(p=>p.classList.remove("active"));
+  Q("#page-catalog").classList.add("active");
+  // 清空搜索框，预选分类
+  const si = Q("#catalogSearch"); if(si) si.value = "";
+  const sf = Q("#catalogFilter"); if(sf) sf.value = catKey || "";
+  renderCatalog();
+  setupStickyObserver();
+  window.scrollTo({top:0,behavior:"instant"});
+  document.getElementById("mainNav").classList.remove("open");
 }
 
 /* ===== Language ===== */
@@ -880,7 +949,7 @@ function renderCats(){
   Q("#catsTitle").textContent = L(DATA.catsTitle);
   Q("#catsSub").textContent = L(DATA.catsSub);
   Q("#catsGrid").innerHTML = DATA.cats.map(c=>`
-    <div class="cat-card" onclick="document.getElementById('catalogFilter').value='${esc(c.searchKey||'')}';route('catalog')">
+    <div class="cat-card" onclick="routeToCatalogByCategory('${esc(c.searchKey||'')}')">
       <img src="${esc(c.img)}" alt="">
       <div class="cat-card-info">
         <h3>${esc(L(c.title))}</h3>
@@ -1049,7 +1118,7 @@ function renderProductDetail(){
   const hasMultiImg = (p.images||[]).length > 1;
   Q("#pdContainer").innerHTML = `
     <div class="pd-back-wrap">
-      <a class="pd-back" href="#" onclick="route('catalog');return false">← ${esc(L(DATA.ui.navCatalog))}</a>
+      <a class="pd-back" href="#" onclick="route('catalog',{restoreCatalog:true});return false">← ${esc(L(DATA.ui.navCatalog))}</a>
     </div>
     <div class="pd-grid">
       <div class="pd-gallery">
