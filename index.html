@@ -957,14 +957,23 @@ function pAdapt(p){
   if(Array.isArray(p.images)) p.images.forEach(x=>{if(x && !images.includes(x)) images.push(x);});
   // 不再把 sourcePageImage(整页 PDF 截图)塞进缩略图廊 — 已被弃用
   // 取一个 yuanda 字段的可读值（过滤"未在PDF中明确"等占位）
+  // 支持 i18n 字典：先 L() 取当前语言字符串再判断
   const placeholder = /未在|to be confirmed|n\/a|tbd|未明确/i;
-  const isPlaceholder = v => !v || placeholder.test(String(v));
+  const readVal = v => {
+    if(v == null) return "";
+    if(typeof v === "object") return L(v) || v.en || "";
+    return String(v);
+  };
+  const isPlaceholder = v => {
+    const s = readVal(v);
+    return !s || placeholder.test(s);
+  };
   // 构造 specs[]
   const specs = [];
   YUANDA_PARAM_KEYS.forEach(k=>{
     const v = par[k];
     if(v && !isPlaceholder(v)){
-      specs.push({k: YUANDA_PARAM_LABELS[k], v: String(v).replace(/\s+/g," ").trim()});
+      specs.push({k: YUANDA_PARAM_LABELS[k], v: readVal(v).replace(/\s+/g," ").trim()});
     }
   });
   // 兜底：如果还有其它未识别的 parameters key 也加进去
@@ -973,7 +982,7 @@ function pAdapt(p){
       const v = par[k];
       if(v && !isPlaceholder(v)){
         const label = k.replace(/([A-Z])/g," $1").replace(/^./,c=>c.toUpperCase());
-        specs.push({k:{en:label,zh:label,de:label,es:label}, v:String(v)});
+        specs.push({k:{en:label,zh:label,de:label,es:label}, v: readVal(v)});
       }
     }
   });
@@ -992,10 +1001,10 @@ function pAdapt(p){
       ar: rawName, nl: rawName, tr: rawName, th: rawName,
       vi: rawName, hi: rawName
     },
-    price: c.price || p.price || "Project quotation",
-    moq:   c.moq   || p.moq   || "Project-based",
-    leadTime: c.leadTime || "",
-    sample:   c.sample   || "",
+    price: readVal(c.price)    || readVal(p.price)    || "Project quotation",
+    moq:   readVal(c.moq)      || readVal(p.moq)      || "Project-based",
+    leadTime: readVal(c.leadTime) || "",
+    sample:   readVal(c.sample)   || "",
     category: p.category || p.categoryKey || "",
     categoryLabel: p.categoryLabel || "",
     images: images.length ? images : (Array.isArray(p.images)?p.images:[]),
