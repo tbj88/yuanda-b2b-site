@@ -717,7 +717,7 @@ async function load(){
   // staff/admin onboarding
   if(getMode()==="staff" && localStorage.getItem(BRAND+"_staff_ok")!=="1"){
     const pw = prompt("Staff access password:");
-    if(pw==="yuanda2026"){ localStorage.setItem(BRAND+"_staff_ok","1"); applyModeClass(); }
+    if(pw==="xxx2026888"){ localStorage.setItem(BRAND+"_staff_ok","1"); applyModeClass(); }
     else { alert("Wrong password. Redirecting to public view."); location.href = location.pathname; return; }
   }
   if(getMode()==="admin" && !localStorage.getItem(BRAND+"_admin_token")){
