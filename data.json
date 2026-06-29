@@ -511,7 +511,7 @@
         "hi": "चेकआउट काउंटर"
       },
       "count": 0,
-      "img": ""
+      "img": "hero/hero-checkout.png"
     },
     {
       "key": "shopping-basket",
@@ -3976,7 +3976,7 @@
       "searchKey": "shopping-trolley"
     },
     {
-      "img": "hero/hero1.png",
+      "img": "hero/hero-checkout.png",
       "title": {
         "en": "Checkout Counter",
         "zh": "收银台",
