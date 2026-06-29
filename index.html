@@ -716,7 +716,9 @@ function restoreCatalogState(){
 }
 
 /* 内部实现（不写 hash），供 applyHashRoute / route 公共入口共用 */
-function _routeSimple(page, fromHash){
+const HOME_ANCHOR_KEY = BRAND + "_homeReturnAnchor";
+function _routeSimple(page, fromHash, opts){
+  opts = opts || {};
   CURRENT_PAGE = page;
   QA(".page").forEach(p=>p.classList.remove("active"));
   const target = Q("#page-"+page);
@@ -725,8 +727,28 @@ function _routeSimple(page, fromHash){
   if(page==="sop")   renderIntel("staff_sop","sopList");
   if(page==="certs") renderCerts();
   if(page==="partners") renderPartnersPage();
-  window.scrollTo({top:0,behavior:"instant"});
   document.getElementById("mainNav").classList.remove("open");
+
+  // 首页定位：优先 opts.anchor → 再看 sessionStorage 标记（从 catalog ← 返回首页时塞的）
+  let anchor = opts.anchor;
+  if(page==="home" && !anchor){
+    try{ anchor = sessionStorage.getItem(HOME_ANCHOR_KEY) || ""; }catch(e){}
+  }
+  if(page==="home" && anchor){
+    try{ sessionStorage.removeItem(HOME_ANCHOR_KEY); }catch(e){}
+    requestAnimationFrame(()=>requestAnimationFrame(()=>{
+      const el = document.getElementById(anchor);
+      if(el){
+        const navH = (document.querySelector("header")?.offsetHeight) || 69;
+        const y = el.getBoundingClientRect().top + window.scrollY - navH - 8;
+        window.scrollTo({top: Math.max(0,y), behavior:"instant"});
+      } else {
+        window.scrollTo({top:0, behavior:"instant"});
+      }
+    }));
+  } else {
+    window.scrollTo({top:0, behavior:"instant"});
+  }
   if(!fromHash) setHash(page);
 }
 
@@ -785,7 +807,7 @@ function route(page, opts){
     _routeCatalog(params, false);
     return;
   }
-  _routeSimple(page, false);
+  _routeSimple(page, false, opts);
 }
 
 function routeToProduct(id){
@@ -794,9 +816,10 @@ function routeToProduct(id){
   _routeToProduct(p, false);
 }
 
-/* 首页 6 大卡片 → 目录 + 预选分类 */
+/* 首页 6 大卡片 → 目录 + 预选分类，并记下"回首页时落到 cats 区段" */
 function routeToCatalogByCategory(catKey){
   clearCatalogState();
+  try{ sessionStorage.setItem(HOME_ANCHOR_KEY, "catsSec"); }catch(e){}
   _routeCatalog({cat: catKey||""}, false);
 }
 
