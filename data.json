@@ -422,43 +422,10 @@
   ],
   "categories": [
     {
-      "key": "shopping-trolley-cart",
-      "searchKey": "shopping-trolley-cart",
-      "count": 45,
-      "img": "products/shopping-trolley-cart/yd-a-100l.jpg",
-      "title": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
-        "de": "Einkaufswagen",
-        "es": "Carro de Compra",
-        "fr": "Chariot de Course",
-        "it": "Carrello Spesa",
-        "ru": "Тележка покупок",
-        "pt": "Carrinho de Compras",
-        "ja": "ショッピングカート",
-        "ko": "쇼핑카트",
-        "ar": "عربة تسوق",
-        "nl": "Winkelwagen",
-        "tr": "Alışveriş Arabası",
-        "th": "รถเข็นช้อปปิ้ง",
-        "vi": "Xe đẩy mua sắm",
-        "hi": "शॉपिंग ट्रॉली"
-      },
-      "sub": {
-        "en": "45 editable product records with parameters and media.",
-        "zh": "45 个可编辑产品档案，包含图片与参数。",
-        "de": "45 Produktdatensatze.",
-        "es": "45 registros de producto."
-      }
-    },
-    {
       "key": "supermarket-shelf",
-      "searchKey": "supermarket-shelf",
-      "count": 36,
-      "img": "products/supermarket-shelf/yd-s001.jpg",
       "title": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -474,138 +441,11 @@
         "vi": "Kệ siêu thị",
         "hi": "सुपरमार्केट शेल्फ"
       },
-      "sub": {
-        "en": "36 editable product records with parameters and media.",
-        "zh": "36 个可编辑产品档案，包含图片与参数。",
-        "de": "36 Produktdatensatze.",
-        "es": "36 registros de producto."
-      }
-    },
-    {
-      "key": "shopping-basket",
-      "searchKey": "shopping-basket",
-      "count": 24,
-      "img": "products/shopping-basket/yd-hk.jpg",
-      "title": {
-        "en": "Shopping Basket",
-        "zh": "购物篮",
-        "de": "Einkaufskorb",
-        "es": "Cesta Compra",
-        "fr": "Panier",
-        "it": "Cestino",
-        "ru": "Корзина покупок",
-        "pt": "Cesta Compras",
-        "ja": "買物カゴ",
-        "ko": "쇼핑바구니",
-        "ar": "سلة تسوق",
-        "nl": "Boodschappenmandje",
-        "tr": "Alışveriş Sepeti",
-        "th": "ตะกร้าช้อปปิ้ง",
-        "vi": "Giỏ mua sắm",
-        "hi": "शॉपिंग बास्केट"
-      },
-      "sub": {
-        "en": "24 editable product records with parameters and media.",
-        "zh": "24 个可编辑产品档案，包含图片与参数。",
-        "de": "24 Produktdatensatze.",
-        "es": "24 registros de producto."
-      }
-    },
-    {
-      "key": "market-entrance-equipment",
-      "searchKey": "market-entrance-equipment",
-      "count": 9,
-      "img": "catalog-pages/page-27.jpg",
-      "title": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
-      },
-      "sub": {
-        "en": "9 editable product records with parameters and media.",
-        "zh": "9 个可编辑产品档案，包含图片与参数。",
-        "de": "9 Produktdatensatze.",
-        "es": "9 registros de producto."
-      }
-    },
-    {
-      "key": "pallet",
-      "searchKey": "pallet",
-      "count": 8,
-      "img": "products/pallet/pc1210b.jpg",
-      "title": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
-      },
-      "sub": {
-        "en": "8 editable product records with parameters and media.",
-        "zh": "8 个可编辑产品档案，包含图片与参数。",
-        "de": "8 Produktdatensatze.",
-        "es": "8 registros de producto."
-      }
-    },
-    {
-      "key": "roll-container-logistics-cart",
-      "searchKey": "roll-container-logistics-cart",
-      "count": 6,
-      "img": "products/roll-container-logistics-cart/yd-l001.jpg",
-      "title": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
-      },
-      "sub": {
-        "en": "6 editable product records with parameters and media.",
-        "zh": "6 个可编辑产品档案，包含图片与参数。",
-        "de": "6 Produktdatensatze.",
-        "es": "6 registros de producto."
-      }
+      "count": 44,
+      "img": ""
     },
     {
       "key": "warehouse-rack",
-      "searchKey": "warehouse-rack",
-      "count": 6,
-      "img": "products/warehouse-rack/yd-s026.jpg",
       "title": {
         "en": "Warehouse Rack",
         "zh": "仓储货架",
@@ -624,246 +464,124 @@
         "vi": "Kệ kho",
         "hi": "वेयरहाउस रैक"
       },
-      "sub": {
-        "en": "6 editable product records with parameters and media.",
-        "zh": "6 个可编辑产品档案，包含图片与参数。",
-        "de": "6 Produktdatensatze.",
-        "es": "6 registros de producto."
-      }
+      "count": 21,
+      "img": ""
     },
     {
-      "key": "hooks-and-accessories",
-      "searchKey": "hooks-and-accessories",
-      "count": 5,
-      "img": "catalog-pages/page-28.jpg",
+      "key": "shopping-trolley",
       "title": {
-        "en": "Hooks & Accessories",
-        "zh": "挂钩与配件",
-        "de": "Haken & Zubehör",
-        "es": "Ganchos & Accesorios",
-        "fr": "Crochets & Accessoires",
-        "it": "Ganci & Accessori",
-        "ru": "Крючки и аксессуары",
-        "pt": "Ganchos & Acessórios",
-        "ja": "フック & アクセサリー",
-        "ko": "후크 & 액세서리",
-        "ar": "خطافات وملحقات",
-        "nl": "Haken & Accessoires",
-        "tr": "Kanca & Aksesuar",
-        "th": "ตะขอและอุปกรณ์เสริม",
-        "vi": "Móc & Phụ kiện",
-        "hi": "हुक और सहायक"
+        "en": "Shopping Trolley",
+        "zh": "手推车",
+        "de": "Einkaufswagen",
+        "es": "Carro de Compra",
+        "fr": "Chariot de Course",
+        "it": "Carrello Spesa",
+        "ru": "Тележка покупок",
+        "pt": "Carrinho de Compras",
+        "ja": "ショッピングカート",
+        "ko": "쇼핑카트",
+        "ar": "عربة تسوق",
+        "nl": "Winkelwagen",
+        "tr": "Alışveriş Arabası",
+        "th": "รถเข็นช้อปปิ้ง",
+        "vi": "Xe đẩy mua sắm",
+        "hi": "शॉपिंग ट्रॉली"
       },
-      "sub": {
-        "en": "5 editable product records with parameters and media.",
-        "zh": "5 个可编辑产品档案，包含图片与参数。",
-        "de": "5 Produktdatensatze.",
-        "es": "5 registros de producto."
-      }
+      "count": 45,
+      "img": ""
     },
     {
-      "key": "storage-cage",
-      "searchKey": "storage-cage",
-      "count": 4,
-      "img": "products/storage-cage/yd-k001.jpg",
+      "key": "checkout-counter",
       "title": {
-        "en": "Storage Cage",
-        "zh": "仓储笼",
-        "de": "Lagerkäfig",
-        "es": "Jaula Almacén",
-        "fr": "Cage Stockage",
-        "it": "Gabbia Stoccaggio",
-        "ru": "Складская клетка",
-        "pt": "Gaiola Armazenamento",
-        "ja": "保管ケージ",
-        "ko": "보관 케이지",
-        "ar": "قفص تخزين",
-        "nl": "Opslagkooi",
-        "tr": "Depolama Kafesi",
-        "th": "กรงเก็บของ",
-        "vi": "Lồng lưu trữ",
-        "hi": "भंडारण पिंजरा"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
-      "sub": {
-        "en": "4 editable product records with parameters and media.",
-        "zh": "4 个可编辑产品档案，包含图片与参数。",
-        "de": "4 Produktdatensatze.",
-        "es": "4 registros de producto."
-      }
+      "count": 12,
+      "img": ""
     },
     {
-      "key": "locker-service-equipment",
-      "searchKey": "locker-service-equipment",
-      "count": 3,
-      "img": "products/locker-service-equipment/yd-058.jpg",
+      "key": "shopping-basket",
       "title": {
-        "en": "Locker / Service Equipment",
-        "zh": "寄存柜/服务设备",
-        "de": "Schließfach / Service",
-        "es": "Casillero / Servicio",
-        "fr": "Casier / Service",
-        "it": "Armadietto / Servizio",
-        "ru": "Шкафчик / Сервис",
-        "pt": "Cacifo / Serviço",
-        "ja": "ロッカー / サービス機器",
-        "ko": "사물함 / 서비스 장비",
-        "ar": "خزانة / معدات خدمة",
-        "nl": "Kluis / Service",
-        "tr": "Dolap / Servis",
-        "th": "ตู้ล็อกเกอร์",
-        "vi": "Tủ khóa / Thiết bị",
-        "hi": "लॉकर / सेवा उपकरण"
+        "en": "Shopping Basket",
+        "zh": "购物篮",
+        "de": "Einkaufskorb",
+        "es": "Cesta Compra",
+        "fr": "Panier",
+        "it": "Cestino",
+        "ru": "Корзина покупок",
+        "pt": "Cesta Compras",
+        "ja": "買物カゴ",
+        "ko": "쇼핑바구니",
+        "ar": "سلة تسوق",
+        "nl": "Boodschappenmandje",
+        "tr": "Alışveriş Sepeti",
+        "th": "ตะกร้าช้อปปิ้ง",
+        "vi": "Giỏ mua sắm",
+        "hi": "शॉपिंग बास्केट"
       },
-      "sub": {
-        "en": "3 editable product records with parameters and media.",
-        "zh": "3 个可编辑产品档案，包含图片与参数。",
-        "de": "3 Produktdatensatze.",
-        "es": "3 registros de producto."
-      }
+      "count": 24,
+      "img": ""
     },
     {
-      "key": "display-fixture-wooden-shelf",
-      "searchKey": "display-fixture-wooden-shelf",
-      "count": 2,
-      "img": "products/display-fixture-wooden-shelf/yd-m005.jpg",
+      "key": "market-necessary",
       "title": {
-        "en": "Display Fixture / Wooden Shelf",
-        "zh": "展示架/木质货架",
-        "de": "Display / Holzregal",
-        "es": "Display / Estantería Madera",
-        "fr": "Présentoir / Étagère Bois",
-        "it": "Espositore / Scaffale Legno",
-        "ru": "Дисплей / Деревянный стеллаж",
-        "pt": "Display / Estante Madeira",
-        "ja": "ディスプレイ / 木製棚",
-        "ko": "디스플레이 / 목재 진열대",
-        "ar": "عرض / رف خشبي",
-        "nl": "Display / Houten Stelling",
-        "tr": "Display / Ahşap Raf",
-        "th": "ชั้นแสดงสินค้า / ไม้",
-        "vi": "Kệ trưng bày / Gỗ",
-        "hi": "डिस्प्ले / लकड़ी"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
-      "sub": {
-        "en": "2 editable product records with parameters and media.",
-        "zh": "2 个可编辑产品档案，包含图片与参数。",
-        "de": "2 Produktdatensatze.",
-        "es": "2 registros de producto."
-      }
-    },
-    {
-      "key": "promotion-table",
-      "searchKey": "promotion-table",
-      "count": 2,
-      "img": "products/promotion-table/yd-n001.jpg",
-      "title": {
-        "en": "Promotion Table",
-        "zh": "促销台",
-        "de": "Aktionstisch",
-        "es": "Mesa Promoción",
-        "fr": "Table Promotion",
-        "it": "Tavolo Promozione",
-        "ru": "Промо-стол",
-        "pt": "Mesa Promoção",
-        "ja": "プロモーションテーブル",
-        "ko": "프로모션 테이블",
-        "ar": "طاولة عرض ترويجية",
-        "nl": "Promotietafel",
-        "tr": "Promosyon Masası",
-        "th": "โต๊ะโปรโมชั่น",
-        "vi": "Bàn khuyến mãi",
-        "hi": "प्रमोशन टेबल"
-      },
-      "sub": {
-        "en": "2 editable product records with parameters and media.",
-        "zh": "2 个可编辑产品档案，包含图片与参数。",
-        "de": "2 Produktdatensatze.",
-        "es": "2 registros de producto."
-      }
-    },
-    {
-      "key": "fruit-and-vegetable-rack",
-      "searchKey": "fruit-and-vegetable-rack",
-      "count": 1,
-      "img": "products/fruit-and-vegetable-rack/yd-v-050.jpg",
-      "title": {
-        "en": "Fruit & Vegetable Rack",
-        "zh": "果蔬架",
-        "de": "Obst- & Gemüseregal",
-        "es": "Estantería Frutas",
-        "fr": "Rayonnage Fruits & Légumes",
-        "it": "Scaffale Frutta",
-        "ru": "Стеллаж овощи-фрукты",
-        "pt": "Estante Frutas",
-        "ja": "青果棚",
-        "ko": "과채 진열대",
-        "ar": "رف فواكه وخضروات",
-        "nl": "Groente & Fruit Stelling",
-        "tr": "Meyve & Sebze Raf",
-        "th": "ชั้นวางผัก ผลไม้",
-        "vi": "Kệ rau quả",
-        "hi": "फल-सब्जी रैक"
-      },
-      "sub": {
-        "en": "1 editable product records with parameters and media.",
-        "zh": "1 个可编辑产品档案，包含图片与参数。",
-        "de": "1 Produktdatensatze.",
-        "es": "1 registros de producto."
-      }
-    },
-    {
-      "key": "ladder-truck",
-      "searchKey": "ladder-truck",
-      "count": 1,
-      "img": "products/ladder-truck/yd-064.jpg",
-      "title": {
-        "en": "Ladder Truck",
-        "zh": "梯车",
-        "de": "Leiterwagen",
-        "es": "Carro Escalera",
-        "fr": "Chariot Échelle",
-        "it": "Carrello Scala",
-        "ru": "Лестничный погрузчик",
-        "pt": "Carro Escada",
-        "ja": "はしご車",
-        "ko": "사다리차",
-        "ar": "عربة سلم",
-        "nl": "Ladderwagen",
-        "tr": "Merdiven Arabası",
-        "th": "รถเข็นขั้นบันได",
-        "vi": "Xe thang",
-        "hi": "सीढ़ी ट्रक"
-      },
-      "sub": {
-        "en": "1 editable product records with parameters and media.",
-        "zh": "1 个可编辑产品档案，包含图片与参数。",
-        "de": "1 Produktdatensatze.",
-        "es": "1 registros de producto."
-      }
+      "count": 6,
+      "img": ""
     }
   ],
   "products": [
     {
       "id": "yd-m005",
       "status": "published",
-      "category": "display-fixture-wooden-shelf",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Display Fixture / Wooden Shelf",
-        "zh": "展示架/木质货架",
-        "de": "Display / Holzregal",
-        "es": "Display / Estantería Madera",
-        "fr": "Présentoir / Étagère Bois",
-        "it": "Espositore / Scaffale Legno",
-        "ru": "Дисплей / Деревянный стеллаж",
-        "pt": "Display / Estante Madeira",
-        "ja": "ディスプレイ / 木製棚",
-        "ko": "디스플레이 / 목재 진열대",
-        "ar": "عرض / رف خشبي",
-        "nl": "Display / Houten Stelling",
-        "tr": "Display / Ahşap Raf",
-        "th": "ชั้นแสดงสินค้า / ไม้",
-        "vi": "Kệ trưng bày / Gỗ",
-        "hi": "डिस्प्ले / लकड़ी"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "YD-M005",
@@ -961,29 +679,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-m006",
       "status": "published",
-      "category": "display-fixture-wooden-shelf",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Display Fixture / Wooden Shelf",
-        "zh": "展示架/木质货架",
-        "de": "Display / Holzregal",
-        "es": "Display / Estantería Madera",
-        "fr": "Présentoir / Étagère Bois",
-        "it": "Espositore / Scaffale Legno",
-        "ru": "Дисплей / Деревянный стеллаж",
-        "pt": "Display / Estante Madeira",
-        "ja": "ディスプレイ / 木製棚",
-        "ko": "디스플레이 / 목재 진열대",
-        "ar": "عرض / رف خشبي",
-        "nl": "Display / Houten Stelling",
-        "tr": "Display / Ahşap Raf",
-        "th": "ชั้นแสดงสินค้า / ไม้",
-        "vi": "Kệ trưng bày / Gỗ",
-        "hi": "डिस्प्ले / लकड़ी"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "YD-M006",
@@ -1081,29 +800,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-v-050",
       "status": "published",
-      "category": "fruit-and-vegetable-rack",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Fruit & Vegetable Rack",
-        "zh": "果蔬架",
-        "de": "Obst- & Gemüseregal",
-        "es": "Estantería Frutas",
-        "fr": "Rayonnage Fruits & Légumes",
-        "it": "Scaffale Frutta",
-        "ru": "Стеллаж овощи-фрукты",
-        "pt": "Estante Frutas",
-        "ja": "青果棚",
-        "ko": "과채 진열대",
-        "ar": "رف فواكه وخضروات",
-        "nl": "Groente & Fruit Stelling",
-        "tr": "Meyve & Sebze Raf",
-        "th": "ชั้นวางผัก ผลไม้",
-        "vi": "Kệ rau quả",
-        "hi": "फल-सब्जी रैक"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "YD-V-050",
@@ -1201,29 +921,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-h-01",
       "status": "published",
-      "category": "hooks-and-accessories",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Hooks & Accessories",
-        "zh": "挂钩与配件",
-        "de": "Haken & Zubehör",
-        "es": "Ganchos & Accesorios",
-        "fr": "Crochets & Accessoires",
-        "it": "Ganci & Accessori",
-        "ru": "Крючки и аксессуары",
-        "pt": "Ganchos & Acessórios",
-        "ja": "フック & アクセサリー",
-        "ko": "후크 & 액세서리",
-        "ar": "خطافات وملحقات",
-        "nl": "Haken & Accessoires",
-        "tr": "Kanca & Aksesuar",
-        "th": "ตะขอและอุปกรณ์เสริม",
-        "vi": "Móc & Phụ kiện",
-        "hi": "हुक और सहायक"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "YD-H-01",
@@ -1321,29 +1042,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "zc-m120l",
       "status": "published",
-      "category": "hooks-and-accessories",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Hooks & Accessories",
-        "zh": "挂钩与配件",
-        "de": "Haken & Zubehör",
-        "es": "Ganchos & Accesorios",
-        "fr": "Crochets & Accessoires",
-        "it": "Ganci & Accessori",
-        "ru": "Крючки и аксессуары",
-        "pt": "Ganchos & Acessórios",
-        "ja": "フック & アクセサリー",
-        "ko": "후크 & 액세서리",
-        "ar": "خطافات وملحقات",
-        "nl": "Haken & Accessoires",
-        "tr": "Kanca & Aksesuar",
-        "th": "ตะขอและอุปกรณ์เสริม",
-        "vi": "Móc & Phụ kiện",
-        "hi": "हुक और सहायक"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "ZC-M120L",
@@ -1441,29 +1163,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "zc-m150l",
       "status": "published",
-      "category": "hooks-and-accessories",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Hooks & Accessories",
-        "zh": "挂钩与配件",
-        "de": "Haken & Zubehör",
-        "es": "Ganchos & Accesorios",
-        "fr": "Crochets & Accessoires",
-        "it": "Ganci & Accessori",
-        "ru": "Крючки и аксессуары",
-        "pt": "Ganchos & Acessórios",
-        "ja": "フック & アクセサリー",
-        "ko": "후크 & 액세서리",
-        "ar": "خطافات وملحقات",
-        "nl": "Haken & Accessoires",
-        "tr": "Kanca & Aksesuar",
-        "th": "ตะขอและอุปกรณ์เสริม",
-        "vi": "Móc & Phụ kiện",
-        "hi": "हुक और सहायक"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "ZC-M150L",
@@ -1561,29 +1284,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "zc-m180l",
       "status": "published",
-      "category": "hooks-and-accessories",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Hooks & Accessories",
-        "zh": "挂钩与配件",
-        "de": "Haken & Zubehör",
-        "es": "Ganchos & Accesorios",
-        "fr": "Crochets & Accessoires",
-        "it": "Ganci & Accessori",
-        "ru": "Крючки и аксессуары",
-        "pt": "Ganchos & Acessórios",
-        "ja": "フック & アクセサリー",
-        "ko": "후크 & 액세서리",
-        "ar": "خطافات وملحقات",
-        "nl": "Haken & Accessoires",
-        "tr": "Kanca & Aksesuar",
-        "th": "ตะขอและอุปกรณ์เสริม",
-        "vi": "Móc & Phụ kiện",
-        "hi": "हुक और सहायक"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "ZC-M180L",
@@ -1681,29 +1405,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "zc-m210l",
       "status": "published",
-      "category": "hooks-and-accessories",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Hooks & Accessories",
-        "zh": "挂钩与配件",
-        "de": "Haken & Zubehör",
-        "es": "Ganchos & Accesorios",
-        "fr": "Crochets & Accessoires",
-        "it": "Ganci & Accessori",
-        "ru": "Крючки и аксессуары",
-        "pt": "Ganchos & Acessórios",
-        "ja": "フック & アクセサリー",
-        "ko": "후크 & 액세서리",
-        "ar": "خطافات وملحقات",
-        "nl": "Haken & Accessoires",
-        "tr": "Kanca & Aksesuar",
-        "th": "ตะขอและอุปกรณ์เสริม",
-        "vi": "Móc & Phụ kiện",
-        "hi": "हुक और सहायक"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "ZC-M210L",
@@ -1801,29 +1526,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-064",
       "status": "published",
-      "category": "ladder-truck",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Ladder Truck",
-        "zh": "梯车",
-        "de": "Leiterwagen",
-        "es": "Carro Escalera",
-        "fr": "Chariot Échelle",
-        "it": "Carrello Scala",
-        "ru": "Лестничный погрузчик",
-        "pt": "Carro Escada",
-        "ja": "はしご車",
-        "ko": "사다리차",
-        "ar": "عربة سلم",
-        "nl": "Ladderwagen",
-        "tr": "Merdiven Arabası",
-        "th": "รถเข็นขั้นบันได",
-        "vi": "Xe thang",
-        "hi": "सीढ़ी ट्रक"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-064",
@@ -1921,29 +1647,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-058",
       "status": "published",
-      "category": "locker-service-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Locker / Service Equipment",
-        "zh": "寄存柜/服务设备",
-        "de": "Schließfach / Service",
-        "es": "Casillero / Servicio",
-        "fr": "Casier / Service",
-        "it": "Armadietto / Servizio",
-        "ru": "Шкафчик / Сервис",
-        "pt": "Cacifo / Serviço",
-        "ja": "ロッカー / サービス機器",
-        "ko": "사물함 / 서비스 장비",
-        "ar": "خزانة / معدات خدمة",
-        "nl": "Kluis / Service",
-        "tr": "Dolap / Servis",
-        "th": "ตู้ล็อกเกอร์",
-        "vi": "Tủ khóa / Thiết bị",
-        "hi": "लॉकर / सेवा उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-058",
@@ -2041,29 +1768,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-058-18",
       "status": "published",
-      "category": "locker-service-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Locker / Service Equipment",
-        "zh": "寄存柜/服务设备",
-        "de": "Schließfach / Service",
-        "es": "Casillero / Servicio",
-        "fr": "Casier / Service",
-        "it": "Armadietto / Servizio",
-        "ru": "Шкафчик / Сервис",
-        "pt": "Cacifo / Serviço",
-        "ja": "ロッカー / サービス機器",
-        "ko": "사물함 / 서비스 장비",
-        "ar": "خزانة / معدات خدمة",
-        "nl": "Kluis / Service",
-        "tr": "Dolap / Servis",
-        "th": "ตู้ล็อกเกอร์",
-        "vi": "Tủ khóa / Thiết bị",
-        "hi": "लॉकर / सेवा उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-058-18",
@@ -2161,29 +1889,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-058a",
       "status": "published",
-      "category": "locker-service-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Locker / Service Equipment",
-        "zh": "寄存柜/服务设备",
-        "de": "Schließfach / Service",
-        "es": "Casillero / Servicio",
-        "fr": "Casier / Service",
-        "it": "Armadietto / Servizio",
-        "ru": "Шкафчик / Сервис",
-        "pt": "Cacifo / Serviço",
-        "ja": "ロッカー / サービス機器",
-        "ko": "사물함 / 서비스 장비",
-        "ar": "خزانة / معدات خدمة",
-        "nl": "Kluis / Service",
-        "tr": "Dolap / Servis",
-        "th": "ตู้ล็อกเกอร์",
-        "vi": "Tủ khóa / Thiết bị",
-        "hi": "लॉकर / सेवा उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-058A",
@@ -2281,29 +2010,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-070",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-070",
@@ -2401,29 +2131,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-071",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-071",
@@ -2521,29 +2252,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-072",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-072",
@@ -2641,29 +2373,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-t006",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-T006",
@@ -2761,29 +2494,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-t009",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-T009",
@@ -2881,29 +2615,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-t011",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-T011",
@@ -3001,29 +2736,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-t013",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-T013",
@@ -3121,29 +2857,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-t024",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-T024",
@@ -3241,29 +2978,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "yd-t027",
       "status": "published",
-      "category": "market-entrance-equipment",
+      "category": "checkout-counter",
       "categoryLabel": {
-        "en": "Market Entrance Equipment",
-        "zh": "卖场入口设备",
-        "de": "Markteingangsausstattung",
-        "es": "Equipo Entrada",
-        "fr": "Équipement Entrée",
-        "it": "Attrezzatura Ingresso",
-        "ru": "Оборудование входа",
-        "pt": "Equipamento Entrada",
-        "ja": "入口設備",
-        "ko": "입구 장비",
-        "ar": "معدات المدخل",
-        "nl": "Entree-uitrusting",
-        "tr": "Giriş Ekipmanı",
-        "th": "อุปกรณ์ทางเข้าตลาด",
-        "vi": "Thiết bị lối vào",
-        "hi": "प्रवेश उपकरण"
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
       },
       "basic": {
         "model": "YD-T027",
@@ -3361,29 +3099,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "checkout-counter"
     },
     {
       "id": "pc1210b",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PC1210B",
@@ -3481,29 +3220,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pc1280",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PC1280",
@@ -3601,29 +3341,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pc1280b",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PC1280B",
@@ -3721,29 +3462,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pj1010",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PJ1010",
@@ -3841,29 +3583,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pj1080",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PJ1080",
@@ -3961,29 +3704,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pj1210",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PJ1210",
@@ -4081,29 +3825,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pt1210b",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PT1210B",
@@ -4201,29 +3946,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "pt8",
       "status": "published",
-      "category": "pallet",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Pallet",
-        "zh": "托盘",
-        "de": "Palette",
-        "es": "Palet",
-        "fr": "Palette",
-        "it": "Pallet",
-        "ru": "Поддон",
-        "pt": "Palete",
-        "ja": "パレット",
-        "ko": "팔레트",
-        "ar": "منصة",
-        "nl": "Pallet",
-        "tr": "Palet",
-        "th": "พาเลท",
-        "vi": "Pallet",
-        "hi": "पैलेट"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "PT8",
@@ -4321,29 +4067,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-n001",
       "status": "published",
-      "category": "promotion-table",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Promotion Table",
-        "zh": "促销台",
-        "de": "Aktionstisch",
-        "es": "Mesa Promoción",
-        "fr": "Table Promotion",
-        "it": "Tavolo Promozione",
-        "ru": "Промо-стол",
-        "pt": "Mesa Promoção",
-        "ja": "プロモーションテーブル",
-        "ko": "프로모션 테이블",
-        "ar": "طاولة عرض ترويجية",
-        "nl": "Promotietafel",
-        "tr": "Promosyon Masası",
-        "th": "โต๊ะโปรโมชั่น",
-        "vi": "Bàn khuyến mãi",
-        "hi": "प्रमोशन टेबल"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "YD-N001",
@@ -4441,29 +4188,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-n004",
       "status": "published",
-      "category": "promotion-table",
+      "category": "supermarket-shelf",
       "categoryLabel": {
-        "en": "Promotion Table",
-        "zh": "促销台",
-        "de": "Aktionstisch",
-        "es": "Mesa Promoción",
-        "fr": "Table Promotion",
-        "it": "Tavolo Promozione",
-        "ru": "Промо-стол",
-        "pt": "Mesa Promoção",
-        "ja": "プロモーションテーブル",
-        "ko": "프로모션 테이블",
-        "ar": "طاولة عرض ترويجية",
-        "nl": "Promotietafel",
-        "tr": "Promosyon Masası",
-        "th": "โต๊ะโปรโมชั่น",
-        "vi": "Bàn khuyến mãi",
-        "hi": "प्रमोशन टेबल"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "basic": {
         "model": "YD-N004",
@@ -4561,29 +4309,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-l001",
       "status": "published",
-      "category": "roll-container-logistics-cart",
+      "category": "market-necessary",
       "categoryLabel": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "basic": {
         "model": "YD-L001",
@@ -4681,29 +4430,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "market-necessary"
     },
     {
       "id": "yd-l002",
       "status": "published",
-      "category": "roll-container-logistics-cart",
+      "category": "market-necessary",
       "categoryLabel": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "basic": {
         "model": "YD-L002",
@@ -4801,29 +4551,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "market-necessary"
     },
     {
       "id": "yd-l003",
       "status": "published",
-      "category": "roll-container-logistics-cart",
+      "category": "market-necessary",
       "categoryLabel": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "basic": {
         "model": "YD-L003",
@@ -4921,29 +4672,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "market-necessary"
     },
     {
       "id": "yd-l004",
       "status": "published",
-      "category": "roll-container-logistics-cart",
+      "category": "market-necessary",
       "categoryLabel": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "basic": {
         "model": "YD-L004",
@@ -5041,29 +4793,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "market-necessary"
     },
     {
       "id": "yd-l005",
       "status": "published",
-      "category": "roll-container-logistics-cart",
+      "category": "market-necessary",
       "categoryLabel": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "basic": {
         "model": "YD-L005",
@@ -5161,29 +4914,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "market-necessary"
     },
     {
       "id": "yd-l006",
       "status": "published",
-      "category": "roll-container-logistics-cart",
+      "category": "market-necessary",
       "categoryLabel": {
-        "en": "Roll Container / Logistics Cart",
-        "zh": "滚笼/物流推车",
-        "de": "Rollbehälter / Logistikwagen",
-        "es": "Contenedor Rodante",
-        "fr": "Conteneur Roulant",
-        "it": "Container Logistico",
-        "ru": "Роллконтейнер",
-        "pt": "Contentor Logística",
-        "ja": "ロールコンテナ",
-        "ko": "롤컨테이너",
-        "ar": "حاوية لوجستية",
-        "nl": "Rolcontainer",
-        "tr": "Lojistik Konteyner",
-        "th": "รถเข็นลอจิสติกส์",
-        "vi": "Container logistics",
-        "hi": "रोल कंटेनर"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "basic": {
         "model": "YD-L006",
@@ -5281,7 +5035,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "market-necessary"
     },
     {
       "id": "yd-hk",
@@ -5401,7 +5156,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "yd-m002",
@@ -5521,7 +5277,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "yd-m008",
@@ -5641,7 +5398,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "yd-m009",
@@ -5761,7 +5519,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-1",
@@ -5881,7 +5640,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-1-a",
@@ -6001,7 +5761,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-10",
@@ -6121,7 +5882,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-11",
@@ -6241,7 +6003,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-12",
@@ -6361,7 +6124,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-120l",
@@ -6481,7 +6245,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-150l",
@@ -6601,7 +6366,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-17",
@@ -6721,7 +6487,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-18",
@@ -6841,7 +6608,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-180l",
@@ -6961,7 +6729,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-19",
@@ -7081,7 +6850,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-20",
@@ -7201,7 +6971,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-21",
@@ -7321,7 +7092,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-210l",
@@ -7441,7 +7213,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-22",
@@ -7561,7 +7334,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-4",
@@ -7681,7 +7455,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-5",
@@ -7801,7 +7576,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-7",
@@ -7921,7 +7697,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-8",
@@ -8041,7 +7818,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "zc-v-02",
@@ -8161,15 +7939,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-basket"
     },
     {
       "id": "yd-a-100l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -8281,15 +8060,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-125l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -8401,15 +8181,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-150l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -8521,15 +8302,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-180l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -8641,15 +8423,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-210l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -8761,15 +8544,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-240l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -8881,15 +8665,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-60l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9001,15 +8786,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-a-80l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9121,15 +8907,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-100l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9241,15 +9028,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-125l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9361,15 +9149,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-150l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9481,15 +9270,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-180l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9601,15 +9391,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-210l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9721,15 +9512,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-240l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9841,15 +9633,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-60l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -9961,15 +9754,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-b-80l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10081,15 +9875,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-100l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10201,15 +9996,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-125l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10321,15 +10117,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-150l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10441,15 +10238,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-180l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10561,15 +10359,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-210l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10681,15 +10480,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-240l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10801,15 +10601,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-60l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -10921,15 +10722,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-c-80l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11041,15 +10843,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-100l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11161,15 +10964,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-125l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11281,15 +11085,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-150l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11401,15 +11206,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-180l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11521,15 +11327,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-210l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11641,15 +11448,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-240l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11761,15 +11569,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-60l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -11881,15 +11690,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-d-80l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12001,15 +11811,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-db-180l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12121,15 +11932,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-df-140l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12241,15 +12053,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-e-212l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12361,15 +12174,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-f004",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12481,15 +12295,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-j077",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12601,15 +12416,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-m-130l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12721,15 +12537,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-m-150l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12841,15 +12658,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-m-210l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -12961,15 +12779,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-m-80l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -13081,15 +12900,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-nr-190l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -13201,15 +13021,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-p-100l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -13321,15 +13142,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-p-125l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -13441,15 +13263,16 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-p-180l",
       "status": "published",
-      "category": "shopping-trolley-cart",
+      "category": "shopping-trolley",
       "categoryLabel": {
-        "en": "Shopping Trolley / Cart",
-        "zh": "购物车",
+        "en": "Shopping Trolley",
+        "zh": "手推车",
         "de": "Einkaufswagen",
         "es": "Carro de Compra",
         "fr": "Chariot de Course",
@@ -13561,29 +13384,30 @@
         "castors": "5”",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "shopping-trolley"
     },
     {
       "id": "yd-k001",
       "status": "published",
-      "category": "storage-cage",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Storage Cage",
-        "zh": "仓储笼",
-        "de": "Lagerkäfig",
-        "es": "Jaula Almacén",
-        "fr": "Cage Stockage",
-        "it": "Gabbia Stoccaggio",
-        "ru": "Складская клетка",
-        "pt": "Gaiola Armazenamento",
-        "ja": "保管ケージ",
-        "ko": "보관 케이지",
-        "ar": "قفص تخزين",
-        "nl": "Opslagkooi",
-        "tr": "Depolama Kafesi",
-        "th": "กรงเก็บของ",
-        "vi": "Lồng lưu trữ",
-        "hi": "भंडारण पिंजरा"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-K001",
@@ -13681,29 +13505,30 @@
         "castors": "未在PDF中明确",
         "bearing": "500/1000",
         "diameter": "Φ6/Φ5"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-k005",
       "status": "published",
-      "category": "storage-cage",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Storage Cage",
-        "zh": "仓储笼",
-        "de": "Lagerkäfig",
-        "es": "Jaula Almacén",
-        "fr": "Cage Stockage",
-        "it": "Gabbia Stoccaggio",
-        "ru": "Складская клетка",
-        "pt": "Gaiola Armazenamento",
-        "ja": "保管ケージ",
-        "ko": "보관 케이지",
-        "ar": "قفص تخزين",
-        "nl": "Opslagkooi",
-        "tr": "Depolama Kafesi",
-        "th": "กรงเก็บของ",
-        "vi": "Lồng lưu trữ",
-        "hi": "भंडारण पिंजरा"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-K005",
@@ -13801,29 +13626,30 @@
         "castors": "未在PDF中明确",
         "bearing": "100",
         "diameter": "Φ5"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-k006",
       "status": "published",
-      "category": "storage-cage",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Storage Cage",
-        "zh": "仓储笼",
-        "de": "Lagerkäfig",
-        "es": "Jaula Almacén",
-        "fr": "Cage Stockage",
-        "it": "Gabbia Stoccaggio",
-        "ru": "Складская клетка",
-        "pt": "Gaiola Armazenamento",
-        "ja": "保管ケージ",
-        "ko": "보관 케이지",
-        "ar": "قفص تخزين",
-        "nl": "Opslagkooi",
-        "tr": "Depolama Kafesi",
-        "th": "กรงเก็บของ",
-        "vi": "Lồng lưu trữ",
-        "hi": "भंडारण पिंजरा"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-K006",
@@ -13921,29 +13747,30 @@
         "castors": "未在PDF中明确",
         "bearing": "300/500",
         "diameter": "Φ6"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-p001",
       "status": "published",
-      "category": "storage-cage",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Storage Cage",
-        "zh": "仓储笼",
-        "de": "Lagerkäfig",
-        "es": "Jaula Almacén",
-        "fr": "Cage Stockage",
-        "it": "Gabbia Stoccaggio",
-        "ru": "Складская клетка",
-        "pt": "Gaiola Armazenamento",
-        "ja": "保管ケージ",
-        "ko": "보관 케이지",
-        "ar": "قفص تخزين",
-        "nl": "Opslagkooi",
-        "tr": "Depolama Kafesi",
-        "th": "กรงเก็บของ",
-        "vi": "Lồng lưu trữ",
-        "hi": "भंडारण पिंजरा"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-P001",
@@ -14041,7 +13868,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s001",
@@ -14049,7 +13877,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14161,7 +13989,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s002",
@@ -14169,7 +13998,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14281,7 +14110,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s002a",
@@ -14289,7 +14119,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14401,7 +14231,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s003",
@@ -14409,7 +14240,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14521,7 +14352,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s003a",
@@ -14529,7 +14361,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14641,7 +14473,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s004a",
@@ -14649,7 +14482,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14761,7 +14594,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s004b",
@@ -14769,7 +14603,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -14881,7 +14715,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s007",
@@ -14889,7 +14724,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15001,7 +14836,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s008",
@@ -15009,7 +14845,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15121,7 +14957,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s008a",
@@ -15129,7 +14966,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15241,29 +15078,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s009",
       "status": "published",
-      "category": "supermarket-shelf",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Supermarket Shelf",
-        "zh": "商超货架",
-        "de": "Supermarktregal",
-        "es": "Estantería Supermercado",
-        "fr": "Rayonnage Supermarché",
-        "it": "Scaffale Supermercato",
-        "ru": "Стеллаж супермаркета",
-        "pt": "Prateleira Supermercado",
-        "ja": "スーパーマーケット棚",
-        "ko": "슈퍼마켓 진열대",
-        "ar": "رف سوبر ماركت",
-        "nl": "Supermarktstelling",
-        "tr": "Süpermarket Raf",
-        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
-        "vi": "Kệ siêu thị",
-        "hi": "सुपरमार्केट शेल्फ"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-S009",
@@ -15361,29 +15199,30 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s009a",
       "status": "published",
-      "category": "supermarket-shelf",
+      "category": "warehouse-rack",
       "categoryLabel": {
-        "en": "Supermarket Shelf",
-        "zh": "商超货架",
-        "de": "Supermarktregal",
-        "es": "Estantería Supermercado",
-        "fr": "Rayonnage Supermarché",
-        "it": "Scaffale Supermercato",
-        "ru": "Стеллаж супермаркета",
-        "pt": "Prateleira Supermercado",
-        "ja": "スーパーマーケット棚",
-        "ko": "슈퍼마켓 진열대",
-        "ar": "رف سوبر ماركت",
-        "nl": "Supermarktstelling",
-        "tr": "Süpermarket Raf",
-        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
-        "vi": "Kệ siêu thị",
-        "hi": "सुपरमार्केट शेल्फ"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "basic": {
         "model": "YD-S009A",
@@ -15481,7 +15320,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s010",
@@ -15489,7 +15329,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15601,7 +15441,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s010a",
@@ -15609,7 +15450,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15721,7 +15562,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s011",
@@ -15729,7 +15571,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15841,7 +15683,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s012",
@@ -15849,7 +15692,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -15961,7 +15804,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s014",
@@ -15969,7 +15813,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16081,7 +15925,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s020",
@@ -16089,7 +15934,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16201,7 +16046,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s020a",
@@ -16209,7 +16055,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16321,7 +16167,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s033",
@@ -16329,7 +16176,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16441,7 +16288,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s034",
@@ -16449,7 +16297,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16561,7 +16409,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s035",
@@ -16569,7 +16418,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16681,7 +16530,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s036",
@@ -16689,7 +16539,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16801,7 +16651,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s037",
@@ -16809,7 +16660,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -16921,7 +16772,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s038",
@@ -16929,7 +16781,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17041,7 +16893,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s039",
@@ -17049,7 +16902,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17161,7 +17014,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s042",
@@ -17169,7 +17023,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17281,7 +17135,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s045",
@@ -17289,7 +17144,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17401,7 +17256,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s046",
@@ -17409,7 +17265,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17521,7 +17377,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s049",
@@ -17529,7 +17386,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17641,7 +17498,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s052",
@@ -17649,7 +17507,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17761,7 +17619,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-xf001",
@@ -17769,7 +17628,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -17881,7 +17740,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-xf001a",
@@ -17889,7 +17749,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -18001,7 +17861,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-xf002",
@@ -18009,7 +17870,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -18121,7 +17982,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-xf002a",
@@ -18129,7 +17991,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -18241,7 +18103,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-xh001",
@@ -18249,7 +18112,7 @@
       "category": "supermarket-shelf",
       "categoryLabel": {
         "en": "Supermarket Shelf",
-        "zh": "商超货架",
+        "zh": "超市货架",
         "de": "Supermarktregal",
         "es": "Estantería Supermercado",
         "fr": "Rayonnage Supermarché",
@@ -18361,7 +18224,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "supermarket-shelf"
     },
     {
       "id": "yd-s026",
@@ -18481,7 +18345,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s027",
@@ -18601,7 +18466,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s028",
@@ -18721,7 +18587,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s029",
@@ -18841,7 +18708,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s030",
@@ -18961,7 +18829,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     },
     {
       "id": "yd-s031",
@@ -19081,7 +18950,8 @@
         "castors": "未在PDF中明确",
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
-      }
+      },
+      "categoryKey": "warehouse-rack"
     }
   ],
   "certs": [
@@ -20138,50 +20008,170 @@
     {
       "img": "hero/hero1.png",
       "title": {
-        "en": "Supermarket Shelving",
-        "zh": "商超货架系列",
-        "de": "Supermarktregale",
-        "es": "Estanterías"
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
       },
       "sub": {
-        "en": "36+ gondola, end-cap, wall and display shelf models.",
-        "zh": "36+ 款中岛、端架、靠墙与展示货架",
-        "de": "36+ Gondel-, Endregal-, Wand- und Displayregale.",
-        "es": "36+ modelos."
+        "en": "Single/double-side, end-cap, display rack, fruit & vegetable shelf.",
+        "zh": "单双面货架、端架、展示架、果蔬架",
+        "de": "Einseitig/doppelseitig, Endregale, Display, Obstregale.",
+        "es": "Una/dos caras, end-cap, displays, frutas/verduras."
       },
       "searchKey": "supermarket-shelf"
     },
     {
-      "img": "hero/hero2.png",
+      "img": "hero/hero3.png",
       "title": {
-        "en": "Shopping Trolleys & Baskets",
-        "zh": "购物车与购物篮",
-        "de": "Einkaufswagen & Körbe",
-        "es": "Carros y Cestas"
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
       },
       "sub": {
-        "en": "45+ trolley, 24+ basket models. Metal, plastic, hybrid.",
-        "zh": "45+ 款购物车、24+ 款购物篮。金属/塑料/复合结构",
-        "de": "45+ Wagen, 24+ Körbe. Metall, Kunststoff, Hybrid.",
-        "es": "45+ carros, 24+ cestas."
+        "en": "Heavy-duty rack, pallets, storage cage, ladder truck.",
+        "zh": "重型货架、托盘、仓储笼、梯车",
+        "de": "Schwerlast-Regale, Paletten, Lagerkäfige, Leiterwagen.",
+        "es": "Racks pesados, palets, jaulas, escaleras."
       },
-      "searchKey": "shopping-trolley-cart"
+      "searchKey": "warehouse-rack"
+    },
+    {
+      "img": "hero/hero2.png",
+      "title": {
+        "en": "Shopping Trolley",
+        "zh": "手推车",
+        "de": "Einkaufswagen",
+        "es": "Carro de Compra",
+        "fr": "Chariot de Course",
+        "it": "Carrello Spesa",
+        "ru": "Тележка покупок",
+        "pt": "Carrinho de Compras",
+        "ja": "ショッピングカート",
+        "ko": "쇼핑카트",
+        "ar": "عربة تسوق",
+        "nl": "Winkelwagen",
+        "tr": "Alışveriş Arabası",
+        "th": "รถเข็นช้อปปิ้ง",
+        "vi": "Xe đẩy mua sắm",
+        "hi": "शॉपिंग ट्रॉली"
+      },
+      "sub": {
+        "en": "American, European, Australian, kids and plastic trolleys.",
+        "zh": "美式、欧式、澳式、儿童、塑料推车",
+        "de": "Amerikanische, europäische, australische, Kinder- und Plastikwagen.",
+        "es": "Americano, europeo, australiano, infantil, plástico."
+      },
+      "searchKey": "shopping-trolley"
+    },
+    {
+      "img": "hero/hero1.png",
+      "title": {
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
+      },
+      "sub": {
+        "en": "Standard counters, entrance gates, lockers and accessories.",
+        "zh": "收银台、入口闸机、寄存柜及配件",
+        "de": "Theken, Eingangstore, Schließfächer.",
+        "es": "Cajas, entradas, casilleros."
+      },
+      "searchKey": "checkout-counter"
+    },
+    {
+      "img": "hero/hero2.png",
+      "title": {
+        "en": "Shopping Basket",
+        "zh": "购物篮",
+        "de": "Einkaufskorb",
+        "es": "Cesta Compra",
+        "fr": "Panier",
+        "it": "Cestino",
+        "ru": "Корзина покупок",
+        "pt": "Cesta Compras",
+        "ja": "買物カゴ",
+        "ko": "쇼핑바구니",
+        "ar": "سلة تسوق",
+        "nl": "Boodschappenmandje",
+        "tr": "Alışveriş Sepeti",
+        "th": "ตะกร้าช้อปปิ้ง",
+        "vi": "Giỏ mua sắm",
+        "hi": "शॉपिंग बास्केट"
+      },
+      "sub": {
+        "en": "Plastic, wire, wheeled, kids and luxury baskets.",
+        "zh": "塑料篮、铁线篮、带轮篮、儿童篮、豪华篮",
+        "de": "Kunststoff-, Draht-, Räder-, Kinder- und Luxuskörbe.",
+        "es": "Plástico, alambre, ruedas, infantil, lujo."
+      },
+      "searchKey": "shopping-basket"
     },
     {
       "img": "hero/hero3.png",
       "title": {
-        "en": "Warehouse Rack & Logistics",
-        "zh": "仓储架与物流设备",
-        "de": "Lagerregale & Logistik",
-        "es": "Racks y Logística"
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
       },
       "sub": {
-        "en": "Heavy-duty racks, pallets, roll containers, entrance equipment.",
-        "zh": "重型货架、托盘、滚笼、入口设备",
-        "de": "Schwerlast-Regale, Paletten, Rollcontainer, Eingangsausstattung.",
-        "es": "Racks pesados, palets, contenedores, equipo de entrada."
+        "en": "Roll containers, logistics carts and ancillary fixtures.",
+        "zh": "物流车、滚笼及其他配套",
+        "de": "Rollbehälter, Logistikwagen.",
+        "es": "Contenedores, carros logísticos."
       },
-      "searchKey": "warehouse-rack"
+      "searchKey": "market-necessary"
     }
   ],
   "partnersTitle": {
