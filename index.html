@@ -203,8 +203,21 @@ body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-m
 .pd-specs-table tr:last-child td{border-bottom:0}
 .pd-specs-table td:first-child{color:var(--c-ink-soft);font-weight:600;width:40%;background:#FAFBFC}
 .pd-specs-table td:last-child{font-weight:600;color:var(--c-ink)}
-.pd-detail-imgs{margin-top:48px}
-.pd-detail-imgs img{width:100%;margin-bottom:16px;border-radius:var(--radius)}
+.pd-detail-wrap{margin-top:56px;padding-top:36px;border-top:1px solid var(--c-line)}
+.pd-detail-wrap h3{font-size:18px;font-weight:800;color:var(--c-ink);margin-bottom:18px;letter-spacing:.3px}
+.pd-detail-imgs{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.pd-detail-imgs .pd-detail-item{position:relative;aspect-ratio:1/1;background:#FAFBFC;border:1px solid var(--c-line);border-radius:var(--radius);overflow:hidden;cursor:zoom-in;transition:all .15s}
+.pd-detail-imgs .pd-detail-item:hover{border-color:var(--c-primary);transform:translateY(-2px);box-shadow:var(--shadow-md)}
+.pd-detail-imgs .pd-detail-item img{width:100%;height:100%;object-fit:contain;padding:8px}
+.pd-detail-imgs .pd-detail-label{position:absolute;left:0;right:0;bottom:0;padding:6px 10px;background:linear-gradient(0deg,rgba(15,23,42,.78),rgba(15,23,42,0));color:#fff;font-size:12px;font-weight:600;text-align:center;letter-spacing:.3px}
+@media(max-width:900px){.pd-detail-imgs{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.pd-detail-imgs{grid-template-columns:1fr 1fr;gap:10px}}
+/* 灯箱（点细节图放大查看）*/
+.pd-lightbox{position:fixed;inset:0;background:rgba(15,23,42,.92);z-index:300;display:none;align-items:center;justify-content:center;padding:40px;cursor:zoom-out}
+.pd-lightbox.open{display:flex;animation:fadeIn .2s ease}
+.pd-lightbox img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+.pd-lightbox .pd-lightbox-close{position:absolute;top:20px;right:24px;color:#fff;font-size:30px;width:44px;height:44px;display:flex;align-items:center;justify-content:center;border-radius:8px;cursor:pointer;background:rgba(0,0,0,.4)}
+.pd-lightbox .pd-lightbox-close:hover{background:rgba(0,0,0,.7)}
 @media(max-width:900px){.pd-grid{grid-template-columns:1fr;gap:28px}.pd-gallery{position:static}}
 
 /* === Certs === */
@@ -942,7 +955,7 @@ function pAdapt(p){
   const images = [];
   if(m.mainImage) images.push(m.mainImage);
   if(Array.isArray(p.images)) p.images.forEach(x=>{if(x && !images.includes(x)) images.push(x);});
-  if(m.sourcePageImage && !images.includes(m.sourcePageImage)) images.push(m.sourcePageImage);
+  // 不再把 sourcePageImage(整页 PDF 截图)塞进缩略图廊 — 已被弃用
   // 取一个 yuanda 字段的可读值（过滤"未在PDF中明确"等占位）
   const placeholder = /未在|to be confirmed|n\/a|tbd|未明确/i;
   const isPlaceholder = v => !v || placeholder.test(String(v));
@@ -1060,8 +1073,36 @@ function renderProductDetail(){
         </div>`}
       </div>
     </div>
-    ${(p.detailImgs && p.detailImgs.length)?`<div class="pd-detail-imgs">${p.detailImgs.map(im=>`<img src="${esc(im)}" onerror="this.style.display='none'">`).join('')}</div>`:''}
+    ${(p.detailImgs && p.detailImgs.length)?`
+    <div class="pd-detail-wrap">
+      <h3>${esc(L(DATA.ui.detailsTitle||{}))||'Details 细节图'}</h3>
+      <div class="pd-detail-imgs">
+        ${p.detailImgs.map(im=>{
+          // 从文件名提取标签：detail-post.png → Post / 立柱 等
+          const fn = String(im).split('/').pop().replace(/\.(png|jpg|jpeg|webp)$/i,'').replace(/^detail-/,'');
+          const label = fn.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase());
+          return `<div class="pd-detail-item" onclick="pdOpenLightbox('${esc(im)}')">
+            <img src="${esc(im)}" onerror="this.parentElement.style.display='none'">
+            <div class="pd-detail-label">${esc(label)}</div>
+          </div>`;
+        }).join('')}
+      </div>
+    </div>`:''}
   `;
+}
+function pdOpenLightbox(src){
+  let lb = Q("#pdLightbox");
+  if(!lb){
+    lb = document.createElement("div");
+    lb.id = "pdLightbox";
+    lb.className = "pd-lightbox";
+    lb.innerHTML = `<button class="pd-lightbox-close">×</button><img id="pdLightboxImg" src="" alt="">`;
+    document.body.appendChild(lb);
+    lb.addEventListener("click", e=>{ if(e.target===lb || e.target.classList.contains("pd-lightbox-close")) lb.classList.remove("open"); });
+    document.addEventListener("keydown", e=>{ if(e.key==="Escape") lb.classList.remove("open"); });
+  }
+  Q("#pdLightboxImg").src = src;
+  lb.classList.add("open");
 }
 function pdSwitchImg(i){
   const p = pAdapt(CURRENT_PRODUCT);
