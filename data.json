@@ -534,7 +534,7 @@
         "hi": "शॉपिंग बास्केट"
       },
       "count": 0,
-      "img": ""
+      "img": "hero/hero-baskets.png"
     },
     {
       "key": "market-necessary",
@@ -4004,7 +4004,7 @@
       "searchKey": "checkout-counter"
     },
     {
-      "img": "hero/hero2.png",
+      "img": "hero/hero-baskets.png",
       "title": {
         "en": "Shopping Basket",
         "zh": "购物篮",
