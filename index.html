@@ -617,7 +617,64 @@ function applyModeClass(){
   else if(isStaffMode()) document.body.classList.add("staff-mode");
 }
 
-/* ===== Routing ===== */
+/* ===== Hash Router（铁律 v1.4 新增 — 防 SPA 刷新跳首页）=====
+ * URL hash 格式：
+ *   #/                                  → home
+ *   #/catalog                           → catalog (无筛选)
+ *   #/catalog?cat=shopping-basket       → catalog + 预选分类
+ *   #/catalog?q=YD-S014                 → catalog + 搜索词
+ *   #/product/YD-S014                   → 产品详情
+ *   #/certs  #/partners  #/intel  #/sop → 对应子页
+ */
+function parseHash(){
+  const h = (location.hash || "").replace(/^#\/?/, "");
+  if(!h) return {page:"home"};
+  const [path, query] = h.split("?");
+  const segs = path.split("/").filter(Boolean);
+  const params = {};
+  if(query){
+    query.split("&").forEach(kv=>{
+      const [k,v] = kv.split("=");
+      if(k) params[decodeURIComponent(k)] = decodeURIComponent(v||"");
+    });
+  }
+  return {page: segs[0]||"home", arg: segs[1]||"", params};
+}
+function buildHash(page, arg, params){
+  let h = "#/" + (page==="home" ? "" : page);
+  if(arg) h += "/" + encodeURIComponent(arg);
+  if(params){
+    const qs = Object.keys(params).filter(k=>params[k]!=null && params[k]!=="")
+      .map(k=>encodeURIComponent(k)+"="+encodeURIComponent(params[k])).join("&");
+    if(qs) h += "?" + qs;
+  }
+  return h;
+}
+function setHash(page, arg, params){
+  const newHash = buildHash(page, arg, params);
+  if(location.hash !== newHash){
+    HASH_GUARD = true;       // 避免 hashchange 回调再触发 applyHashRoute
+    location.hash = newHash;
+    // 下一个 tick 解锁
+    setTimeout(()=>{ HASH_GUARD = false; }, 0);
+  }
+}
+let HASH_GUARD = false;
+function applyHashRoute(){
+  if(HASH_GUARD) return;
+  const {page, arg, params} = parseHash();
+  if(page === "product" && arg){
+    const p = (DATA && DATA.products||[]).find(x=>x.id===arg);
+    if(p){ _routeToProduct(p, /*fromHash*/true); return; }
+    // 找不到产品 → 退到 catalog
+    _routeCatalog(params, true); return;
+  }
+  if(page === "catalog"){ _routeCatalog(params, true); return; }
+  if(["certs","partners","intel","sop"].includes(page)){ _routeSimple(page, true); return; }
+  _routeSimple("home", true);
+}
+window.addEventListener("hashchange", applyHashRoute);
+
 /* Catalog 浏览状态保留（铁律 ⑫⑬）：sessionStorage 持久化 search/filter/scrollY，30min 过期 */
 const CAT_STATE_KEY = BRAND + "_catalog_state";
 const CAT_STATE_TTL = 30 * 60 * 1000; // 30 min
@@ -658,57 +715,89 @@ function restoreCatalogState(){
   return true;
 }
 
-function route(page, opts){
-  opts = opts || {};
+/* 内部实现（不写 hash），供 applyHashRoute / route 公共入口共用 */
+function _routeSimple(page, fromHash){
   CURRENT_PAGE = page;
   QA(".page").forEach(p=>p.classList.remove("active"));
   const target = Q("#page-"+page);
   if(target) target.classList.add("active");
-  if(page==="catalog"){
-    if(opts.restoreCatalog && restoreCatalogState()){
-      setupStickyObserver();
-      document.getElementById("mainNav").classList.remove("open");
-      return;
-    }
-    // 主动进 catalog（非从详情返回）：清掉旧状态，避免误恢复
-    if(!opts.preserveCatalogState) clearCatalogState();
-    renderCatalog();
-    setupStickyObserver();
-  }
   if(page==="intel") renderIntel("staff_intel","intelList");
-  if(page==="sop") renderIntel("staff_sop","sopList");
+  if(page==="sop")   renderIntel("staff_sop","sopList");
   if(page==="certs") renderCerts();
   if(page==="partners") renderPartnersPage();
   window.scrollTo({top:0,behavior:"instant"});
   document.getElementById("mainNav").classList.remove("open");
+  if(!fromHash) setHash(page);
 }
 
-function routeToProduct(id){
-  // 进详情前先保存 catalog 状态（铁律 ⑬）
+function _routeCatalog(params, fromHash){
+  CURRENT_PAGE = "catalog";
+  QA(".page").forEach(p=>p.classList.remove("active"));
+  Q("#page-catalog").classList.add("active");
+  params = params || {};
+  // 来源识别：① fromHash + 仅 cat/q → 直接渲染 ② restoreCatalog → 还原 ③ 否则清状态
+  if(params.restoreCatalog === "1"){
+    if(!restoreCatalogState()){
+      // 没状态可恢复，按 cat/q 兜底
+      const si = Q("#catalogSearch"); if(si) si.value = params.q || "";
+      const sf = Q("#catalogFilter"); if(sf) sf.value = params.cat || "";
+      renderCatalog();
+    }
+  } else {
+    // 主动进 catalog（hash 直接命中 / 首页卡片 / 导航）→ 清状态 + 按 hash 参数渲染
+    clearCatalogState();
+    const si = Q("#catalogSearch"); if(si) si.value = params.q || "";
+    const sf = Q("#catalogFilter"); if(sf) sf.value = params.cat || "";
+    renderCatalog();
+    window.scrollTo({top:0,behavior:"instant"});
+  }
+  setupStickyObserver();
+  document.getElementById("mainNav").classList.remove("open");
+  if(!fromHash){
+    const p = {};
+    if(params.cat) p.cat = params.cat;
+    if(params.q)   p.q   = params.q;
+    if(params.restoreCatalog) p.restoreCatalog = "1";
+    setHash("catalog", "", p);
+  }
+}
+
+function _routeToProduct(product, fromHash){
+  if(!product) return;
+  // 进详情前先保存 catalog 状态（仅当当前页是 catalog；hash 直达详情时跳过）
   if(CURRENT_PAGE === "catalog") saveCatalogState();
-  CURRENT_PRODUCT = DATA.products.find(p=>p.id===id);
-  if(!CURRENT_PRODUCT) return;
-  CURRENT_PAGE="product";
+  CURRENT_PRODUCT = product;
+  CURRENT_PAGE = "product";
   QA(".page").forEach(p=>p.classList.remove("active"));
   Q("#page-product").classList.add("active");
   renderProductDetail();
   window.scrollTo({top:0,behavior:"instant"});
+  document.getElementById("mainNav").classList.remove("open");
+  if(!fromHash) setHash("product", product.id);
+}
+
+/* ===== 公共入口（写 hash，由 hashchange 驱动渲染） ===== */
+function route(page, opts){
+  opts = opts || {};
+  if(page === "catalog"){
+    const params = {};
+    if(opts.restoreCatalog) params.restoreCatalog = "1";
+    _routeCatalog(params, false);
+    return;
+  }
+  _routeSimple(page, false);
+}
+
+function routeToProduct(id){
+  const p = (DATA && DATA.products||[]).find(x=>x.id===id);
+  if(!p) return;
+  _routeToProduct(p, false);
 }
 
 /* 首页 6 大卡片 → 目录 + 预选分类 */
 function routeToCatalogByCategory(catKey){
   clearCatalogState();
-  // 先切页（此时 select 已存在）
-  CURRENT_PAGE = "catalog";
-  QA(".page").forEach(p=>p.classList.remove("active"));
-  Q("#page-catalog").classList.add("active");
-  // 清空搜索框，预选分类
-  const si = Q("#catalogSearch"); if(si) si.value = "";
-  const sf = Q("#catalogFilter"); if(sf) sf.value = catKey || "";
-  renderCatalog();
-  setupStickyObserver();
-  window.scrollTo({top:0,behavior:"instant"});
-  document.getElementById("mainNav").classList.remove("open");
+  _routeCatalog({cat: catKey||""}, false);
 }
 
 /* ===== Language ===== */
@@ -818,6 +907,8 @@ async function load(){
 
   setLang(LANG);
   startHeroAuto();
+  // 刷新/分享链接 → 按 hash 还原页面（铁律 v1.4）
+  applyHashRoute();
 }
 
 /* ===== Render ===== */
