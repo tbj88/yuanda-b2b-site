@@ -611,8 +611,7 @@
         "leadTime": "15-25 days after PO confirmation"
       },
       "media": {
-        "mainImage": "products/yd-s001/main.png",
-        "sourcePageImage": "catalog-pages/page-05.jpg"
+        "mainImage": "products/yd-s001/main.png"
       },
       "adminEditable": [
         "basic.nameEn",
@@ -1623,6 +1622,24 @@
       "th": "← กลับหน้าแรก",
       "vi": "← Về trang chủ",
       "hi": "← होम पर वापस"
+    },
+    "detailsTitle": {
+      "en": "Details",
+      "zh": "细节展示",
+      "de": "Details",
+      "es": "Detalles",
+      "fr": "Détails",
+      "it": "Dettagli",
+      "ru": "Детали",
+      "pt": "Detalhes",
+      "ja": "詳細",
+      "ko": "세부 사항",
+      "ar": "التفاصيل",
+      "nl": "Details",
+      "tr": "Detaylar",
+      "th": "รายละเอียด",
+      "vi": "Chi tiết",
+      "hi": "विवरण"
     }
   },
   "footer": {
