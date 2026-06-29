@@ -438,9 +438,6 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
     <div class="section-inner">
       <div class="catalog-sticky" id="catalogSticky">
         <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
-        <div class="section-head" style="text-align:left" translate="no">
-          <h2 class="h2" id="catalogPageTitle" data-uk="catalogPageTitle" translate="no">Product Catalog</h2>
-        </div>
         <div class="catalog-toolbar">
           <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog()">
           <select id="catalogFilter" onchange="renderCatalog()"></select>
