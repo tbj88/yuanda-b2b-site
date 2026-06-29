@@ -557,7 +557,7 @@
         "hi": "मार्केट उपकरण"
       },
       "count": 0,
-      "img": ""
+      "img": "hero/hero-market-necessary.png"
     }
   ],
   "products": [
@@ -4032,7 +4032,7 @@
       "searchKey": "shopping-basket"
     },
     {
-      "img": "hero/hero3.png",
+      "img": "hero/hero-market-necessary.png",
       "title": {
         "en": "Market Necessary",
         "zh": "商场配套设备",
