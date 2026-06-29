@@ -1,7 +1,7 @@
 {
   "brand": {
     "id": "yuanda",
-    "name": "Yuanda Commercial Products",
+    "name": "Yuanda",
     "legalName": "Suzhou Yuanda Commercial Products Co., Ltd.",
     "foundedYear": 1990,
     "city": "Suzhou, Jiangsu, China",
@@ -12,145 +12,235 @@
       "de": "Premium-Systeme fur Retail-Fixtures, Supermarktregale und Lagerausstattung fur globale B2B-Projekte",
       "es": "Sistemas premium de fixtures retail, estanterias de supermercado y equipos de almacen para proyectos B2B globales"
     },
-    "sourceUrl": "Yuanda-Shelf-Company-Catalogue-2026.pdf"
+    "sourceUrl": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
+    "nameFull": {
+      "en": "Suzhou Yuanda Commercial Products Co., Ltd.",
+      "zh": "苏州远大商用设备有限公司",
+      "de": "Suzhou Yuanda Commercial Products Co., Ltd.",
+      "es": "Suzhou Yuanda Commercial Products Co., Ltd."
+    },
+    "tagline": {
+      "en": "Retail Infrastructure. Trusted Worldwide Since 1990.",
+      "zh": "零售基础设施 · 全球信赖 · 始于1990",
+      "de": "Retail-Infrastruktur. Weltweit vertraut seit 1990.",
+      "es": "Infraestructura Retail. Confianza global desde 1990.",
+      "fr": "Infrastructure Retail. La confiance mondiale depuis 1990.",
+      "it": "Infrastrutture Retail. Fiducia globale dal 1990.",
+      "ru": "Розничная инфраструктура. Глобальное доверие с 1990 года.",
+      "pt": "Infraestrutura Retail. Confiança global desde 1990.",
+      "ja": "リテールインフラ。1990年から世界中で信頼されています。",
+      "ko": "리테일 인프라. 1990년부터 전세계 신뢰.",
+      "ar": "البنية التحتية للبيع بالتجزئة. ثقة عالمية منذ 1990.",
+      "nl": "Retail Infrastructuur. Wereldwijd vertrouwd sinds 1990.",
+      "tr": "Perakende Altyapısı. 1990'dan beri dünya çapında güveniliyor.",
+      "th": "โครงสร้างพื้นฐานค้าปลีก เชื่อถือทั่วโลกตั้งแต่ปี 1990",
+      "vi": "Hạ tầng bán lẻ. Tin cậy toàn cầu từ năm 1990.",
+      "hi": "रिटेल इन्फ्रास्ट्रक्चर। 1990 से वैश्विक भरोसा।"
+    },
+    "phone": "+86 - (please update)",
+    "address": {
+      "en": "Suzhou, Jiangsu, China",
+      "zh": "中国江苏省苏州市",
+      "de": "Suzhou, Jiangsu, China",
+      "es": "Suzhou, Jiangsu, China"
+    },
+    "color": {
+      "primary": "#0A4A8C",
+      "accent": "#E63946",
+      "ink": "#0F172A",
+      "bg": "#F7F9FC"
+    }
   },
   "hero": [
     {
-      "img": "https://s.alicdn.com/@sc04/kf/H916f9ad7f8394e12989077d25e345838P/Supermarket-Shop-Store-Display-Metal-Iron-Shelf.png?hasNWGrade=1",
+      "img": "hero/hero1.png",
       "kicker": {
-        "en": "Global retail fixture systems",
-        "zh": "全球零售设备系统",
-        "de": "Globale Retail-Fixture-Systeme",
-        "es": "Sistemas globales de equipamiento retail"
+        "en": "36 YEARS OF MANUFACTURING",
+        "zh": "36 年制造经验",
+        "de": "36 JAHRE FERTIGUNG",
+        "es": "36 AÑOS DE FABRICACIÓN",
+        "fr": "36 ANS DE FABRICATION",
+        "it": "36 ANNI DI PRODUZIONE",
+        "ru": "36 ЛЕТ ПРОИЗВОДСТВА",
+        "pt": "36 ANOS DE FABRICAÇÃO",
+        "ja": "36年の製造実績",
+        "ko": "36년 제조 경험",
+        "ar": "36 سنة من التصنيع",
+        "nl": "36 JAAR FABRICAGE",
+        "tr": "36 YIL ÜRETİM",
+        "th": "36 ปีแห่งการผลิต",
+        "vi": "36 NĂM SẢN XUẤT",
+        "hi": "36 वर्ष का निर्माण"
       },
       "title": {
-        "en": "Retail infrastructure engineered for supermarket chains, warehouses and commercial rollouts.",
-        "zh": "为连锁商超、仓储中心与商业空间扩张打造的零售基础设施。",
-        "de": "Retail-Infrastruktur fur Supermarktketten, Lagerzentren und kommerzielle Rollouts.",
-        "es": "Infraestructura retail para cadenas de supermercados, almacenes y expansiones comerciales."
+        "en": "Retail Infrastructure for Supermarket Chains Worldwide.",
+        "zh": "为全球连锁商超打造零售基础设施",
+        "de": "Retail-Infrastruktur für Supermarktketten weltweit.",
+        "es": "Infraestructura retail para cadenas de supermercados.",
+        "fr": "Infrastructure retail pour les chaînes de supermarchés.",
+        "it": "Infrastrutture retail per catene di supermercati globali.",
+        "ru": "Розничная инфраструктура для супермаркетов по всему миру.",
+        "pt": "Infraestrutura retail para cadeias de supermercados globais.",
+        "ja": "世界中のスーパーマーケットチェーン向けリテールインフラ。",
+        "ko": "전세계 슈퍼마켓 체인을 위한 리테일 인프라.",
+        "ar": "بنية تحتية للبيع بالتجزئة لسلاسل السوبر ماركت حول العالم.",
+        "nl": "Retail-infrastructuur voor supermarktketens wereldwijd.",
+        "tr": "Dünya çapındaki süpermarket zincirleri için perakende altyapısı.",
+        "th": "โครงสร้างพื้นฐานค้าปลีกสำหรับเชนซูเปอร์มาร์เก็ตทั่วโลก",
+        "vi": "Hạ tầng bán lẻ cho chuỗi siêu thị toàn cầu.",
+        "hi": "वैश्विक सुपरमार्केट चेन के लिए रिटेल इन्फ्रास्ट्रक्चर।"
       },
       "sub": {
-        "en": "Premium supermarket shelving, warehouse rack, trolley and basket systems for professional B2B project buyers.",
-        "zh": "面向专业 B2B 项目采购商的高端商超货架、仓储架、购物车与购物篮系统。",
-        "de": "Premium-Regale, Lagerregale, Einkaufswagen und Korbe fur professionelle B2B-Projektkaufer.",
-        "es": "Sistemas premium de estanterias, racks, carros y cestas para compradores B2B profesionales."
+        "en": "Supermarket shelving, shopping trolleys, warehouse racks and 150+ retail fixture SKUs. Drawing-based customization for chain rollout projects.",
+        "zh": "商超货架、购物车、仓储架等 150+ 零售设备 SKU。支持连锁项目图纸定制。",
+        "de": "Supermarktregale, Einkaufswagen, Lagerregale und 150+ Retail-Fixture-SKUs. Custom-Fertigung nach Zeichnung.",
+        "es": "Estanterías, carros y racks. 150+ SKUs. Personalización por planos."
       },
       "ctaPrimary": {
-        "en": "Explore Product Systems",
-        "zh": "查看产品系统",
-        "de": "Produktsysteme ansehen",
-        "es": "Ver sistemas"
+        "en": "Browse Catalog",
+        "zh": "浏览产品目录",
+        "de": "Katalog durchsuchen",
+        "es": "Ver Catálogo",
+        "fr": "Voir le catalogue",
+        "it": "Vedi catalogo",
+        "ru": "Каталог",
+        "pt": "Ver catálogo",
+        "ja": "カタログを見る",
+        "ko": "카탈로그 보기",
+        "ar": "عرض الكتالوج",
+        "nl": "Bekijk catalogus",
+        "tr": "Kataloğa bak",
+        "th": "ดูแคตตาล็อก",
+        "vi": "Xem danh mục",
+        "hi": "कैटलॉग देखें"
       },
       "ctaGhost": {
-        "en": "Open Catalogue Database",
-        "zh": "打开产品数据库",
-        "de": "Produktdatenbank offnen",
-        "es": "Abrir base de productos"
+        "en": "Get Project Quote",
+        "zh": "项目询价",
+        "de": "Projektangebot",
+        "es": "Cotizar",
+        "fr": "Demander un devis",
+        "it": "Preventivo",
+        "ru": "Запросить",
+        "pt": "Cotação",
+        "ja": "見積依頼",
+        "ko": "견적 요청",
+        "ar": "عرض سعر",
+        "nl": "Offerte",
+        "tr": "Teklif",
+        "th": "ขอใบเสนอราคา",
+        "vi": "Báo giá",
+        "hi": "कोटेशन"
       }
     },
     {
-      "img": "https://s.alicdn.com/@sc04/kf/H6e11426112524b80b1f463cc65c23e43L/Retail-Store-Rack-Supermarket-Shelf-Gondola-Shelving.jpg_250x250.jpg?hasNWGrade=1",
+      "img": "hero/hero2.png",
       "kicker": {
-        "en": "Gondola shelving systems",
-        "zh": "商超中岛货架系统",
-        "de": "Gondelregalsysteme",
-        "es": "Sistemas de gondola"
+        "en": "150+ RETAIL FIXTURE SKUS",
+        "zh": "150+ 零售设备 SKU",
+        "de": "150+ RETAIL-FIXTURE SKUS",
+        "es": "150+ SKUs DE FIXTURES"
       },
       "title": {
-        "en": "Modular supermarket shelving for stores, grocery chains and wholesale clubs.",
-        "zh": "适用于门店、连锁商超与批发会员店的模块化商超货架。",
-        "de": "Modulare Supermarktregale fur Stores, Lebensmittelketten und Grosshandelsclubs.",
-        "es": "Estanterias modulares para tiendas, cadenas de supermercados y clubes mayoristas."
+        "en": "Shopping Trolleys, Baskets, Carts & Logistics Carriers.",
+        "zh": "购物车、购物篮、物流推车一体化方案",
+        "de": "Einkaufswagen, Körbe, Wagen und Logistikträger.",
+        "es": "Carros, cestas y portadores logísticos."
       },
       "sub": {
-        "en": "Powder-coated steel structures, configurable sizes, display accessories and project-based production.",
-        "zh": "粉末喷涂钢结构，可配置尺寸、展示配件与项目制生产。",
-        "de": "Pulverbeschichtete Stahlkonstruktionen, konfigurierbare Grossen, Display-Zubehor und Projektfertigung.",
-        "es": "Estructuras de acero con recubrimiento en polvo, medidas configurables, accesorios y produccion por proyecto."
+        "en": "45+ shopping trolley models, 24+ basket designs, roll containers and pallets. Logo customization and export packing standard.",
+        "zh": "45+ 款购物车型号、24+ 款购物篮、滚笼与托盘。LOGO 定制 + 出口包装标配。",
+        "de": "45+ Einkaufswagenmodelle, 24+ Korbdesigns, Rollcontainer und Paletten.",
+        "es": "45+ modelos de carros, 24+ diseños de cestas, contenedores y palets."
       },
       "ctaPrimary": {
-        "en": "Shelving Lines",
-        "zh": "货架系列",
-        "de": "Regalserien",
-        "es": "Lineas de estanteria"
-      },
-      "ctaGhost": {
-        "en": "Project Inquiry",
-        "zh": "项目询盘",
-        "de": "Projektanfrage",
-        "es": "Consulta de proyecto"
-      }
-    },
-    {
-      "img": "https://s.alicdn.com/@sc04/kf/HTB14pJmv_XYBeNkHFrdq6AiuVXak/Heavy-Duty-Shopping-Trolley-for-Super-Market.jpg_480x480.jpg?hasNWGrade=1",
-      "kicker": {
-        "en": "Retail mobility hardware",
-        "zh": "零售移动设备",
-        "de": "Retail-Mobilitatsausstattung",
-        "es": "Equipos moviles para retail"
-      },
-      "title": {
-        "en": "Shopping trolleys and baskets built for durability, brand identity and daily rotation.",
-        "zh": "兼顾耐用、品牌形象与日常高周转的购物车与购物篮。",
-        "de": "Einkaufswagen und Korbe fur Haltbarkeit, Markenauftritt und tagliche Nutzung.",
-        "es": "Carros y cestas para durabilidad, identidad de marca y rotacion diaria."
-      },
-      "sub": {
-        "en": "Metal, plastic and hybrid options with logo customization and export-ready packing.",
-        "zh": "支持金属、塑料与复合结构，提供LOGO定制与出口包装。",
-        "de": "Metall-, Kunststoff- und Hybridoptionen mit Logo-Anpassung und exportfertiger Verpackung.",
-        "es": "Opciones metalicas, plasticas e hibridas con logo personalizado y embalaje de exportacion."
-      },
-      "ctaPrimary": {
-        "en": "Trolley Range",
+        "en": "Trolley Lines",
         "zh": "购物车系列",
-        "de": "Wagenprogramm",
-        "es": "Gama de carros"
+        "de": "Wagen-Serien",
+        "es": "Líneas de Carros"
       },
       "ctaGhost": {
         "en": "Sample Policy",
         "zh": "样品政策",
         "de": "Musterpolitik",
-        "es": "Politica de muestras"
+        "es": "Política de Muestras"
+      }
+    },
+    {
+      "img": "hero/hero3.png",
+      "kicker": {
+        "en": "DRAWING-BASED CUSTOMIZATION",
+        "zh": "图纸定制能力",
+        "de": "FERTIGUNG NACH ZEICHNUNG",
+        "es": "FABRICACIÓN POR PLANOS"
+      },
+      "title": {
+        "en": "From Concept to Container. Full Project Service.",
+        "zh": "从设计到货柜 · 完整项目服务",
+        "de": "Vom Konzept zum Container. Voller Projekt-Service.",
+        "es": "Del Concepto al Contenedor. Servicio Completo."
+      },
+      "sub": {
+        "en": "In-house steel fabrication, powder coating and QC. 10 production lines, 18,505㎡ facility. Export packing and project documentation included.",
+        "zh": "自有钢结构焊接、粉末喷涂、QC 检验。10 条产线、18,505 ㎡ 厂区。含出口包装与项目资料。",
+        "de": "Hauseigene Stahlfertigung, Pulverbeschichtung und QC. 10 Produktionslinien.",
+        "es": "Fabricación de acero, pintura en polvo y QC propios. 10 líneas, 18,505㎡."
+      },
+      "ctaPrimary": {
+        "en": "Start Project",
+        "zh": "启动项目",
+        "de": "Projekt starten",
+        "es": "Iniciar Proyecto"
+      },
+      "ctaGhost": {
+        "en": "Our Capabilities",
+        "zh": "工厂能力",
+        "de": "Unsere Kapazitäten",
+        "es": "Nuestras Capacidades"
       }
     }
   ],
   "stats": [
     {
-      "value": "auto",
-      "_auto": "years",
+      "value": "36+",
       "label": {
-        "en": "Years Established",
-        "zh": "成立年限",
-        "de": "Jahre seit Grundung",
-        "es": "Anos desde fundacion"
+        "en": "Years of Manufacturing",
+        "zh": "年制造经验",
+        "de": "Jahre Fertigung",
+        "es": "Años de Fabricación",
+        "fr": "Années de Fabrication",
+        "it": "Anni di Produzione",
+        "ru": "Лет производства",
+        "pt": "Anos de Fabricação",
+        "ja": "年の製造経験",
+        "ko": "년 제조 경험",
+        "ar": "سنة تصنيع",
+        "nl": "Jaar Fabricage",
+        "tr": "Yıl Üretim",
+        "th": "ปีการผลิต",
+        "vi": "Năm sản xuất",
+        "hi": "वर्ष निर्माण"
       }
     },
     {
-      "value": "1990",
-      "label": {
-        "en": "Brand Origin",
-        "zh": "品牌起源",
-        "de": "Markenursprung",
-        "es": "Origen de marca"
-      }
-    },
-    {
-      "value": "18,505 m2",
+      "value": "18,505㎡",
       "label": {
         "en": "Factory Floorspace",
         "zh": "厂区面积",
-        "de": "Werkflache",
-        "es": "Area de fabrica"
-      }
-    },
-    {
-      "value": "100%",
-      "label": {
-        "en": "On-time Delivery",
-        "zh": "准时交付率",
-        "de": "Punktliche Lieferung",
-        "es": "Entrega a tiempo"
+        "de": "Werkfläche",
+        "es": "Área de Fábrica",
+        "fr": "Surface d'Usine",
+        "it": "Superficie",
+        "ru": "Площадь завода",
+        "pt": "Área de Fábrica",
+        "ja": "工場面積",
+        "ko": "공장 면적",
+        "ar": "مساحة المصنع",
+        "nl": "Fabrieksoppervlak",
+        "tr": "Fabrika Alanı",
+        "th": "พื้นที่โรงงาน",
+        "vi": "Diện tích nhà máy",
+        "hi": "फैक्ट्री क्षेत्र"
       }
     },
     {
@@ -159,129 +249,175 @@
         "en": "Production Lines",
         "zh": "生产线",
         "de": "Produktionslinien",
-        "es": "Lineas de produccion"
+        "es": "Líneas",
+        "fr": "Lignes",
+        "it": "Linee",
+        "ru": "Линий",
+        "pt": "Linhas",
+        "ja": "生産ライン",
+        "ko": "생산 라인",
+        "ar": "خطوط إنتاج",
+        "nl": "Productielijnen",
+        "tr": "Üretim Hatları",
+        "th": "สายการผลิต",
+        "vi": "Dây chuyền",
+        "hi": "उत्पादन लाइनें"
       }
     },
     {
-      "value": "91-100%",
+      "value": "91%+",
       "label": {
-        "en": "Export Percentage",
+        "en": "Export Share",
         "zh": "出口占比",
         "de": "Exportanteil",
-        "es": "Porcentaje de exportacion"
+        "es": "Exportación",
+        "fr": "Part Export",
+        "it": "Quota Export",
+        "ru": "Доля экспорта",
+        "pt": "Exportação",
+        "ja": "輸出比率",
+        "ko": "수출 비중",
+        "ar": "حصة التصدير",
+        "nl": "Exportaandeel",
+        "tr": "İhracat Payı",
+        "th": "สัดส่วนส่งออก",
+        "vi": "Tỷ lệ xuất khẩu",
+        "hi": "निर्यात हिस्सा"
       }
     }
   ],
   "why": [
     {
-      "icon": "ISO",
+      "icon": "🏭",
       "title": {
-        "en": "Retail equipment manufacturer",
-        "zh": "认证定制制造商",
-        "de": "Verifizierter Custom Manufacturer",
-        "es": "Fabricante personalizado verificado"
+        "en": "36 Years Steel Fabrication",
+        "zh": "36 年钢结构制造经验",
+        "de": "36 Jahre Stahlfertigung",
+        "es": "36 Años de Fabricación"
       },
       "desc": {
-        "en": "Factory-scale manufacturing, catalogue-backed product systems and export project experience support professional B2B procurement.",
-        "zh": "供应商评估、实地验厂与认证产能信息，支撑B2B项目采购信任。",
-        "de": "Fabrikfertigung, Katalogsysteme und verifizierbare Projektkapazitaten schaffen Vertrauen.",
-        "es": "Evaluacion de proveedor, inspeccion onsite y capacidad verificada generan confianza."
+        "en": "Founded 1990 in Suzhou. Three decades of supermarket shelving and retail fixture engineering. Stable team, proven process.",
+        "zh": "1990 年于苏州创立。三十六年专注商超货架与零售设备工程。团队稳定、工艺成熟。",
+        "de": "Gegründet 1990 in Suzhou. Drei Jahrzehnte Supermarktregal-Engineering.",
+        "es": "Fundada en 1990 en Suzhou. Tres décadas de ingeniería de estanterías."
       },
       "cta": {
-        "en": "Manufacturing proof",
-        "zh": "查看资质",
-        "de": "Nachweise ansehen",
-        "es": "Ver credenciales"
+        "en": "About Us",
+        "zh": "了解我们",
+        "de": "Über uns",
+        "es": "Sobre Nosotros"
       },
-      "link": "certs"
+      "link": "#certs"
     },
     {
-      "icon": "ODM",
+      "icon": "📐",
       "title": {
-        "en": "Drawing-based customization",
-        "zh": "图纸定制能力",
+        "en": "Drawing-Based Customization",
+        "zh": "图纸级定制能力",
         "de": "Fertigung nach Zeichnung",
-        "es": "Fabricacion basada en planos"
+        "es": "Fabricación por Planos"
       },
       "desc": {
-        "en": "Custom dimensions, structures, accessories and finishes for retail chain rollout projects.",
-        "zh": "支持零售连锁项目所需的尺寸、结构、配件与表面处理定制。",
-        "de": "Individuelle Abmessungen, Strukturen, Zubehor und Oberflachen fur Retail-Rollouts.",
-        "es": "Medidas, estructuras, accesorios y acabados a medida para proyectos retail."
+        "en": "Custom dimensions, structures, accessories and powder-coat finishes for chain store rollout projects. Tech drawing review in 48h.",
+        "zh": "支持连锁项目所需的尺寸、结构、配件与喷涂色定制。48h 内完成技术图纸评审。",
+        "de": "Custom Abmessungen, Strukturen, Zubehör für Retail-Rollouts.",
+        "es": "Medidas, estructuras y acabados a medida para proyectos retail."
       },
       "cta": {
-        "en": "Start a project",
-        "zh": "发起项目",
+        "en": "Start Project",
+        "zh": "启动项目",
         "de": "Projekt starten",
-        "es": "Iniciar proyecto"
+        "es": "Iniciar Proyecto"
       },
-      "link": "contact"
+      "link": "#contact"
     },
     {
-      "icon": "QC",
+      "icon": "🔍",
       "title": {
-        "en": "Traceable quality control",
-        "zh": "可追溯质控",
-        "de": "Ruckverfolgbare Qualitatskontrolle",
-        "es": "Control de calidad trazable"
+        "en": "Traceable QC System",
+        "zh": "可追溯质控体系",
+        "de": "Rückverfolgbare QC",
+        "es": "Control de Calidad Trazable"
       },
       "desc": {
-        "en": "Raw material identification, QA/QC inspectors and export packing checks reduce delivery risk.",
-        "zh": "原材料识别、QA/QC检验与出口包装检查，降低交付风险。",
-        "de": "Materialidentifikation, QA/QC und Exportverpackungsprufung reduzieren Risiken.",
-        "es": "Identificacion de materias primas, QA/QC y control de embalaje reducen riesgos."
+        "en": "Raw material identification, QA/QC inspectors at welding/coating/packing stages. Reduces project delivery risk.",
+        "zh": "原材料识别、焊接/喷涂/包装环节 QA/QC 检验。降低项目交付风险。",
+        "de": "Materialidentifikation, QA/QC bei Schweißen/Beschichtung/Verpackung.",
+        "es": "Identificación de materiales, QA/QC en soldadura/recubrimiento/embalaje."
       },
       "cta": {
-        "en": "Quality system",
+        "en": "Quality System",
         "zh": "质控体系",
-        "de": "Qualitatssystem",
-        "es": "Sistema de calidad"
+        "de": "Qualitätssystem",
+        "es": "Sistema de Calidad"
       },
-      "link": "certs"
+      "link": "#certs"
     },
     {
-      "icon": "FAST",
+      "icon": "⚡",
       "title": {
-        "en": "Fast response, project-ready team",
-        "zh": "快速响应项目团队",
-        "de": "Schnelles Projektteam",
-        "es": "Equipo rapido para proyectos"
+        "en": "Project-Ready Team",
+        "zh": "项目就绪团队",
+        "de": "Projekt-Team",
+        "es": "Equipo Listo"
       },
       "desc": {
-        "en": "Experienced commercial and project teams help shorten specification review, sample confirmation and rollout communication cycles.",
-        "zh": "2小时内响应，成熟外贸团队帮助缩短规格确认周期。",
-        "de": "Antwortzeit unter 2 Stunden und erfahrenes Exportteam verkurzen Abstimmungen.",
-        "es": "Respuesta en 2 horas y equipo exportador experto acortan la definicion tecnica."
+        "en": "Experienced export team. Specification review, sample confirmation and rollout communication in days, not weeks.",
+        "zh": "成熟外贸团队。规格确认、样品验证、项目沟通以天计而非周计。",
+        "de": "Erfahrenes Exportteam. Spezifikationsabstimmung in Tagen.",
+        "es": "Equipo exportador. Confirmación de especificaciones en días."
       },
       "cta": {
-        "en": "Talk to sales",
+        "en": "Talk to Sales",
         "zh": "联系销售",
         "de": "Vertrieb kontaktieren",
-        "es": "Hablar con ventas"
+        "es": "Hablar con Ventas"
       },
-      "link": "contact"
+      "link": "#contact"
     },
     {
-      "icon": "GLOBAL",
+      "icon": "🌍",
       "title": {
-        "en": "Export-oriented capacity",
-        "zh": "出口导向产能",
-        "de": "Exportorientierte Kapazitat",
-        "es": "Capacidad orientada a exportacion"
+        "en": "91%+ Export Capacity",
+        "zh": "91%+ 出口产能",
+        "de": "91%+ Exportkapazität",
+        "es": "91%+ Capacidad Export"
       },
       "desc": {
-        "en": "Product systems are designed for retail equipment buyers, distributors and project contractors across global markets.",
-        "zh": "主要市场覆盖欧洲、北美、大洋洲与南美，适合商超设备采购商。",
-        "de": "Hauptmarkte sind Europa, Nordamerika, Ozeanien und Sudamerika.",
-        "es": "Mercados principales: Europa, Norteamerica, Oceania y Sudamerica."
+        "en": "Designed for global B2B buyers. Active distributor and chain-store rollout clients across Europe, North America, Oceania and South America.",
+        "zh": "为全球 B2B 采购商设计。欧洲、北美、大洋洲、南美均有活跃分销商与连锁项目客户。",
+        "de": "Aktive Händler in Europa, Nordamerika, Ozeanien, Südamerika.",
+        "es": "Distribuidores activos en Europa, Norteamérica, Oceanía y Sudamérica."
       },
       "cta": {
-        "en": "Market coverage",
-        "zh": "市场覆盖",
-        "de": "Marktabdeckung",
-        "es": "Cobertura de mercado"
+        "en": "Markets",
+        "zh": "服务市场",
+        "de": "Märkte",
+        "es": "Mercados"
       },
-      "link": "partners"
+      "link": "#partners"
+    },
+    {
+      "icon": "📦",
+      "title": {
+        "en": "Export Packing Standard",
+        "zh": "出口包装标准",
+        "de": "Export-Verpackungsstandard",
+        "es": "Embalaje de Exportación"
+      },
+      "desc": {
+        "en": "Plywood crates, foam protection, container-loading optimization. Direct FCL/LCL shipping support from Shanghai and Ningbo ports.",
+        "zh": "胶合板木箱、泡沫防撞、装柜优化。支持上海、宁波港 FCL/LCL 直发。",
+        "de": "Sperrholzkisten, Schaumschutz, Container-Optimierung.",
+        "es": "Cajas de madera, protección, optimización de contenedores."
+      },
+      "cta": {
+        "en": "Logistics",
+        "zh": "物流方案",
+        "de": "Logistik",
+        "es": "Logística"
+      },
+      "link": "#contact"
     }
   ],
   "categories": [
@@ -16198,50 +16334,70 @@
   ],
   "certs": [
     {
-      "id": "manufacturing-capability",
       "title": {
-        "en": "Manufacturing Capability",
-        "zh": "制造能力",
-        "de": "Fertigungskapazitat",
-        "es": "Capacidad de fabricacion"
+        "en": "ISO 9001 Quality System",
+        "zh": "ISO 9001 质量体系",
+        "de": "ISO 9001 Qualitätssystem",
+        "es": "ISO 9001"
       },
       "desc": {
-        "en": "Factory-scale production for supermarket shelving, warehouse racks, shopping trolleys and supporting retail equipment systems.",
-        "zh": "面向商超货架、仓储架、购物车与配套零售设备系统的工厂级生产能力。",
-        "de": "Fabrikproduktion fur Supermarktregale, Lagerregale, Einkaufswagen und Retail-Systeme.",
-        "es": "Produccion industrial para estanterias, racks, carros y sistemas retail."
+        "en": "Quality management system certified per ISO 9001 standard. Documented procedures across procurement, production and shipping.",
+        "zh": "通过 ISO 9001 质量管理体系认证。采购、生产、发货全流程标准化文档。",
+        "de": "ISO 9001 zertifiziertes Qualitätsmanagement.",
+        "es": "Sistema certificado ISO 9001."
       },
       "image": "",
-      "verifyUrl": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
       "verifyLabel": {
-        "en": "Open catalogue",
-        "zh": "打开产品册",
-        "de": "Katalog offnen",
-        "es": "Abrir catalogo"
-      }
+        "en": "View Certificate",
+        "zh": "查看证书",
+        "de": "Zertifikat",
+        "es": "Certificado"
+      },
+      "verifyUrl": ""
     },
     {
-      "id": "project-customization",
       "title": {
-        "en": "Project Customization",
-        "zh": "项目定制能力",
-        "de": "Projektanpassung",
-        "es": "Personalizacion de proyecto"
+        "en": "Onsite Factory Verified",
+        "zh": "实地工厂核验",
+        "de": "Werk vor Ort verifiziert",
+        "es": "Fábrica Verificada"
       },
       "desc": {
-        "en": "Catalogue-based product systems support drawing review, size configuration, color finish and project packaging discussions.",
-        "zh": "基于产品册的产品系统支持图纸评估、尺寸配置、颜色表面处理与项目包装沟通。",
-        "de": "Katalogbasierte Systeme unterstutzen Zeichnungsprufung, Grossen, Farben und Verpackung.",
-        "es": "Sistemas de catalogo con revision de planos, medidas, acabados y embalaje."
+        "en": "Factory inspected and legal status confirmed by third-party (Alibaba / SGS). 18,505㎡ facility, 10 production lines, 300+ workers.",
+        "zh": "经第三方机构（Alibaba / SGS）实地核验工厂资质。18,505㎡ 厂区、10 条产线、300+ 员工。",
+        "de": "Werksprüfung durch Dritte (Alibaba / SGS).",
+        "es": "Inspección de fábrica por terceros."
       },
       "image": "",
-      "verifyUrl": "#catalogue",
       "verifyLabel": {
-        "en": "View pages",
-        "zh": "查看页面",
-        "de": "Seiten ansehen",
-        "es": "Ver paginas"
-      }
+        "en": "Verify",
+        "zh": "核验",
+        "de": "Verifizieren",
+        "es": "Verificar"
+      },
+      "verifyUrl": ""
+    },
+    {
+      "title": {
+        "en": "Trade Assurance",
+        "zh": "贸易保障",
+        "de": "Handelsgarantie",
+        "es": "Garantía Comercial"
+      },
+      "desc": {
+        "en": "100% protection on product quality and on-time shipment, backed by Alibaba.com escrow.",
+        "zh": "产品质量与按时交货 100% 保障，Alibaba.com 资金托管。",
+        "de": "100% Schutz für Produktqualität und pünktliche Lieferung.",
+        "es": "100% protección en calidad y envío."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "Learn More",
+        "zh": "了解更多",
+        "de": "Mehr erfahren",
+        "es": "Más Información"
+      },
+      "verifyUrl": ""
     }
   ],
   "fairs": [
@@ -16287,40 +16443,64 @@
   ],
   "partners": [
     {
-      "name": "Grocery Chains",
-      "logo": "",
-      "year": "",
-      "region": "Europe"
+      "name": {
+        "en": "Supermarket Chains",
+        "zh": "连锁商超",
+        "de": "Supermarktketten",
+        "es": "Cadenas Supermercado"
+      },
+      "icon": "🛒",
+      "color": "#0A4A8C"
     },
     {
-      "name": "Retail Stores",
-      "logo": "",
-      "year": "",
-      "region": "North America"
+      "name": {
+        "en": "Wholesale Clubs",
+        "zh": "批发会员店",
+        "de": "Großhandelsclubs",
+        "es": "Clubes Mayoristas"
+      },
+      "icon": "📦",
+      "color": "#E63946"
     },
     {
-      "name": "Warehouse Projects",
-      "logo": "",
-      "year": "",
-      "region": "Oceania"
+      "name": {
+        "en": "Warehouse Operators",
+        "zh": "仓储运营商",
+        "de": "Lagerbetreiber",
+        "es": "Operadores"
+      },
+      "icon": "🏗",
+      "color": "#073565"
     },
     {
-      "name": "Wholesale Clubs",
-      "logo": "",
-      "year": "",
-      "region": "South America"
+      "name": {
+        "en": "Retail Distributors",
+        "zh": "零售设备分销商",
+        "de": "Einzelhandelsdistributoren",
+        "es": "Distribuidores"
+      },
+      "icon": "🚚",
+      "color": "#0A4A8C"
     },
     {
-      "name": "Equipment Distributors",
-      "logo": "",
-      "year": "",
-      "region": "Middle East"
+      "name": {
+        "en": "Store Rollout Contractors",
+        "zh": "门店项目承包商",
+        "de": "Rollout-Auftragnehmer",
+        "es": "Contratistas"
+      },
+      "icon": "🔧",
+      "color": "#E63946"
     },
     {
-      "name": "Store Fixture Buyers",
-      "logo": "",
-      "year": "",
-      "region": "Global"
+      "name": {
+        "en": "Convenience Stores",
+        "zh": "便利店连锁",
+        "de": "Convenience-Stores",
+        "es": "Tiendas Conveniencia"
+      },
+      "icon": "🏪",
+      "color": "#073565"
     }
   ],
   "regions": [
@@ -16330,13 +16510,13 @@
         "en": "North America",
         "zh": "北美",
         "de": "Nordamerika",
-        "es": "Norteamerica"
+        "es": "Norteamérica"
       },
       "sub": {
-        "en": "Retail chains, grocery stores and warehouse clubs.",
-        "zh": "连锁零售、食品商超与仓储会员店。",
-        "de": "Retail-Ketten, Lebensmittelgeschafte und Warehouse Clubs.",
-        "es": "Cadenas retail, supermercados y clubes mayoristas."
+        "en": "USA, Canada — grocery chains, warehouse clubs",
+        "zh": "美国、加拿大 — 商超与会员店",
+        "de": "USA, Kanada",
+        "es": "EE.UU., Canadá"
       }
     },
     {
@@ -16348,10 +16528,10 @@
         "es": "Europa"
       },
       "sub": {
-        "en": "Southern and Eastern Europe project sourcing.",
-        "zh": "南欧与东欧项目采购。",
-        "de": "Projektbeschaffung in Sud- und Osteuropa.",
-        "es": "Abastecimiento de proyectos en Europa del Sur y Este."
+        "en": "Southern + Eastern Europe — project sourcing",
+        "zh": "南欧、东欧 — 项目采购",
+        "de": "Süd- + Osteuropa",
+        "es": "Sur y Este de Europa"
       }
     },
     {
@@ -16360,13 +16540,13 @@
         "en": "Oceania",
         "zh": "大洋洲",
         "de": "Ozeanien",
-        "es": "Oceania"
+        "es": "Oceanía"
       },
       "sub": {
-        "en": "Durable store equipment for regional retail expansion.",
-        "zh": "适合区域零售扩张的耐用门店设备。",
-        "de": "Robuste Store-Ausstattung fur regionale Expansion.",
-        "es": "Equipos duraderos para expansion regional."
+        "en": "Australia, NZ — durable store equipment",
+        "zh": "澳大利亚、新西兰 — 耐用门店设备",
+        "de": "Australien, Neuseeland",
+        "es": "Australia, NZ"
       }
     },
     {
@@ -16374,14 +16554,14 @@
       "name": {
         "en": "Emerging Markets",
         "zh": "新兴市场",
-        "de": "Wachstumsmarkte",
-        "es": "Mercados emergentes"
+        "de": "Emerging Markets",
+        "es": "Mercados Emergentes"
       },
       "sub": {
-        "en": "Cost-effective shelving and trolley solutions.",
-        "zh": "高性价比货架与购物车解决方案。",
-        "de": "Kosteneffiziente Regal- und Wagenlosungen.",
-        "es": "Soluciones rentables de estanterias y carros."
+        "en": "South America, MEA — cost-effective shelving",
+        "zh": "南美、中东非 — 高性价比货架",
+        "de": "Südamerika, MEA",
+        "es": "Sudamérica, MEA"
       }
     }
   ],
@@ -16831,5 +17011,455 @@
         "es": "6 registros de producto."
       }
     }
-  ]
+  ],
+  "ui": {
+    "navHome": {
+      "en": "Home",
+      "zh": "首页",
+      "de": "Startseite",
+      "es": "Inicio",
+      "fr": "Accueil",
+      "it": "Home",
+      "ru": "Главная",
+      "pt": "Início",
+      "ja": "ホーム",
+      "ko": "홈",
+      "ar": "الرئيسية",
+      "nl": "Home",
+      "tr": "Anasayfa",
+      "th": "หน้าแรก",
+      "vi": "Trang chủ",
+      "hi": "होम"
+    },
+    "navCerts": {
+      "en": "Credentials",
+      "zh": "认证资质",
+      "de": "Zertifikate",
+      "es": "Credenciales",
+      "fr": "Certifications",
+      "it": "Credenziali",
+      "ru": "Сертификаты",
+      "pt": "Credenciais",
+      "ja": "認証",
+      "ko": "인증",
+      "ar": "الشهادات",
+      "nl": "Certificaten",
+      "tr": "Sertifikalar",
+      "th": "การรับรอง",
+      "vi": "Chứng chỉ",
+      "hi": "प्रमाणपत्र"
+    },
+    "navCatalog": {
+      "en": "Product Catalog",
+      "zh": "产品目录",
+      "de": "Produktkatalog",
+      "es": "Catalogo",
+      "fr": "Catalogue",
+      "it": "Catalogo",
+      "ru": "Каталог",
+      "pt": "Catálogo",
+      "ja": "製品カタログ",
+      "ko": "제품 카탈로그",
+      "ar": "كتالوج المنتجات",
+      "nl": "Catalogus",
+      "tr": "Katalog",
+      "th": "แคตตาล็อก",
+      "vi": "Danh mục",
+      "hi": "कैटलॉग"
+    },
+    "navPartners": {
+      "en": "Who We Serve",
+      "zh": "合作客户",
+      "de": "Unsere Kunden",
+      "es": "A Quien Servimos",
+      "fr": "Nos Clients",
+      "it": "I Nostri Clienti",
+      "ru": "Наши клиенты",
+      "pt": "Quem Servimos",
+      "ja": "取引先",
+      "ko": "고객사",
+      "ar": "عملاؤنا",
+      "nl": "Klanten",
+      "tr": "Müşterilerimiz",
+      "th": "ลูกค้า",
+      "vi": "Khách hàng",
+      "hi": "हमारे ग्राहक"
+    },
+    "navStaff": {
+      "en": "Intel & Persona",
+      "zh": "情报/画像",
+      "de": "Intel & Persona",
+      "es": "Inteligencia",
+      "fr": "Intel",
+      "it": "Intel",
+      "ru": "Аналитика",
+      "pt": "Intel",
+      "ja": "情報",
+      "ko": "인텔",
+      "ar": "المعلومات",
+      "nl": "Intel",
+      "tr": "İstihbarat",
+      "th": "ข้อมูล",
+      "vi": "Thông tin",
+      "hi": "इंटेल"
+    },
+    "navSop": {
+      "en": "Scripts & SOP",
+      "zh": "话术/SOP",
+      "de": "Skripte & SOP",
+      "es": "Guiones & SOP",
+      "fr": "SOP",
+      "it": "SOP",
+      "ru": "Сценарии",
+      "pt": "SOP",
+      "ja": "スクリプト",
+      "ko": "스크립트",
+      "ar": "السيناريوهات",
+      "nl": "SOP",
+      "tr": "Senaryolar",
+      "th": "สคริปต์",
+      "vi": "Kịch bản",
+      "hi": "स्क्रिप्ट"
+    },
+    "ctaContact": {
+      "en": "Request Project Quote",
+      "zh": "项目询价",
+      "de": "Projektangebot",
+      "es": "Cotización de Proyecto",
+      "fr": "Devis projet",
+      "it": "Preventivo Progetto",
+      "ru": "Запрос проекта",
+      "pt": "Cotação de Projeto",
+      "ja": "プロジェクト見積",
+      "ko": "프로젝트 견적",
+      "ar": "عرض المشروع",
+      "nl": "Projectofferte",
+      "tr": "Proje Teklifi",
+      "th": "ขอใบเสนอราคา",
+      "vi": "Báo giá dự án",
+      "hi": "प्रोजेक्ट कोटेशन"
+    },
+    "ctaCatalog": {
+      "en": "View Catalog",
+      "zh": "浏览目录",
+      "de": "Katalog ansehen",
+      "es": "Ver Catalogo",
+      "fr": "Voir le catalogue",
+      "it": "Vedi catalogo",
+      "ru": "Каталог",
+      "pt": "Ver catálogo",
+      "ja": "カタログ",
+      "ko": "카탈로그",
+      "ar": "الكتالوج",
+      "nl": "Bekijk catalogus",
+      "tr": "Kataloğa bak",
+      "th": "ดูแคตตาล็อก",
+      "vi": "Xem danh mục",
+      "hi": "कैटलॉग देखें"
+    },
+    "ctaInquire": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "de": "Angebot anfordern",
+      "es": "Solicitar Cotización",
+      "fr": "Demander un devis",
+      "it": "Richiedi preventivo",
+      "ru": "Запросить цену",
+      "pt": "Solicitar cotação",
+      "ja": "見積依頼",
+      "ko": "견적 요청",
+      "ar": "اطلب عرض سعر",
+      "nl": "Offerte aanvragen",
+      "tr": "Fiyat İste",
+      "th": "ขอใบเสนอราคา",
+      "vi": "Yêu cầu báo giá",
+      "hi": "कोटेशन माँगें"
+    },
+    "catalogEyebrow": {
+      "en": "CATALOG",
+      "zh": "产品目录",
+      "de": "KATALOG",
+      "es": "CATÁLOGO",
+      "fr": "CATALOGUE",
+      "it": "CATALOGO",
+      "ru": "КАТАЛОГ",
+      "pt": "CATÁLOGO",
+      "ja": "カタログ",
+      "ko": "카탈로그",
+      "ar": "الكتالوج",
+      "nl": "CATALOGUS",
+      "tr": "KATALOG",
+      "th": "แคตตาล็อก",
+      "vi": "DANH MỤC",
+      "hi": "कैटलॉग"
+    },
+    "catalogPageTitle": {
+      "en": "Product Catalog",
+      "zh": "产品目录",
+      "de": "Produktkatalog",
+      "es": "Catálogo de Productos",
+      "fr": "Catalogue Produits",
+      "it": "Catalogo Prodotti",
+      "ru": "Каталог продукции",
+      "pt": "Catálogo de Produtos",
+      "ja": "製品カタログ",
+      "ko": "제품 카탈로그",
+      "ar": "كتالوج المنتجات",
+      "nl": "Productcatalogus",
+      "tr": "Ürün Kataloğu",
+      "th": "แคตตาล็อกสินค้า",
+      "vi": "Danh mục sản phẩm",
+      "hi": "उत्पाद कैटलॉग"
+    },
+    "catalogSearchHint": {
+      "en": "Search by model or name...",
+      "zh": "按型号或名称搜索...",
+      "de": "Suche nach Modell oder Name...",
+      "es": "Buscar por modelo o nombre...",
+      "fr": "Rechercher par modèle ou nom...",
+      "it": "Cerca per modello o nome...",
+      "ru": "Поиск по модели или имени...",
+      "pt": "Buscar por modelo ou nome...",
+      "ja": "型番または名称で検索...",
+      "ko": "모델 또는 이름으로 검색...",
+      "ar": "ابحث بالنموذج أو الاسم...",
+      "nl": "Zoeken op model of naam...",
+      "tr": "Model veya ad ile ara...",
+      "th": "ค้นหาตามรุ่นหรือชื่อ...",
+      "vi": "Tìm theo mẫu hoặc tên...",
+      "hi": "मॉडल या नाम से खोजें..."
+    },
+    "filterAll": {
+      "en": "All Categories",
+      "zh": "全部分类",
+      "de": "Alle Kategorien",
+      "es": "Todas las Categorías",
+      "fr": "Toutes les catégories",
+      "it": "Tutte le categorie",
+      "ru": "Все категории",
+      "pt": "Todas as categorias",
+      "ja": "すべて",
+      "ko": "모든 카테고리",
+      "ar": "كل الفئات",
+      "nl": "Alle categorieën",
+      "tr": "Tüm Kategoriler",
+      "th": "ทั้งหมด",
+      "vi": "Tất cả",
+      "hi": "सभी श्रेणियाँ"
+    },
+    "backHome": {
+      "en": "← Back to Home",
+      "zh": "← 返回首页",
+      "de": "← Zur Startseite",
+      "es": "← Volver al Inicio",
+      "fr": "← Retour à l'accueil",
+      "it": "← Torna alla home",
+      "ru": "← Назад на главную",
+      "pt": "← Voltar ao início",
+      "ja": "← ホームに戻る",
+      "ko": "← 홈으로",
+      "ar": "← العودة للرئيسية",
+      "nl": "← Terug naar home",
+      "tr": "← Anasayfaya dön",
+      "th": "← กลับหน้าแรก",
+      "vi": "← Về trang chủ",
+      "hi": "← होम पर वापस"
+    }
+  },
+  "footer": {
+    "ourCompany": {
+      "en": "Our Company",
+      "zh": "关于我们",
+      "de": "Unser Unternehmen",
+      "es": "Nuestra Empresa"
+    },
+    "contact": {
+      "en": "Contact",
+      "zh": "联系我们",
+      "de": "Kontakt",
+      "es": "Contacto",
+      "fr": "Contact",
+      "it": "Contatti",
+      "ru": "Контакты",
+      "pt": "Contato",
+      "ja": "お問い合わせ",
+      "ko": "문의",
+      "ar": "اتصل بنا",
+      "nl": "Contact",
+      "tr": "İletişim",
+      "th": "ติดต่อเรา",
+      "vi": "Liên hệ",
+      "hi": "संपर्क"
+    },
+    "address": {
+      "en": "Address",
+      "zh": "地址",
+      "de": "Adresse",
+      "es": "Dirección",
+      "fr": "Adresse",
+      "it": "Indirizzo",
+      "ru": "Адрес",
+      "pt": "Endereço",
+      "ja": "所在地",
+      "ko": "주소",
+      "ar": "العنوان",
+      "nl": "Adres",
+      "tr": "Adres",
+      "th": "ที่อยู่",
+      "vi": "Địa chỉ",
+      "hi": "पता"
+    },
+    "capabilities": {
+      "en": "Capabilities",
+      "zh": "工厂能力",
+      "de": "Kompetenzen",
+      "es": "Capacidades",
+      "fr": "Capacités",
+      "it": "Capacità",
+      "ru": "Возможности",
+      "pt": "Capacidades",
+      "ja": "能力",
+      "ko": "역량",
+      "ar": "الإمكانيات",
+      "nl": "Capaciteiten",
+      "tr": "Yetkinlikler",
+      "th": "ความสามารถ",
+      "vi": "Năng lực",
+      "hi": "क्षमताएँ"
+    },
+    "rights": {
+      "en": "All rights reserved.",
+      "zh": "版权所有",
+      "de": "Alle Rechte vorbehalten.",
+      "es": "Todos los derechos reservados.",
+      "fr": "Tous droits réservés.",
+      "it": "Tutti i diritti riservati.",
+      "ru": "Все права защищены.",
+      "pt": "Todos os direitos reservados.",
+      "ja": "全著作権所有",
+      "ko": "모든 권리 보유",
+      "ar": "جميع الحقوق محفوظة",
+      "nl": "Alle rechten voorbehouden.",
+      "tr": "Tüm hakları saklıdır.",
+      "th": "สงวนลิขสิทธิ์",
+      "vi": "Bảo lưu mọi quyền.",
+      "hi": "सर्वाधिकार सुरक्षित।"
+    }
+  },
+  "whyTitle": {
+    "en": "Why Yuanda",
+    "zh": "为什么选远大",
+    "de": "Warum Yuanda",
+    "es": "Por qué Yuanda",
+    "fr": "Pourquoi Yuanda",
+    "it": "Perché Yuanda",
+    "ru": "Почему Yuanda",
+    "pt": "Por que Yuanda",
+    "ja": "なぜYuanda",
+    "ko": "왜 Yuanda",
+    "ar": "لماذا Yuanda",
+    "nl": "Waarom Yuanda",
+    "tr": "Neden Yuanda",
+    "th": "ทำไมต้อง Yuanda",
+    "vi": "Vì sao chọn Yuanda",
+    "hi": "Yuanda क्यों"
+  },
+  "whySub": {
+    "en": "Six reasons retail buyers, distributors and project contractors source from us.",
+    "zh": "零售采购商、分销商与项目承包方选择远大的六大理由",
+    "de": "Sechs Gründe, warum Käufer bei Yuanda einkaufen.",
+    "es": "Seis razones para elegir Yuanda."
+  },
+  "catsTitle": {
+    "en": "Three Product Systems",
+    "zh": "三大产品系统",
+    "de": "Drei Produktsysteme",
+    "es": "Tres Sistemas de Producto"
+  },
+  "catsSub": {
+    "en": "150+ models across three core retail equipment lines.",
+    "zh": "三大核心零售设备系列下 150+ 款型号",
+    "de": "150+ Modelle in drei Kernlinien.",
+    "es": "150+ modelos en tres líneas principales."
+  },
+  "cats": [
+    {
+      "img": "hero/hero1.png",
+      "title": {
+        "en": "Supermarket Shelving",
+        "zh": "商超货架系列",
+        "de": "Supermarktregale",
+        "es": "Estanterías"
+      },
+      "sub": {
+        "en": "36+ gondola, end-cap, wall and display shelf models.",
+        "zh": "36+ 款中岛、端架、靠墙与展示货架",
+        "de": "36+ Gondel-, Endregal-, Wand- und Displayregale.",
+        "es": "36+ modelos."
+      },
+      "searchKey": "supermarket-shelf"
+    },
+    {
+      "img": "hero/hero2.png",
+      "title": {
+        "en": "Shopping Trolleys & Baskets",
+        "zh": "购物车与购物篮",
+        "de": "Einkaufswagen & Körbe",
+        "es": "Carros y Cestas"
+      },
+      "sub": {
+        "en": "45+ trolley, 24+ basket models. Metal, plastic, hybrid.",
+        "zh": "45+ 款购物车、24+ 款购物篮。金属/塑料/复合结构",
+        "de": "45+ Wagen, 24+ Körbe. Metall, Kunststoff, Hybrid.",
+        "es": "45+ carros, 24+ cestas."
+      },
+      "searchKey": "shopping-trolley-cart"
+    },
+    {
+      "img": "hero/hero3.png",
+      "title": {
+        "en": "Warehouse Rack & Logistics",
+        "zh": "仓储架与物流设备",
+        "de": "Lagerregale & Logistik",
+        "es": "Racks y Logística"
+      },
+      "sub": {
+        "en": "Heavy-duty racks, pallets, roll containers, entrance equipment.",
+        "zh": "重型货架、托盘、滚笼、入口设备",
+        "de": "Schwerlast-Regale, Paletten, Rollcontainer, Eingangsausstattung.",
+        "es": "Racks pesados, palets, contenedores, equipo de entrada."
+      },
+      "searchKey": "warehouse-rack"
+    }
+  ],
+  "partnersTitle": {
+    "en": "Who We Serve",
+    "zh": "合作客户类型",
+    "de": "Unsere Kunden",
+    "es": "A Quien Servimos"
+  },
+  "partnersSub": {
+    "en": "Six categories of professional B2B buyers running our equipment.",
+    "zh": "使用我们设备的六类专业 B2B 采购商",
+    "de": "Sechs Kategorien professioneller B2B-Käufer.",
+    "es": "Seis categorías de compradores B2B."
+  },
+  "regionsTitle": {
+    "en": "Markets We Serve",
+    "zh": "服务市场",
+    "de": "Unsere Märkte",
+    "es": "Nuestros Mercados"
+  },
+  "regionsSub": {
+    "en": "Active project clients across four major regions.",
+    "zh": "四大地区项目客户在运行",
+    "de": "Aktive Projektkunden in vier Regionen.",
+    "es": "Clientes activos en cuatro regiones."
+  },
+  "certsTitle": {
+    "en": "Credentials & Verification",
+    "zh": "认证资质",
+    "de": "Zertifikate & Verifizierung",
+    "es": "Credenciales"
+  }
 }
