@@ -3099,10 +3099,10 @@
       "es": "Por que Yuanda"
     },
     "catsTitle": {
-      "en": "Three Product Systems",
-      "zh": "三大产品系统",
-      "de": "Drei Produktsysteme",
-      "es": "Tres sistemas de producto"
+      "en": "Six Product Systems",
+      "zh": "六大产品系统",
+      "de": "Sechs Produktsysteme",
+      "es": "Seis sistemas de producto"
     },
     "certTitle": {
       "en": "Verified capabilities",
@@ -3879,16 +3879,40 @@
     "es": "Seis razones para elegir Yuanda."
   },
   "catsTitle": {
-    "en": "Three Product Systems",
-    "zh": "三大产品系统",
-    "de": "Drei Produktsysteme",
-    "es": "Tres Sistemas de Producto"
+    "en": "Six Product Systems",
+    "zh": "六大产品系统",
+    "de": "Sechs Produktsysteme",
+    "es": "Seis sistemas de producto",
+    "fr": "Six systèmes de produit",
+    "it": "Sei sistemi di prodotto",
+    "pt": "Seis sistemas de produto",
+    "nl": "Zes productsystemen",
+    "ru": "Шесть продуктовых систем",
+    "tr": "Altı ürün sistemi",
+    "ja": "6 つの製品システム",
+    "ko": "6대 제품 시스템",
+    "th": "6 ระบบสินค้า",
+    "vi": "6 hệ thống sản phẩm",
+    "hi": "छह उत्पाद प्रणालियाँ",
+    "ar": "ستة أنظمة منتجات"
   },
   "catsSub": {
-    "en": "150+ models across three core retail equipment lines.",
-    "zh": "三大核心零售设备系列下 150+ 款型号",
-    "de": "150+ Modelle in drei Kernlinien.",
-    "es": "150+ modelos en tres líneas principales."
+    "en": "Six retail equipment lines covering supermarket, warehouse, trolley, checkout, basket and mall accessories — continuously expanding.",
+    "zh": "覆盖超市货架、仓储货架、手推车、收银台、购物篮、商场配套设备六大零售装备品类，型号持续上新。",
+    "de": "Sechs Einzelhandels-Ausrüstungslinien — Sortiment wird kontinuierlich erweitert.",
+    "es": "Seis líneas de equipamiento retail en expansión continua.",
+    "fr": "Six gammes d'équipements de vente au détail en expansion continue.",
+    "it": "Sei linee di attrezzature retail in continua espansione.",
+    "pt": "Seis linhas de equipamentos de varejo em expansão contínua.",
+    "nl": "Zes retail-uitrustingslijnen, voortdurend uitgebreid.",
+    "ru": "Шесть направлений торгового оборудования, ассортимент постоянно расширяется.",
+    "tr": "Sürekli genişleyen altı perakende ekipman serisi.",
+    "ja": "6 つの小売設備ラインを継続的に拡充。",
+    "ko": "6대 리테일 설비 라인을 지속적으로 확장 중.",
+    "th": "6 กลุ่มอุปกรณ์ค้าปลีก ขยายตัวอย่างต่อเนื่อง",
+    "vi": "6 dòng thiết bị bán lẻ, liên tục mở rộng.",
+    "hi": "छह रिटेल उपकरण श्रेणियाँ, निरंतर विस्तार।",
+    "ar": "ست خطوط من معدات البيع بالتجزئة، في توسع مستمر."
   },
   "cats": [
     {
