@@ -2853,10 +2853,22 @@
         "es": "Fábrica Verificada"
       },
       "desc": {
-        "en": "Factory inspected and legal status confirmed by third-party (Alibaba / SGS). 18,505㎡ facility, 10 production lines, 300+ workers.",
-        "zh": "经第三方机构（Alibaba / SGS）实地核验工厂资质。18,505㎡ 厂区、10 条产线、300+ 员工。",
-        "de": "Werksprüfung durch Dritte (Alibaba / SGS).",
-        "es": "Inspección de fábrica por terceros."
+        "en": "Factory inspected and legal status confirmed by independent third-party bodies (SGS / TÜV). 18,505㎡ facility, 10 production lines, 300+ workers.",
+        "zh": "厂区资质经独立第三方机构（SGS / TÜV）实地核验。18,505㎡ 厂区、10 条产线、300+ 员工。",
+        "de": "Werk vor Ort durch unabhängige Drittprüfstellen (SGS / TÜV) verifiziert. 18.505㎡ Fläche, 10 Linien, 300+ Mitarbeiter.",
+        "es": "Fábrica verificada in situ por terceros independientes (SGS / TÜV). 18 505㎡, 10 líneas, 300+ trabajadores.",
+        "fr": "Usine vérifiée sur site par des tiers indépendants (SGS / TÜV). 18 505 m², 10 lignes, 300+ ouvriers.",
+        "it": "Stabilimento verificato in loco da enti terzi indipendenti (SGS / TÜV). 18.505 m², 10 linee, 300+ operai.",
+        "pt": "Fábrica verificada no local por terceiros independentes (SGS / TÜV). 18.505 m², 10 linhas, 300+ trabalhadores.",
+        "nl": "Fabriek ter plaatse geverifieerd door onafhankelijke derden (SGS / TÜV). 18.505 m², 10 lijnen, 300+ medewerkers.",
+        "ru": "Завод проверен на месте независимыми третьими сторонами (SGS / TÜV). 18 505 м², 10 линий, 300+ сотрудников.",
+        "tr": "Fabrika bağımsız üçüncü taraflarca (SGS / TÜV) yerinde doğrulanmıştır. 18.505 m², 10 hat, 300+ işçi.",
+        "ja": "独立第三者機関（SGS / TÜV）による現地工場監査済み。18,505㎡、10 ライン、300+ 名。",
+        "ko": "독립 제3자 기관(SGS / TÜV)이 현장 공장 검증 완료. 18,505㎡, 10 라인, 300+ 명.",
+        "th": "โรงงานผ่านการตรวจสอบ ณ สถานที่จริงโดยหน่วยงานอิสระ (SGS / TÜV). 18,505 ตร.ม. 10 สายการผลิต 300+ คน",
+        "vi": "Nhà máy được kiểm tra tại chỗ bởi tổ chức độc lập (SGS / TÜV). 18.505 m², 10 dây chuyền, 300+ công nhân.",
+        "hi": "स्वतंत्र तृतीय-पक्ष निकायों (SGS / TÜV) द्वारा ऑनसाइट कारखाना सत्यापित। 18,505 वर्गमीटर, 10 लाइनें, 300+ कर्मचारी।",
+        "ar": "تم التحقق من المصنع في الموقع من قبل جهات مستقلة (SGS / TÜV). 18,505 م²، 10 خطوط، 300+ عامل."
       },
       "image": "",
       "verifyLabel": {
@@ -2869,16 +2881,40 @@
     },
     {
       "title": {
-        "en": "Trade Assurance",
-        "zh": "贸易保障",
-        "de": "Handelsgarantie",
-        "es": "Garantía Comercial"
+        "en": "Payment & Order Security",
+        "zh": "资金与订单安全",
+        "de": "Zahlungs- und Auftragssicherheit",
+        "es": "Seguridad de pago y pedido",
+        "fr": "Sécurité paiement et commande",
+        "it": "Sicurezza pagamento e ordine",
+        "pt": "Segurança de pagamento e pedido",
+        "nl": "Betalings- en orderbeveiliging",
+        "ru": "Безопасность платежа и заказа",
+        "tr": "Ödeme ve sipariş güvenliği",
+        "ja": "支払い・注文の安全保証",
+        "ko": "결제 및 주문 보안",
+        "th": "ความปลอดภัยการชำระเงินและคำสั่งซื้อ",
+        "vi": "An toàn thanh toán & đơn hàng",
+        "hi": "भुगतान और ऑर्डर सुरक्षा",
+        "ar": "أمان الدفع والطلب"
       },
       "desc": {
-        "en": "100% protection on product quality and on-time shipment, backed by Alibaba.com escrow.",
-        "zh": "产品质量与按时交货 100% 保障，Alibaba.com 资金托管。",
-        "de": "100% Schutz für Produktqualität und pünktliche Lieferung.",
-        "es": "100% protección en calidad y envío."
+        "en": "Bank L/C, escrow via licensed third-party payment gateways and project milestone billing — 100% protection on quality and on-time shipment.",
+        "zh": "接受银行信用证 (L/C)、持牌第三方支付通道资金托管与项目里程碑结算，产品质量与按时交货 100% 保障。",
+        "de": "Bank-Akkreditiv (L/C), Treuhand über lizenzierte Zahlungs-Gateways und Meilenstein-Abrechnung — 100 % Schutz für Qualität und Liefertermin.",
+        "es": "Carta de crédito bancaria (L/C), depósito en garantía mediante pasarelas autorizadas y facturación por hitos — 100 % de protección.",
+        "fr": "Lettre de crédit bancaire (L/C), séquestre via passerelles agréées et facturation par jalons — 100 % de protection.",
+        "it": "Lettera di credito bancaria (L/C), deposito presso gateway autorizzati e fatturazione a milestone — protezione 100 %.",
+        "pt": "Carta de crédito bancária (L/C), custódia via gateways autorizados e faturamento por etapas — 100 % de proteção.",
+        "nl": "Bank-L/C, escrow via gelicentieerde betalingsgateways en mijlpaalfacturatie — 100 % bescherming.",
+        "ru": "Банковский аккредитив (L/C), эскроу через лицензированные платёжные шлюзы и поэтапная оплата — 100 % защита.",
+        "tr": "Banka akreditifi (L/C), lisanslı ödeme kuruluşlarında emanet ve aşamalı faturalama — %100 koruma.",
+        "ja": "銀行 L/C、ライセンス済み決済ゲートウェイのエスクロー、マイルストーン請求で品質・納期を 100% 保証。",
+        "ko": "은행 신용장(L/C), 라이선스 결제 게이트웨이 에스크로, 마일스톤 청구로 품질·납기 100% 보장.",
+        "th": "L/C ของธนาคาร, เอสโครว์ผ่านเกตเวย์ที่ได้รับใบอนุญาต และเรียกเก็บตามไมล์สโตน — คุ้มครอง 100%",
+        "vi": "L/C ngân hàng, ký quỹ qua cổng thanh toán được cấp phép và thanh toán theo cột mốc — bảo vệ 100%.",
+        "hi": "बैंक L/C, लाइसेंस्ड पेमेंट गेटवे एस्क्रो और मील-पत्थर बिलिंग — 100% सुरक्षा।",
+        "ar": "اعتماد بنكي L/C، حساب ضمان عبر بوابات دفع مرخصة وفوترة بالمراحل — حماية 100%."
       },
       "image": "",
       "verifyLabel": {
