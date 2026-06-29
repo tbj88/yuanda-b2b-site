@@ -13895,36 +13895,34 @@
       },
       "basic": {
         "model": "YD-S001",
-        "nameEn": "双面架中架Double side integrated Shelf",
-        "nameZh": "双面架中架Double side integrated Shelf",
+        "nameEn": "Double Side Integrated Shelf",
+        "nameZh": "双面架中架",
         "shortName": "双面架中架Double side integrated Shelf",
         "sourcePage": 5,
         "sourcePdf": "Yuanda-Shelf-Company-Catalogue-2026.pdf"
       },
       "parameters": {
-        "specification": "L3610×W1010×H3500mmAcceptable of required size",
-        "material": "未在PDF中明确",
-        "layers": "3-5层",
-        "mainMaterialThickness": "未在PDF中明确",
-        "surfaceTreatment": "环氧树脂静电处理，厚度为60-80微米Epoxy mresin static electricity, process 60-80 um",
-        "capacityPerLayer": "未在PDF中明确",
-        "volume": "未在PDF中明确",
-        "capacity": "未在PDF中明确",
-        "castors": "未在PDF中明确",
-        "bearing": "未在PDF中明确",
-        "diameter": "未在PDF中明确"
+        "specification": "L3610 × W1010 × H3500 mm  (Acceptable of required size 可定制)",
+        "material": "优质冷轧板 / High Quality CRS (Cold Rolled Steel)",
+        "layers": "3-5 层 / 3-5 Layers",
+        "mainMaterialThickness": "",
+        "surfaceTreatment": "环氧树脂静电处理，厚度 60-80μm / Epoxy Resin Electrostatic Coating, 60-80 μm",
+        "capacityPerLayer": "80-150 kg/layer 单层承重",
+        "volume": "",
+        "capacity": "1000-3000 kg/layer (顶层 Top Layer)",
+        "castors": "",
+        "bearing": "",
+        "diameter": ""
       },
       "commerce": {
         "price": "Project quotation",
         "moq": "Project-based",
-        "sample": "Sample confirmation available upon inquiry",
-        "leadTime": "To be confirmed by model, quantity and customization"
+        "sample": "Sample on inquiry",
+        "leadTime": "15-25 days after PO confirmation"
       },
       "media": {
-        "mainImage": "products/supermarket-shelf/yd-s001.jpg",
-        "sourcePageImage": "catalog-pages/page-05.jpg",
-        "sourcePdf": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
-        "autoCropNeedsReview": false
+        "mainImage": "products/yd-s001/main.png",
+        "sourcePageImage": "catalog-pages/page-05.jpg"
       },
       "adminEditable": [
         "basic.nameEn",
@@ -13956,7 +13954,11 @@
       "price": "Project quotation",
       "moq": "Project-based",
       "images": [
-        "products/supermarket-shelf/yd-s001.jpg"
+        "products/yd-s001/main.png",
+        "products/yd-s001/detail-post.png",
+        "products/yd-s001/detail-layer.png",
+        "products/yd-s001/detail-beam.png",
+        "products/yd-s001/detail-backpanel.png"
       ],
       "specs": [
         "Model: YD-S001",
@@ -13990,7 +13992,13 @@
         "bearing": "未在PDF中明确",
         "diameter": "未在PDF中明确"
       },
-      "categoryKey": "supermarket-shelf"
+      "categoryKey": "supermarket-shelf",
+      "detailImgs": [
+        "products/yd-s001/detail-post.png",
+        "products/yd-s001/detail-layer.png",
+        "products/yd-s001/detail-beam.png",
+        "products/yd-s001/detail-backpanel.png"
+      ]
     },
     {
       "id": "yd-s002",
