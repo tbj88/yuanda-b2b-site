@@ -1443,25 +1443,32 @@ function pdSwitchImg(i){
 }
 
 /* === Variant switching — 点击 size 按钮切换 SKU === */
+/* 关键：必须用 history.replaceState 替换 URL（不触发浏览器原生 hash-jump 滚动）;
+ * 直接 location.hash = ... 会让浏览器先跳到顶部再让我们滚回来，体验抖动 */
 function pdSwitchVariant(skuId){
   const next = (DATA.products||[]).find(x => x.id === skuId);
   if(!next) return;
+  // 记录当前滚动位置，渲染后强制保持原位
+  const scrollY = window.scrollY;
   CURRENT_PRODUCT = next;
-  // 用 variantKey + ?size 形式写 hash（便于书签分享，刷新仍能精准定位）
+  // 构造新 hash 但用 replaceState 替换（不触发 hashchange 事件，不触发浏览器滚动）
+  let newHash;
   if(next.variantOf && next.variantSize){
-    setHash("product", next.variantOf, {size: next.variantSize});
+    newHash = buildHash("product", next.variantOf, {size: next.variantSize});
   } else {
-    setHash("product", next.id);
+    newHash = buildHash("product", next.id);
+  }
+  if(location.hash !== newHash){
+    HASH_GUARD = true;
+    try { history.replaceState(null, "", newHash); } catch(e){}
+    setTimeout(()=>{ HASH_GUARD = false; }, 0);
   }
   renderProductDetail();
-  // 平滑滚动到 size selector 位置（避免视觉跳变到顶部）
+  // 渲染后立即把滚动位置 pin 回点击前的位置（双 rAF 等布局完成）
   requestAnimationFrame(()=>{
-    const sel = document.querySelector(".pd-variant-wrap");
-    if(sel){
-      const navH = (document.querySelector("header")?.offsetHeight) || 69;
-      const y = sel.getBoundingClientRect().top + window.scrollY - navH - 16;
-      window.scrollTo({top: Math.max(0,y), behavior: "smooth"});
-    }
+    requestAnimationFrame(()=>{
+      window.scrollTo(0, scrollY);
+    });
   });
 }
 
