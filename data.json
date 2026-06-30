@@ -14203,22 +14203,22 @@
           "hi": "Main plastic basket 180L capacity + lower wire mesh shelf (for bulky items: bottled water, cleaning supplies, large packages) + 4 PU caster wheels (2 front swivel + 2 rear fixed for steering) + red painted handle bar + 2 side label slots for store branding"
         },
         "surfaceTreatment": {
-          "en": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "zh": "塑料筐体：抗紫外线 HDPE（抗褪色、防撞击）；钢架：镀锌 / 镀铬 / 喷塑 3 种工艺可选",
-          "de": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "es": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "fr": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "it": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "ru": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "pt": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "ja": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "ko": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "ar": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "nl": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "tr": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "th": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "vi": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)",
-          "hi": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel frame: zinc-plated / chrome / powder coat (3 finish options)"
+          "en": "Plastic basket: UV-stabilized HDPE (anti-fade, anti-impact); Steel chassis: TWO FINISH OPTIONS — (1) red powder coating, or (2) galvanized zinc plating (premium variant, blue basket)",
+          "zh": "塑料筐体：抗紫外线 HDPE（抗褪色、防撞击）；钢架：2 种工艺可选 — (1) 红色喷塑（标配，配黑筐），或 (2) 镀锌车架（高端版，配蓝筐）",
+          "de": "Standard or galvanized zinc chassis (premium blue variant)",
+          "es": "Standard or galvanized zinc chassis (premium blue variant)",
+          "fr": "Standard or galvanized zinc chassis (premium blue variant)",
+          "it": "Standard or galvanized zinc chassis (premium blue variant)",
+          "ru": "Standard or galvanized zinc chassis (premium blue variant)",
+          "pt": "Standard or galvanized zinc chassis (premium blue variant)",
+          "ja": "Standard or galvanized zinc chassis (premium blue variant)",
+          "ko": "Standard or galvanized zinc chassis (premium blue variant)",
+          "ar": "Standard or galvanized zinc chassis (premium blue variant)",
+          "nl": "Standard or galvanized zinc chassis (premium blue variant)",
+          "tr": "Standard or galvanized zinc chassis (premium blue variant)",
+          "th": "Standard or galvanized zinc chassis (premium blue variant)",
+          "vi": "Standard or galvanized zinc chassis (premium blue variant)",
+          "hi": "Standard or galvanized zinc chassis (premium blue variant)"
         },
         "capacityPerLayer": {
           "en": "Max load 110 kg; caster wheels Φ125mm",
@@ -14315,7 +14315,11 @@
       },
       "media": {
         "mainImage": "products/ZC-M180L/main.png"
-      }
+      },
+      "images": [
+        "products/ZC-M180L/main.png",
+        "products/ZC-M180L/variant-blue-zinc.png"
+      ]
     },
     {
       "id": "ZC-M210L",
