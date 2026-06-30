@@ -27368,7 +27368,10 @@
       },
       "media": {
         "mainImage": "products/YD-L001/main.png"
-      }
+      },
+      "variantOf": "YD-L",
+      "variantSize": "A-2 Side",
+      "variantVolume": 1
     },
     {
       "id": "YD-L002",
@@ -27547,14 +27550,17 @@
       },
       "media": {
         "mainImage": "products/YD-L002/main.png"
-      }
+      },
+      "variantOf": "YD-L",
+      "variantSize": "B-3 Side",
+      "variantVolume": 2
     },
     {
       "id": "YD-L003",
       "category": "warehouse-rack",
       "basic": {
-        "nameEn": "Folding Roll Container YD-L003 (C-Style 4-Sided + Adjustable Mid-Shelf)",
-        "nameZh": "可折叠式物流台车 YD-L003（C 型四面封闭 + 可调中层）",
+        "nameEn": "Roll Container Series (5 Models: 2/3/4-Sided + Lockable + XL Blue)",
+        "nameZh": "物流台车系列（5 型：2/3/4 面 + 带锁 + 超大蓝色款）",
         "model": "YD-L003",
         "shortName": "Roll Container L003 C-Style Folding"
       },
@@ -27726,7 +27732,13 @@
       },
       "media": {
         "mainImage": "products/YD-L003/main.png"
-      }
+      },
+      "variantOf": "YD-L",
+      "variantSize": "C-4 Side",
+      "variantVolume": 3,
+      "variantDefault": true,
+      "variantSizeNameEn": "Folding Roll Container YD-L003 (C-Style 4-Sided + Adjustable Mid-Shelf)",
+      "variantSizeNameZh": "可折叠式物流台车 YD-L003（C 型四面封闭 + 可调中层）"
     },
     {
       "id": "YD-L004",
@@ -27905,7 +27917,10 @@
       },
       "media": {
         "mainImage": "products/YD-L004/main.png"
-      }
+      },
+      "variantOf": "YD-L",
+      "variantSize": "D-Lock",
+      "variantVolume": 4
     },
     {
       "id": "YD-K001",
@@ -28801,6 +28816,188 @@
       "media": {
         "mainImage": "products/YD-K005/main.png"
       }
+    },
+    {
+      "id": "YD-L005",
+      "category": "warehouse-rack",
+      "basic": {
+        "nameEn": "Large Folding Roll Container YD-L005 (Blue Powder Coated, Extra-Large 1100x800)",
+        "nameZh": "大型物流台车 YD-L005（蓝色喷塑超大号）",
+        "model": "YD-L005",
+        "shortName": "Roll Container L005 XL Blue"
+      },
+      "parameters": {
+        "specification": {
+          "en": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "zh": "1100 x 800 x 1700 mm（L 系列最大尺寸，可定制）",
+          "de": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "es": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "fr": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "it": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "ru": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "pt": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "ja": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "ko": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "ar": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "nl": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "tr": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "th": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "vi": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)",
+          "hi": "1100 x 800 x 1700 mm (largest in L-series, custom size acceptable)"
+        },
+        "material": {
+          "en": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "zh": "超大型折叠物流笼，蓝色喷塑工艺（区别于 L001-L004 镀锌）：四面钢丝网围合（左+背+右+前部铰链门）+ 加强蓝色喷塑钢制框架 + 蓝色喷塑平板底盘 + 红色橡胶轮罩 + 折叠设计（侧片可贴合底座平铺）",
+          "de": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "es": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "fr": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "it": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "ru": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "pt": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "ja": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "ko": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "ar": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "nl": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "tr": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "th": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "vi": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)",
+          "hi": "EXTRA-LARGE Folding Roll Container in BLUE POWDER COATING (vs L001-L004 zinc plating): FOUR-SIDED wire-mesh enclosure (LEFT + BACK + RIGHT + FRONT hinged door panel) + reinforced blue powder-coated steel tube frame + blue powder-coated flat bottom deck + RED rubber wheel covers on heavy-duty casters + FOLDING design (side panels fold flat for storage)"
+        },
+        "layers": {
+          "en": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "zh": "L 系列最大尺寸（1100x800 占地，对比 L001/L004 的 850x700）：货物容积比标准款大 30%；适合：跨港分拣物流（大袋/大箱周转）、电商履约 XL 包裹、饮料/零食配送（整箱装载）、工业零部件暂存；蓝色喷塑防腐蚀 + 便于车队品牌识别",
+          "de": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "es": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "fr": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "it": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "ru": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "pt": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "ja": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "ko": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "ar": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "nl": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "tr": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "th": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "vi": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management",
+          "hi": "LARGEST in L-series (1100x800 footprint vs 850x700 for L001/L004): 30% more cargo volume than standard sizes; ideal for: cross-dock logistics (large bag/box transfer), e-commerce fulfillment XL parcels, beverage/snack distribution (full crate loads), industrial parts staging; blue powder finish provides corrosion resistance + brand identification for fleet management"
+        },
+        "surfaceTreatment": {
+          "en": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "zh": "蓝色喷塑（漆面）—— 防腐蚀 + 品牌色识别（可定制色：红/绿/黄/黑）",
+          "de": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "es": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "fr": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "it": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "ru": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "pt": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "ja": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "ko": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "ar": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "nl": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "tr": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "th": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "vi": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)",
+          "hi": "BLUE POWDER COATING (Lacquer) — corrosion-resistant + brand-color identification (custom colors available: red / green / yellow / black)"
+        },
+        "capacityPerLayer": {
+          "en": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "zh": "最大承重 500 公斤；脚轮 Phi 125mm TPR 重型轮（5 英寸）带红色橡胶轮罩；可装 1.7m 高货物；适合欧标托盘工作流",
+          "de": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "es": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "fr": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "it": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "ru": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "pt": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "ja": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "ko": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "ar": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "nl": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "tr": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "th": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "vi": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows",
+          "hi": "Max load 500 kg; casters Phi 125mm TPR heavy-duty wheels (5-inch) with red rubber bumpers; 1.7m cargo stacking height; ideal for Euro-pallet-compatible workflows"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (XL blue powder variant)",
+          "zh": "项目报价（超大号蓝色喷塑款）",
+          "de": "Project quotation (XL blue powder variant)",
+          "es": "Project quotation (XL blue powder variant)",
+          "fr": "Project quotation (XL blue powder variant)",
+          "it": "Project quotation (XL blue powder variant)",
+          "ru": "Project quotation (XL blue powder variant)",
+          "pt": "Project quotation (XL blue powder variant)",
+          "ja": "Project quotation (XL blue powder variant)",
+          "ko": "Project quotation (XL blue powder variant)",
+          "ar": "Project quotation (XL blue powder variant)",
+          "nl": "Project quotation (XL blue powder variant)",
+          "tr": "Project quotation (XL blue powder variant)",
+          "th": "Project quotation (XL blue powder variant)",
+          "vi": "Project quotation (XL blue powder variant)",
+          "hi": "Project quotation (XL blue powder variant)"
+        },
+        "moq": {
+          "en": "30 sets (logistics cage MOQ)",
+          "zh": "30 台（物流笼起订量）",
+          "de": "30 sets (logistics cage MOQ)",
+          "es": "30 sets (logistics cage MOQ)",
+          "fr": "30 sets (logistics cage MOQ)",
+          "it": "30 sets (logistics cage MOQ)",
+          "ru": "30 sets (logistics cage MOQ)",
+          "pt": "30 sets (logistics cage MOQ)",
+          "ja": "30 sets (logistics cage MOQ)",
+          "ko": "30 sets (logistics cage MOQ)",
+          "ar": "30 sets (logistics cage MOQ)",
+          "nl": "30 sets (logistics cage MOQ)",
+          "tr": "30 sets (logistics cage MOQ)",
+          "th": "30 sets (logistics cage MOQ)",
+          "vi": "30 sets (logistics cage MOQ)",
+          "hi": "30 sets (logistics cage MOQ)"
+        },
+        "leadTime": {
+          "en": "40-55 days after deposit",
+          "zh": "收到定金后 40-55 天",
+          "de": "40-55 days after deposit",
+          "es": "40-55 days after deposit",
+          "fr": "40-55 days after deposit",
+          "it": "40-55 days after deposit",
+          "ru": "40-55 days after deposit",
+          "pt": "40-55 days after deposit",
+          "ja": "40-55 days after deposit",
+          "ko": "40-55 days after deposit",
+          "ar": "40-55 days after deposit",
+          "nl": "40-55 days after deposit",
+          "tr": "40-55 days after deposit",
+          "th": "40-55 days after deposit",
+          "vi": "40-55 days after deposit",
+          "hi": "40-55 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-L005/main.png"
+      },
+      "variantOf": "YD-L",
+      "variantSize": "XL-Blue",
+      "variantVolume": 5
     }
   ],
   "certs": [
