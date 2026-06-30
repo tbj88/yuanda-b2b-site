@@ -1335,16 +1335,11 @@ function renderCatalog(){
   grid.innerHTML = `<span class="edit-affordance">✎ Edit Products</span>` + html;
 }
 
-function renderProductDetail(){
-  if(!CURRENT_PRODUCT){ Q("#pdContainer").innerHTML = ""; return; }
-  const p = pAdapt(CURRENT_PRODUCT);
+/* ===== 渲染右侧 info 区（增量更新友好，不动左侧 gallery） ===== */
+function buildProductInfoHtml(p, raw){
   const hasSpecs = p.specs && p.specs.length > 0;
-  const hasMultiImg = (p.images||[]).length > 1;
-
-  // 变体系列 — 构造 size selector
-  const raw = CURRENT_PRODUCT;
   let variantSelectorHtml = "";
-  if(raw.variantOf){
+  if(raw && raw.variantOf){
     const sibs = getVariantSiblings(raw.variantOf);
     if(sibs.length > 1){
       const currentSize = raw.variantSize || `${raw.variantVolume||""}L`;
@@ -1366,6 +1361,39 @@ function renderProductDetail(){
         </div>`;
     }
   }
+  return `
+    ${p.sku ? `<div class="pd-sku">${esc(p.sku)}</div>` : ''}
+    <h1>${esc(L(p.name))}</h1>
+    ${p.categoryLabel ? `<div style="font-size:13px;color:var(--c-ink-soft);margin-bottom:14px">${esc(typeof p.categoryLabel === 'object' ? L(p.categoryLabel) : p.categoryLabel)}</div>` : ''}
+    ${variantSelectorHtml}
+    <div class="pd-price-row">
+      <div><div class="label">PRICE</div><div class="val">${esc(p.price)}</div></div>
+      <div><div class="label">MOQ</div><div class="val">${esc(p.moq)}</div></div>
+    </div>
+    <div class="pd-quote-btn">
+      <a class="btn btn-primary" href="mailto:${esc(DATA.brand.email||'')}?subject=Quote%20Request%20-%20${encodeURIComponent(p.sku||p.id)}">${esc(L(DATA.ui.ctaInquire))}</a>
+      <a class="btn btn-ghost" style="color:var(--c-primary);border-color:var(--c-line);background:#fff" href="mailto:${esc(DATA.brand.email||'')}">${esc(L(DATA.ui.ctaContact))}</a>
+    </div>
+    ${hasSpecs ? `
+    <table class="pd-specs-table">
+      <tbody>
+        ${p.specs.map(s=>`<tr><td>${esc(L(s.k))}</td><td>${esc(s.v)}</td></tr>`).join('')}
+        ${p.leadTime ? `<tr><td>Lead Time</td><td>${esc(p.leadTime)}</td></tr>`:''}
+        ${p.sample   ? `<tr><td>Sample</td><td>${esc(p.sample)}</td></tr>`:''}
+      </tbody>
+    </table>` : `
+    <div style="padding:20px;background:#FAFBFC;border:1px dashed var(--c-line);border-radius:8px;color:var(--c-ink-soft);font-size:14px;line-height:1.6">
+      <strong style="color:var(--c-ink);display:block;margin-bottom:6px">Detailed specifications available on request.</strong>
+      Contact our sales team with your project requirements (dimensions, capacity, customization) — full technical specifications, drawings and samples will be confirmed by our engineering team.
+    </div>`}
+  `;
+}
+
+function renderProductDetail(){
+  if(!CURRENT_PRODUCT){ Q("#pdContainer").innerHTML = ""; return; }
+  const p = pAdapt(CURRENT_PRODUCT);
+  const raw = CURRENT_PRODUCT;
+  const hasMultiImg = (p.images||[]).length > 1;
 
   Q("#pdContainer").innerHTML = `
     <div class="pd-back-wrap">
@@ -1378,32 +1406,7 @@ function renderProductDetail(){
           ${p.images.map((im,i)=>`<div class="pd-thumb${i===0?' active':''}" onclick="pdSwitchImg(${i})"><img src="${esc(im)}" onerror="this.style.opacity=.3"></div>`).join('')}
         </div>` : ''}
       </div>
-      <div class="pd-info">
-        ${p.sku ? `<div class="pd-sku">${esc(p.sku)}</div>` : ''}
-        <h1>${esc(L(p.name))}</h1>
-        ${p.categoryLabel ? `<div style="font-size:13px;color:var(--c-ink-soft);margin-bottom:14px">${esc(typeof p.categoryLabel === 'object' ? L(p.categoryLabel) : p.categoryLabel)}</div>` : ''}
-        ${variantSelectorHtml}
-        <div class="pd-price-row">
-          <div><div class="label">PRICE</div><div class="val">${esc(p.price)}</div></div>
-          <div><div class="label">MOQ</div><div class="val">${esc(p.moq)}</div></div>
-        </div>
-        <div class="pd-quote-btn">
-          <a class="btn btn-primary" href="mailto:${esc(DATA.brand.email||'')}?subject=Quote%20Request%20-%20${encodeURIComponent(p.sku||p.id)}">${esc(L(DATA.ui.ctaInquire))}</a>
-          <a class="btn btn-ghost" style="color:var(--c-primary);border-color:var(--c-line);background:#fff" href="mailto:${esc(DATA.brand.email||'')}">${esc(L(DATA.ui.ctaContact))}</a>
-        </div>
-        ${hasSpecs ? `
-        <table class="pd-specs-table">
-          <tbody>
-            ${p.specs.map(s=>`<tr><td>${esc(L(s.k))}</td><td>${esc(s.v)}</td></tr>`).join('')}
-            ${p.leadTime ? `<tr><td>Lead Time</td><td>${esc(p.leadTime)}</td></tr>`:''}
-            ${p.sample   ? `<tr><td>Sample</td><td>${esc(p.sample)}</td></tr>`:''}
-          </tbody>
-        </table>` : `
-        <div style="padding:20px;background:#FAFBFC;border:1px dashed var(--c-line);border-radius:8px;color:var(--c-ink-soft);font-size:14px;line-height:1.6">
-          <strong style="color:var(--c-ink);display:block;margin-bottom:6px">Detailed specifications available on request.</strong>
-          Contact our sales team with your project requirements (dimensions, capacity, customization) — full technical specifications, drawings and samples will be confirmed by our engineering team.
-        </div>`}
-      </div>
+      <div class="pd-info" id="pdInfo">${buildProductInfoHtml(p, raw)}</div>
     </div>
     ${(p.detailImgs && p.detailImgs.length)?`
     <div class="pd-detail-wrap">
@@ -1442,16 +1445,16 @@ function pdSwitchImg(i){
   QA(".pd-thumb").forEach((t,k)=>t.classList.toggle("active", k===i));
 }
 
-/* === Variant switching — 点击 size 按钮切换 SKU === */
-/* 关键：必须用 history.replaceState 替换 URL（不触发浏览器原生 hash-jump 滚动）;
- * 直接 location.hash = ... 会让浏览器先跳到顶部再让我们滚回来，体验抖动 */
+/* === Variant switching — 点击 size 按钮切换 SKU ===
+ * 增量更新策略：只重渲染右侧 #pdInfo 区块，左侧 sticky gallery 与外壳完全不动
+ * → 不触发整页 reflow → sticky 不会重新计算 → 滚动条 0 抖动
+ * URL 用 history.replaceState 静默替换，不触发浏览器 hash-jump */
 function pdSwitchVariant(skuId){
   const next = (DATA.products||[]).find(x => x.id === skuId);
   if(!next) return;
-  // 记录当前滚动位置，渲染后强制保持原位
-  const scrollY = window.scrollY;
   CURRENT_PRODUCT = next;
-  // 构造新 hash 但用 replaceState 替换（不触发 hashchange 事件，不触发浏览器滚动）
+
+  // 1) 静默替换 URL（不会触发 hashchange / 不会触发浏览器原生滚动）
   let newHash;
   if(next.variantOf && next.variantSize){
     newHash = buildHash("product", next.variantOf, {size: next.variantSize});
@@ -1463,13 +1466,22 @@ function pdSwitchVariant(skuId){
     try { history.replaceState(null, "", newHash); } catch(e){}
     setTimeout(()=>{ HASH_GUARD = false; }, 0);
   }
-  renderProductDetail();
-  // 渲染后立即把滚动位置 pin 回点击前的位置（双 rAF 等布局完成）
-  requestAnimationFrame(()=>{
-    requestAnimationFrame(()=>{
-      window.scrollTo(0, scrollY);
-    });
-  });
+
+  // 2) 只更新右侧 info 区块的 innerHTML，左侧 sticky gallery 不动
+  const infoEl = document.getElementById("pdInfo");
+  if(infoEl){
+    const p = pAdapt(next);
+    infoEl.innerHTML = buildProductInfoHtml(p, next);
+    // 主图也同步切换（如果新 SKU 有自己的图）
+    const mainImg = document.getElementById("pdMainImg");
+    const newImg = (p.images||[])[0];
+    if(mainImg && newImg && mainImg.getAttribute("src") !== newImg){
+      mainImg.setAttribute("src", newImg);
+    }
+  } else {
+    // 兜底：找不到 #pdInfo 容器（理论上不会发生）→ 完整渲染
+    renderProductDetail();
+  }
 }
 
 function renderCerts(){
