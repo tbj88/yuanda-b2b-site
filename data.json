@@ -14565,8 +14565,8 @@
           "hi": "Main plastic basket 120L + red plastic lower deck tray + 4 PU caster wheels + red plastic handle — ALL-PLASTIC RUST-FREE construction, ideal for coastal supermarkets, fresh food/seafood/cold-storage front zones, humid climates, outdoor markets"
         },
         "surfaceTreatment": {
-          "en": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
-          "zh": "抗紫外线 HDPE 塑料（抗褪色、防撞击）；免喷涂免电镀（塑料不生锈）",
+          "en": "UV-stabilized HDPE plastic; HANDLE COLOR OPTIONS: standard RED or BLUE (premium variant for branded stores)",
+          "zh": "抗紫外线 HDPE 塑料；把手颜色可选：标配红色 或 蓝色（高端品牌店变体）",
           "de": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
           "es": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
           "fr": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
@@ -14677,7 +14677,11 @@
       },
       "media": {
         "mainImage": "products/ZC-120L/main.png"
-      }
+      },
+      "images": [
+        "products/ZC-120L/main.png",
+        "products/ZC-120L/variant-blue-handle.png"
+      ]
     },
     {
       "id": "ZC-150L",
@@ -14923,8 +14927,8 @@
           "hi": "Main plastic basket 180L + red plastic lower deck tray + 4 PU caster wheels + red plastic handle — ALL-PLASTIC RUST-FREE construction, ideal for coastal supermarkets, fresh food/seafood/cold-storage front zones, humid climates, outdoor markets"
         },
         "surfaceTreatment": {
-          "en": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
-          "zh": "抗紫外线 HDPE 塑料（抗褪色、防撞击）；免喷涂免电镀（塑料不生锈）",
+          "en": "UV-stabilized HDPE plastic; COLOR OPTIONS: standard black+red, or MONO-RED (full red basket + handles + caster brackets for brand-themed stores like Coca-Cola red, Christmas/Valentine seasonal, hot-pot/BBQ specialty)",
+          "zh": "抗紫外线 HDPE 塑料；颜色可选：标配黑+红，或 纯红色（红筐+红把手+红脚轮架，适合品牌主题店如可口可乐红、圣诞/情人节季节店、火锅/烧烤专门店）",
           "de": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
           "es": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
           "fr": "UV-stabilized HDPE plastic (anti-fade, anti-impact); no painting/plating needed (plastic = no rust)",
@@ -15035,7 +15039,11 @@
       },
       "media": {
         "mainImage": "products/ZC-180L/main.png"
-      }
+      },
+      "images": [
+        "products/ZC-180L/main.png",
+        "products/ZC-180L/variant-all-red.png"
+      ]
     },
     {
       "id": "ZC-210L",
