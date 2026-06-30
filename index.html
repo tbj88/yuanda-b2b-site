@@ -172,6 +172,8 @@ body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-m
 .product-card-name{font-size:15.5px;font-weight:700;margin-bottom:10px;color:var(--c-ink);line-height:1.35}
 .product-card-meta{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--c-ink-soft)}
 .product-card-price{font-weight:700;color:var(--c-primary)}
+/* === Variant series badge on catalog card === */
+.product-card-variant-badge{display:inline-block;font-size:11px;font-weight:700;color:var(--c-primary);background:rgba(62,112,150,.10);border:1px solid rgba(62,112,150,.25);padding:3px 9px;border-radius:999px;letter-spacing:.3px;margin-top:8px}
 @media(max-width:900px){.products-grid{grid-template-columns:1fr 1fr;gap:16px}}
 @media(max-width:600px){.products-grid{grid-template-columns:1fr}}
 
@@ -201,6 +203,15 @@ body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-m
 .pd-price-row .val{font-size:22px;font-weight:800;color:var(--c-primary)}
 .pd-quote-btn{display:flex;gap:10px;margin-bottom:32px}
 .pd-quote-btn .btn{flex:1;justify-content:center}
+/* === Variant size selector === */
+.pd-variant-wrap{margin:0 0 24px}
+.pd-variant-label{font-size:13px;font-weight:700;color:var(--c-ink-soft);text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px;display:flex;align-items:baseline;gap:10px}
+.pd-variant-label .pd-variant-current{color:var(--c-primary);font-size:14px;letter-spacing:0;text-transform:none}
+.pd-variant-grid{display:flex;flex-wrap:wrap;gap:8px}
+.pd-variant-btn{padding:10px 16px;border:1.5px solid var(--c-line);border-radius:8px;background:#fff;font-size:14px;font-weight:700;color:var(--c-ink);cursor:pointer;transition:all .15s;min-width:64px;text-align:center}
+.pd-variant-btn:hover{border-color:var(--c-primary);color:var(--c-primary)}
+.pd-variant-btn.active{background:var(--c-primary);border-color:var(--c-primary);color:#fff;box-shadow:0 4px 12px rgba(62,112,150,.25)}
+.pd-variant-hint{font-size:12px;color:var(--c-ink-soft);margin-top:10px;line-height:1.5}
 .pd-specs-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--c-line);border-radius:var(--radius);overflow:hidden}
 .pd-specs-table td{padding:13px 18px;font-size:14px;border-bottom:1px solid var(--c-line)}
 .pd-specs-table tr:last-child td{border-bottom:0}
@@ -664,7 +675,21 @@ function applyHashRoute(){
   if(HASH_GUARD) return;
   const {page, arg, params} = parseHash();
   if(page === "product" && arg){
-    const p = (DATA && DATA.products||[]).find(x=>x.id===arg);
+    const all = (DATA && DATA.products) || [];
+    // ① 直接 id 命中（旧 URL 如 #/product/YD-C-150L 仍能用）
+    let p = all.find(x => x.id === arg);
+    // ② arg 是 variantKey（新 URL 如 #/product/YD-C[?size=150L]）
+    if(!p){
+      const sibs = all.filter(x => x.variantOf === arg);
+      if(sibs.length){
+        if(params && params.size){
+          p = sibs.find(x => x.variantSize === params.size) || null;
+        }
+        if(!p){
+          p = sibs.find(x => x.variantDefault) || sibs.sort((a,b)=>(a.variantVolume||0)-(b.variantVolume||0))[0];
+        }
+      }
+    }
     if(p){ _routeToProduct(p, /*fromHash*/true); return; }
     // 找不到产品 → 退到 catalog
     _routeCatalog(params, true); return;
@@ -795,7 +820,14 @@ function _routeToProduct(product, fromHash){
   renderProductDetail();
   window.scrollTo({top:0,behavior:"instant"});
   document.getElementById("mainNav").classList.remove("open");
-  if(!fromHash) setHash("product", product.id);
+  if(!fromHash){
+    // 变体走系列 URL：#/product/{variantKey}?size={size}
+    if(product.variantOf && product.variantSize){
+      setHash("product", product.variantOf, {size: product.variantSize});
+    } else {
+      setHash("product", product.id);
+    }
+  }
 }
 
 /* ===== 公共入口（写 hash，由 hashchange 驱动渲染） ===== */
@@ -811,7 +843,16 @@ function route(page, opts){
 }
 
 function routeToProduct(id){
-  const p = (DATA && DATA.products||[]).find(x=>x.id===id);
+  // id 可能是真实 SKU id 或 variantKey（系列卡片传入的）
+  const all = (DATA && DATA.products) || [];
+  let p = all.find(x => x.id === id);
+  if(!p){
+    // 当 variantKey 用
+    const sibs = all.filter(x => x.variantOf === id);
+    if(sibs.length){
+      p = sibs.find(x => x.variantDefault) || sibs.sort((a,b)=>(a.variantVolume||0)-(b.variantVolume||0))[0];
+    }
+  }
   if(!p) return;
   _routeToProduct(p, false);
 }
@@ -1127,6 +1168,28 @@ function isYuandaProduct(p){
   return !!(p && (p.basic || p.parameters || p.commerce || p.media));
 }
 
+/* ===== Variant utilities — 同款多尺寸合并显示 ===== */
+function getVariantSiblings(variantKey){
+  // 返回所有 variantOf===variantKey 的兄弟产品，按 variantVolume 升序
+  return (DATA.products||[])
+    .filter(x => x.variantOf === variantKey)
+    .sort((a,b) => (a.variantVolume||0) - (b.variantVolume||0));
+}
+function getVariantDefault(variantKey){
+  // 找出该系列的默认 SKU（带 variantDefault:true 的那个），找不到则返回第一个
+  const sibs = getVariantSiblings(variantKey);
+  return sibs.find(x => x.variantDefault) || sibs[0] || null;
+}
+function findProductBySkuOrVariant(arg){
+  // 路由查询：先精确匹配 id，再当作 variantKey 查 default
+  const all = DATA.products || [];
+  const direct = all.find(x => x.id === arg);
+  if(direct) return direct;
+  // arg 可能是 variantKey（YD-C / ZC-M 等）
+  const def = getVariantDefault(arg);
+  return def;
+}
+
 function pAdapt(p){
   if(!p) return p;
   if(!isYuandaProduct(p)) return p;  // already v1.2
@@ -1201,26 +1264,73 @@ function renderCatalog(){
   const f = Q("#catalogFilter")?.value || "";
   const grid = Q("#productsGrid");
   if(!grid) return;
-  const list = (DATA.products||[]).map(pAdapt).filter(p=>{
+
+  // 变体去重：同 variantOf 的 SKU 只取 default（或第一个）展示在目录页
+  // 但搜索仍然按所有 SKU 文本匹配 —— 用户搜 "YD-C-150L" 也能命中系列卡片
+  const allRaw = DATA.products || [];
+  const cardSeed = []; // 用来渲染目录卡的"代表产品"
+  const seenVariants = new Set();
+
+  for(const p of allRaw){
+    if(p.variantOf){
+      if(seenVariants.has(p.variantOf)) continue;
+      seenVariants.add(p.variantOf);
+      cardSeed.push(getVariantDefault(p.variantOf) || p);
+    } else {
+      cardSeed.push(p);
+    }
+  }
+
+  // 适配 + 过滤
+  const list = cardSeed.map(pAdapt).filter(p=>{
     if(f && p.category!==f) return false;
     if(q){
-      const text = (L(p.name)+" "+p.sku+" "+(p.category||"")).toLowerCase();
-      if(!text.includes(q)) return false;
+      // 系列卡片的搜索需要覆盖所有兄弟 SKU 的文本
+      let searchableText = (L(p.name)+" "+p.sku+" "+(p.category||"")).toLowerCase();
+      const raw = p._raw;
+      if(raw && raw.variantOf){
+        // 拼接所有兄弟 SKU id 进搜索文本
+        const sibs = getVariantSiblings(raw.variantOf);
+        searchableText += " " + sibs.map(s=>s.id).join(" ").toLowerCase();
+        searchableText += " " + raw.variantOf.toLowerCase();
+      }
+      if(!searchableText.includes(q)) return false;
     }
     return true;
   });
-  const html = list.map(p=>`
-    <div class="product-card" onclick="routeToProduct('${esc(p.id)}')">
+
+  const html = list.map(p=>{
+    const raw = p._raw;
+    const isVariant = !!(raw && raw.variantOf);
+    let badgeHtml = "";
+    let displaySku = p.sku;
+    if(isVariant){
+      const sibs = getVariantSiblings(raw.variantOf);
+      if(sibs.length > 1){
+        const minV = sibs[0].variantVolume;
+        const maxV = sibs[sibs.length-1].variantVolume;
+        const sizeLabel = (LANG==="zh") ? `${sibs.length} 种容量 ${minV}L–${maxV}L` : `${sibs.length} sizes · ${minV}L–${maxV}L`;
+        badgeHtml = `<div class="product-card-variant-badge">${esc(sizeLabel)}</div>`;
+      }
+      // 目录卡 sku 显示系列代号（如 "YD-C"）更清爽
+      displaySku = raw.variantOf;
+    }
+    // 路由：变体系列卡 → #/product/{variantKey} ; 普通卡 → #/product/{id}
+    const routeArg = isVariant ? raw.variantOf : p.id;
+    return `
+    <div class="product-card" onclick="routeToProduct('${esc(routeArg)}')">
       <div class="product-card-img"><img src="${esc((p.images||[])[0]||'')}" alt="" onerror="this.style.opacity=.3"></div>
       <div class="product-card-body">
-        <div class="product-card-sku">${esc(p.sku)}</div>
+        <div class="product-card-sku">${esc(displaySku)}</div>
         <div class="product-card-name">${esc(L(p.name))}</div>
+        ${badgeHtml}
         <div class="product-card-meta">
           <span class="product-card-price">${esc(p.price)}</span>
           <span>MOQ ${esc(p.moq)}</span>
         </div>
       </div>
-    </div>`).join("") || `<p style="grid-column:1/-1;text-align:center;color:#64748B;padding:40px">No products match.</p>`;
+    </div>`;
+  }).join("") || `<p style="grid-column:1/-1;text-align:center;color:#64748B;padding:40px">No products match.</p>`;
   // Keep the edit-affordance span
   grid.innerHTML = `<span class="edit-affordance">✎ Edit Products</span>` + html;
 }
@@ -1230,6 +1340,33 @@ function renderProductDetail(){
   const p = pAdapt(CURRENT_PRODUCT);
   const hasSpecs = p.specs && p.specs.length > 0;
   const hasMultiImg = (p.images||[]).length > 1;
+
+  // 变体系列 — 构造 size selector
+  const raw = CURRENT_PRODUCT;
+  let variantSelectorHtml = "";
+  if(raw.variantOf){
+    const sibs = getVariantSiblings(raw.variantOf);
+    if(sibs.length > 1){
+      const currentSize = raw.variantSize || `${raw.variantVolume||""}L`;
+      const labelText = (LANG==="zh") ? "选择容量" : "Select Size";
+      const currentText = (LANG==="zh") ? `当前：${currentSize}` : `Currently: ${currentSize}`;
+      const hintText = (LANG==="zh")
+        ? `该型号共 ${sibs.length} 种容量可选，规格、承重、价格随容量变化`
+        : `${sibs.length} sizes available · specs, capacity & pricing vary by size`;
+      variantSelectorHtml = `
+        <div class="pd-variant-wrap">
+          <div class="pd-variant-label">
+            <span>${esc(labelText)}</span>
+            <span class="pd-variant-current">${esc(currentText)}</span>
+          </div>
+          <div class="pd-variant-grid">
+            ${sibs.map(s=>`<button type="button" class="pd-variant-btn${s.id===raw.id?' active':''}" onclick="pdSwitchVariant('${esc(s.id)}')">${esc(s.variantSize||(s.variantVolume+"L"))}</button>`).join("")}
+          </div>
+          <div class="pd-variant-hint">${esc(hintText)}</div>
+        </div>`;
+    }
+  }
+
   Q("#pdContainer").innerHTML = `
     <div class="pd-back-wrap">
       <a class="pd-back" href="#" onclick="route('catalog',{restoreCatalog:true});return false">← ${esc(L(DATA.ui.navCatalog))}</a>
@@ -1245,6 +1382,7 @@ function renderProductDetail(){
         ${p.sku ? `<div class="pd-sku">${esc(p.sku)}</div>` : ''}
         <h1>${esc(L(p.name))}</h1>
         ${p.categoryLabel ? `<div style="font-size:13px;color:var(--c-ink-soft);margin-bottom:14px">${esc(typeof p.categoryLabel === 'object' ? L(p.categoryLabel) : p.categoryLabel)}</div>` : ''}
+        ${variantSelectorHtml}
         <div class="pd-price-row">
           <div><div class="label">PRICE</div><div class="val">${esc(p.price)}</div></div>
           <div><div class="label">MOQ</div><div class="val">${esc(p.moq)}</div></div>
@@ -1302,6 +1440,29 @@ function pdSwitchImg(i){
   const p = pAdapt(CURRENT_PRODUCT);
   Q("#pdMainImg").src = (p.images||[])[i];
   QA(".pd-thumb").forEach((t,k)=>t.classList.toggle("active", k===i));
+}
+
+/* === Variant switching — 点击 size 按钮切换 SKU === */
+function pdSwitchVariant(skuId){
+  const next = (DATA.products||[]).find(x => x.id === skuId);
+  if(!next) return;
+  CURRENT_PRODUCT = next;
+  // 用 variantKey + ?size 形式写 hash（便于书签分享，刷新仍能精准定位）
+  if(next.variantOf && next.variantSize){
+    setHash("product", next.variantOf, {size: next.variantSize});
+  } else {
+    setHash("product", next.id);
+  }
+  renderProductDetail();
+  // 平滑滚动到 size selector 位置（避免视觉跳变到顶部）
+  requestAnimationFrame(()=>{
+    const sel = document.querySelector(".pd-variant-wrap");
+    if(sel){
+      const navH = (document.querySelector("header")?.offsetHeight) || 69;
+      const y = sel.getBoundingClientRect().top + window.scrollY - navH - 16;
+      window.scrollTo({top: Math.max(0,y), behavior: "smooth"});
+    }
+  });
 }
 
 function renderCerts(){

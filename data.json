@@ -13957,14 +13957,17 @@
       },
       "media": {
         "mainImage": "products/ZC-M120L/main.png"
-      }
+      },
+      "variantOf": "ZC-M",
+      "variantSize": "120L",
+      "variantVolume": 120
     },
     {
       "id": "ZC-M150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L Plastic Shopping Cart ZC-M150L",
-        "nameZh": "塑料购物车 150L ZC-M150L",
+        "nameEn": "Metal-Plastic Frame Trolley ZC-M Series",
+        "nameZh": "金属塑料框架手推车 ZC-M 系列",
         "model": "ZC-M150L",
         "shortName": "150L Plastic Cart"
       },
@@ -14136,7 +14139,13 @@
       },
       "media": {
         "mainImage": "products/ZC-M150L/main.png"
-      }
+      },
+      "variantOf": "ZC-M",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L Plastic Shopping Cart ZC-M150L",
+      "variantSizeNameZh": "塑料购物车 150L ZC-M150L"
     },
     {
       "id": "ZC-M180L",
@@ -14319,7 +14328,10 @@
       "images": [
         "products/ZC-M180L/main.png",
         "products/ZC-M180L/variant-blue-zinc.png"
-      ]
+      ],
+      "variantOf": "ZC-M",
+      "variantSize": "180L",
+      "variantVolume": 180
     },
     {
       "id": "ZC-M210L",
@@ -14498,7 +14510,10 @@
       },
       "media": {
         "mainImage": "products/ZC-M210L/main.png"
-      }
+      },
+      "variantOf": "ZC-M",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "ZC-120L",
@@ -14681,14 +14696,17 @@
       "images": [
         "products/ZC-120L/main.png",
         "products/ZC-120L/variant-blue-handle.png"
-      ]
+      ],
+      "variantOf": "ZC",
+      "variantSize": "120L",
+      "variantVolume": 120
     },
     {
       "id": "ZC-150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L All-Plastic Frame Shopping Cart ZC-150L",
-        "nameZh": "塑料购物车 150L 全塑料车架版 ZC-150L",
+        "nameEn": "All-Plastic Frame Trolley ZC Series",
+        "nameZh": "全塑框架手推车 ZC 系列",
         "model": "ZC-150L",
         "shortName": "150L All-Plastic Cart"
       },
@@ -14860,7 +14878,13 @@
       },
       "media": {
         "mainImage": "products/ZC-150L/main.png"
-      }
+      },
+      "variantOf": "ZC",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L All-Plastic Frame Shopping Cart ZC-150L",
+      "variantSizeNameZh": "塑料购物车 150L 全塑料车架版 ZC-150L"
     },
     {
       "id": "ZC-180L",
@@ -15043,7 +15067,10 @@
       "images": [
         "products/ZC-180L/main.png",
         "products/ZC-180L/variant-all-red.png"
-      ]
+      ],
+      "variantOf": "ZC",
+      "variantSize": "180L",
+      "variantVolume": 180
     },
     {
       "id": "ZC-210L",
@@ -15222,7 +15249,10 @@
       },
       "media": {
         "mainImage": "products/ZC-210L/main.png"
-      }
+      },
+      "variantOf": "ZC",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "YD-P-100L",
@@ -15938,7 +15968,10 @@
       },
       "media": {
         "mainImage": "products/YD-B-60L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "60L",
+      "variantVolume": 60
     },
     {
       "id": "YD-B-80L",
@@ -16117,7 +16150,10 @@
       },
       "media": {
         "mainImage": "products/YD-B-80L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "80L",
+      "variantVolume": 80
     },
     {
       "id": "YD-B-100L",
@@ -16296,7 +16332,10 @@
       },
       "media": {
         "mainImage": "products/YD-B-100L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "100L",
+      "variantVolume": 100
     },
     {
       "id": "YD-B-125L",
@@ -16475,14 +16514,17 @@
       },
       "media": {
         "mainImage": "products/YD-B-125L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "125L",
+      "variantVolume": 125
     },
     {
       "id": "YD-B-150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L European Style Wire-Mesh Shopping Trolley YD-B-150L",
-        "nameZh": "欧式手推车 150L YD-B-150L",
+        "nameEn": "European Style Wire-Mesh Trolley Series",
+        "nameZh": "欧式金属网购物车系列",
         "model": "YD-B-150L",
         "shortName": "150L European Trolley"
       },
@@ -16654,7 +16696,13 @@
       },
       "media": {
         "mainImage": "products/YD-B-150L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L European Style Wire-Mesh Shopping Trolley YD-B-150L",
+      "variantSizeNameZh": "欧式手推车 150L YD-B-150L"
     },
     {
       "id": "YD-B-180L",
@@ -16833,7 +16881,10 @@
       },
       "media": {
         "mainImage": "products/YD-B-180L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "180L",
+      "variantVolume": 180
     },
     {
       "id": "YD-B-210L",
@@ -17012,7 +17063,10 @@
       },
       "media": {
         "mainImage": "products/YD-B-210L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "YD-B-240L",
@@ -17191,7 +17245,10 @@
       },
       "media": {
         "mainImage": "products/YD-B-240L/main.png"
-      }
+      },
+      "variantOf": "YD-B",
+      "variantSize": "240L",
+      "variantVolume": 240
     },
     {
       "id": "YD-A-60L",
@@ -17370,7 +17427,10 @@
       },
       "media": {
         "mainImage": "products/YD-A-60L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "60L",
+      "variantVolume": 60
     },
     {
       "id": "YD-A-80L",
@@ -17549,7 +17609,10 @@
       },
       "media": {
         "mainImage": "products/YD-A-80L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "80L",
+      "variantVolume": 80
     },
     {
       "id": "YD-A-100L",
@@ -17728,7 +17791,10 @@
       },
       "media": {
         "mainImage": "products/YD-A-100L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "100L",
+      "variantVolume": 100
     },
     {
       "id": "YD-A-125L",
@@ -17907,14 +17973,17 @@
       },
       "media": {
         "mainImage": "products/YD-A-125L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "125L",
+      "variantVolume": 125
     },
     {
       "id": "YD-A-150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L Asian Style Wire-Mesh Shopping Trolley YD-A-150L",
-        "nameZh": "亚式手推车 150L YD-A-150L",
+        "nameEn": "Asian Style Wire-Mesh Trolley Series",
+        "nameZh": "亚式金属网购物车系列",
         "model": "YD-A-150L",
         "shortName": "150L Asian Trolley"
       },
@@ -18086,7 +18155,13 @@
       },
       "media": {
         "mainImage": "products/YD-A-150L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L Asian Style Wire-Mesh Shopping Trolley YD-A-150L",
+      "variantSizeNameZh": "亚式手推车 150L YD-A-150L"
     },
     {
       "id": "YD-A-180L",
@@ -18265,7 +18340,10 @@
       },
       "media": {
         "mainImage": "products/YD-A-180L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "180L",
+      "variantVolume": 180
     },
     {
       "id": "YD-A-210L",
@@ -18444,7 +18522,10 @@
       },
       "media": {
         "mainImage": "products/YD-A-210L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "YD-A-240L",
@@ -18623,7 +18704,10 @@
       },
       "media": {
         "mainImage": "products/YD-A-240L/main.png"
-      }
+      },
+      "variantOf": "YD-A",
+      "variantSize": "240L",
+      "variantVolume": 240
     },
     {
       "id": "YD-C-60L",
@@ -18802,7 +18886,10 @@
       },
       "media": {
         "mainImage": "products/YD-C-60L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "60L",
+      "variantVolume": 60
     },
     {
       "id": "YD-C-80L",
@@ -18981,7 +19068,10 @@
       },
       "media": {
         "mainImage": "products/YD-C-80L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "80L",
+      "variantVolume": 80
     },
     {
       "id": "YD-C-100L",
@@ -19160,7 +19250,10 @@
       },
       "media": {
         "mainImage": "products/YD-C-100L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "100L",
+      "variantVolume": 100
     },
     {
       "id": "YD-C-125L",
@@ -19339,14 +19432,17 @@
       },
       "media": {
         "mainImage": "products/YD-C-125L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "125L",
+      "variantVolume": 125
     },
     {
       "id": "YD-C-150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L American Style Trolley Model-C",
-        "nameZh": "150L 美式手推车 C 型",
+        "nameEn": "American Style Trolley Model-C Series",
+        "nameZh": "美式手推车 C 型系列",
         "model": "YD-C-150L",
         "shortName": "150L American Trolley C"
       },
@@ -19518,7 +19614,13 @@
       },
       "media": {
         "mainImage": "products/YD-C-150L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L American Style Trolley Model-C",
+      "variantSizeNameZh": "150L 美式手推车 C 型"
     },
     {
       "id": "YD-C-180L",
@@ -19697,7 +19799,10 @@
       },
       "media": {
         "mainImage": "products/YD-C-180L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "180L",
+      "variantVolume": 180
     },
     {
       "id": "YD-C-210L",
@@ -19876,7 +19981,10 @@
       },
       "media": {
         "mainImage": "products/YD-C-210L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "YD-C-240L",
@@ -20055,7 +20163,10 @@
       },
       "media": {
         "mainImage": "products/YD-C-240L/main.png"
-      }
+      },
+      "variantOf": "YD-C",
+      "variantSize": "240L",
+      "variantVolume": 240
     },
     {
       "id": "YD-D-60L",
@@ -20234,7 +20345,10 @@
       },
       "media": {
         "mainImage": "products/YD-D-60L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "60L",
+      "variantVolume": 60
     },
     {
       "id": "YD-D-80L",
@@ -20413,7 +20527,10 @@
       },
       "media": {
         "mainImage": "products/YD-D-80L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "80L",
+      "variantVolume": 80
     },
     {
       "id": "YD-D-100L",
@@ -20592,7 +20709,10 @@
       },
       "media": {
         "mainImage": "products/YD-D-100L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "100L",
+      "variantVolume": 100
     },
     {
       "id": "YD-D-125L",
@@ -20771,14 +20891,17 @@
       },
       "media": {
         "mainImage": "products/YD-D-125L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "125L",
+      "variantVolume": 125
     },
     {
       "id": "YD-D-150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L American Style Trolley Model-D",
-        "nameZh": "150L 美式手推车 D 型",
+        "nameEn": "American Style Trolley Model-D Series (Double-Deck Chassis)",
+        "nameZh": "美式手推车 D 型系列（双层底盘）",
         "model": "YD-D-150L",
         "shortName": "150L American Trolley D"
       },
@@ -20950,7 +21073,13 @@
       },
       "media": {
         "mainImage": "products/YD-D-150L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L American Style Trolley Model-D",
+      "variantSizeNameZh": "150L 美式手推车 D 型"
     },
     {
       "id": "YD-D-180L",
@@ -21129,7 +21258,10 @@
       },
       "media": {
         "mainImage": "products/YD-D-180L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "180L",
+      "variantVolume": 180
     },
     {
       "id": "YD-D-210L",
@@ -21308,7 +21440,10 @@
       },
       "media": {
         "mainImage": "products/YD-D-210L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "YD-D-240L",
@@ -21487,7 +21622,10 @@
       },
       "media": {
         "mainImage": "products/YD-D-240L/main.png"
-      }
+      },
+      "variantOf": "YD-D",
+      "variantSize": "240L",
+      "variantVolume": 240
     },
     {
       "id": "YD-DF-140L",
@@ -22382,7 +22520,10 @@
       },
       "media": {
         "mainImage": "products/YD-M-80L/main.png"
-      }
+      },
+      "variantOf": "YD-M",
+      "variantSize": "80L",
+      "variantVolume": 80
     },
     {
       "id": "YD-M-130L",
@@ -22561,14 +22702,17 @@
       },
       "media": {
         "mainImage": "products/YD-M-130L/main.png"
-      }
+      },
+      "variantOf": "YD-M",
+      "variantSize": "130L",
+      "variantVolume": 130
     },
     {
       "id": "YD-M-150L",
       "category": "shopping-trolley",
       "basic": {
-        "nameEn": "150L Shopping Trolley Model-M (Double Wire Leg Reinforced Chassis)",
-        "nameZh": "150L 手推车 M 型（双丝底架加强款）",
+        "nameEn": "Trolley Model-M Series (Double-Wire-Leg Reinforced)",
+        "nameZh": "手推车 M 型系列（双丝底架加强款）",
         "model": "YD-M-150L",
         "shortName": "150L Trolley M Double-Wire"
       },
@@ -22740,7 +22884,13 @@
       },
       "media": {
         "mainImage": "products/YD-M-150L/main.png"
-      }
+      },
+      "variantOf": "YD-M",
+      "variantSize": "150L",
+      "variantVolume": 150,
+      "variantDefault": true,
+      "variantSizeNameEn": "150L Shopping Trolley Model-M (Double Wire Leg Reinforced Chassis)",
+      "variantSizeNameZh": "150L 手推车 M 型（双丝底架加强款）"
     },
     {
       "id": "YD-M-210L",
@@ -22919,7 +23069,10 @@
       },
       "media": {
         "mainImage": "products/YD-M-210L/main.png"
-      }
+      },
+      "variantOf": "YD-M",
+      "variantSize": "210L",
+      "variantVolume": 210
     },
     {
       "id": "YD-NR-80L",
