@@ -23371,4 +23371,2852 @@
           "ru": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
           "pt": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
           "ja": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
-          "ko": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg 
+          "ko": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
+          "ar": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
+          "nl": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
+          "tr": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
+          "th": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
+          "vi": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max",
+          "hi": "Max load 130 kg; casters Phi 125mm TPR silent wheels (5-inch); two child seats each rated 18 kg max"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (twin-family specialty variant - rare category)",
+          "zh": "项目报价（双胞胎家庭特殊款，稀缺品类）",
+          "de": "Project quotation (twin-family specialty variant - rare category)",
+          "es": "Project quotation (twin-family specialty variant - rare category)",
+          "fr": "Project quotation (twin-family specialty variant - rare category)",
+          "it": "Project quotation (twin-family specialty variant - rare category)",
+          "ru": "Project quotation (twin-family specialty variant - rare category)",
+          "pt": "Project quotation (twin-family specialty variant - rare category)",
+          "ja": "Project quotation (twin-family specialty variant - rare category)",
+          "ko": "Project quotation (twin-family specialty variant - rare category)",
+          "ar": "Project quotation (twin-family specialty variant - rare category)",
+          "nl": "Project quotation (twin-family specialty variant - rare category)",
+          "tr": "Project quotation (twin-family specialty variant - rare category)",
+          "th": "Project quotation (twin-family specialty variant - rare category)",
+          "vi": "Project quotation (twin-family specialty variant - rare category)",
+          "hi": "Project quotation (twin-family specialty variant - rare category)"
+        },
+        "moq": {
+          "en": "30 sets (low MOQ for niche family-cart category)",
+          "zh": "30 台（家庭车稀缺品类低起订量）",
+          "de": "30 sets (low MOQ for niche family-cart category)",
+          "es": "30 sets (low MOQ for niche family-cart category)",
+          "fr": "30 sets (low MOQ for niche family-cart category)",
+          "it": "30 sets (low MOQ for niche family-cart category)",
+          "ru": "30 sets (low MOQ for niche family-cart category)",
+          "pt": "30 sets (low MOQ for niche family-cart category)",
+          "ja": "30 sets (low MOQ for niche family-cart category)",
+          "ko": "30 sets (low MOQ for niche family-cart category)",
+          "ar": "30 sets (low MOQ for niche family-cart category)",
+          "nl": "30 sets (low MOQ for niche family-cart category)",
+          "tr": "30 sets (low MOQ for niche family-cart category)",
+          "th": "30 sets (low MOQ for niche family-cart category)",
+          "vi": "30 sets (low MOQ for niche family-cart category)",
+          "hi": "30 sets (low MOQ for niche family-cart category)"
+        },
+        "leadTime": {
+          "en": "35-50 days after deposit",
+          "zh": "收到定金后 35-50 天",
+          "de": "35-50 days after deposit",
+          "es": "35-50 days after deposit",
+          "fr": "35-50 days after deposit",
+          "it": "35-50 days after deposit",
+          "ru": "35-50 days after deposit",
+          "pt": "35-50 days after deposit",
+          "ja": "35-50 days after deposit",
+          "ko": "35-50 days after deposit",
+          "ar": "35-50 days after deposit",
+          "nl": "35-50 days after deposit",
+          "tr": "35-50 days after deposit",
+          "th": "35-50 days after deposit",
+          "vi": "35-50 days after deposit",
+          "hi": "35-50 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-NR-190L/main.png"
+      }
+    },
+    {
+      "id": "YD-1007",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Children Toy Trolley YD-1007 (Pink-Yellow Cozy Coupe + Double-Basket)",
+        "nameZh": "童趣车 YD-1007（粉黄卡通车厢 + 双层购物筐）",
+        "model": "YD-1007",
+        "shortName": "Children Toy Trolley 1007"
+      },
+      "parameters": {
+        "specification": {
+          "en": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "zh": "1380 x 590 x 1050 mm（可定制尺寸）",
+          "de": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "es": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "fr": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "it": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "ru": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "pt": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "ja": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "ko": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "ar": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "nl": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "tr": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "th": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "vi": "1380 x 590 x 1050 mm (custom size acceptable)",
+          "hi": "1380 x 590 x 1050 mm (custom size acceptable)"
+        },
+        "material": {
+          "en": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "zh": "独特的 2 合 1 设计：前部塑料卡通儿童车厢（Cozy Coupe 经典造型，食品级 PP 塑料）—— 粉色车身 + 黄色拱形车顶 + 笑脸前脸 + 小塑料玩具轮（让孩子坐进去玩）；后部金属购物区双层叠放镀锌钢丝网筐（Phi 4mm 钢丝 MIG 焊接）+ 蓝色喷塑钢制底架 + 红色塑料把手与端帽；4 个万向 TPR 静音脚轮 Phi 125mm（5 英寸）",
+          "de": "EINZIGARTIGES 2-IN-1-DESIGN: VORN Plastik-Cartoon-Kinderauto (Cozy-Coupe-Stil, lebensmittelechtes PP) - ROSA Unterteil + GELBES Bogendach mit Smiley-Front + kleine Plastik-Spielzeugräder (Kind sitzt darin); HINTEN Einkaufsbereich mit ZWEI gestapelten verzinkten Drahtkörben (Phi 4mm MIG-geschweißt) + BLAU pulverbeschichteter Stahlrahmen + ROTE Kunststoffgriffe; 4 schwenkbare TPR-Leiserollen Phi 125mm",
+          "es": "DISENO UNICO 2-EN-1: DELANTE coche infantil de plastico tipo cartoon (estilo Cozy Coupe, PP grado alimentario) - cuerpo ROSA + techo abovedado AMARILLO con cara sonriente + ruedas pequenas de juguete (nino se sienta y juega); ATRAS seccion metalica con DOS cestas galvanizadas apiladas (Phi 4mm soldadura MIG) + chasis AZUL pintado en polvo + asas ROJAS; 4 ruedas giratorias TPR silenciosas Phi 125mm",
+          "fr": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "it": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "ru": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "pt": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "ja": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "ko": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "ar": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "nl": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "tr": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "th": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "vi": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)",
+          "hi": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - PINK lower body + YELLOW arched roof with smiley face front + small plastic toy wheels (let kid sit inside and play); REAR metal shopping section with TWO STACKED zinc-plated wire-mesh baskets (Phi 4mm wire, MIG-welded) + BLUE powder-coated steel chassis frame + RED plastic handle bar with end-grip caps; 4 swivel TPR silent casters Phi 125mm (5-inch)"
+        },
+        "layers": {
+          "en": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "zh": "塑料车厢供孩子乘坐玩耍（最大儿童承重 30 公斤）+ 两个独立叠放金属购物筐供家长购物（上 ~30L + 下 ~30L = 60L 总购物容量）；专为大型超市、家庭超市、母婴店设计 —— 让孩子安静乘坐玩耍，家长可从容购物一小时不闹腾",
+          "de": "Plastik-Spielauto für Kind (max. 30 kg) + ZWEI unabhängige gestapelte Metalleinkaufskörbe für Eltern (oben ~30L + unten ~30L = 60L Gesamtkapazität); ideal für Hypermärkte, Familienmärkte, Baby-Märkte - hält Kinder eine Stunde lang beschäftigt",
+          "es": "Compartimento de juguete para nino (peso max. 30 kg) + DOS cestas metalicas apiladas independientes para padres (superior ~30L + inferior ~30L = 60L total); ideal para hipermercados, supermercados familiares, tiendas de maternidad - mantiene a los ninos entretenidos durante 1 hora",
+          "fr": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "it": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "ru": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "pt": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "ja": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "ko": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "ar": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "nl": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "tr": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "th": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "vi": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss",
+          "hi": "Plastic toy car compartment for child (max child weight 30 kg) + TWO independent stacked metal shopping baskets for parents (upper ~30L + lower ~30L = 60L total shopping capacity); ideal for hypermarkets, family supermarkets, baby/maternity stores - keeps kids engaged so parents can shop for an hour without fuss"
+        },
+        "surfaceTreatment": {
+          "en": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "zh": "塑料车厢：食品级 PP，抗紫外线防褪色色母；金属底架：蓝色喷塑；金属筐：亮镀锌（亦可定制粉/蓝/红色喷塑）",
+          "de": "Plastikkarosserie: lebensmittelechtes PP, UV-stabil; Metallrahmen: blaue Pulverbeschichtung; Drahtkörbe: helle Verzinkung (auch rosa/blau/rot Pulverbeschichtung wählbar)",
+          "es": "Cuerpo plastico: PP grado alimentario, UV estable; chasis metalico: pintura azul en polvo; cestas metalicas: zincado brillante (o pintura rosa/azul/roja opcional)",
+          "fr": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "it": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "ru": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "pt": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "ja": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "ko": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "ar": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "nl": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "tr": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "th": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "vi": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)",
+          "hi": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: bright zinc plating (or pink/blue/red powder coating optional)"
+        },
+        "capacityPerLayer": {
+          "en": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "zh": "儿童承重 30 公斤；购物筐总承载 30 公斤；脚轮 Phi 125mm TPR 静音轮（5 英寸）",
+          "de": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "es": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "fr": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "it": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "ru": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "pt": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "ja": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "ko": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "ar": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "nl": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "tr": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "th": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "vi": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)",
+          "hi": "Child weight max 30 kg; basket load max 30 kg total; casters Phi 125mm TPR silent wheels (5-inch)"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (children's family-cart specialty)",
+          "zh": "项目报价（儿童家庭车特殊款）",
+          "de": "Project quotation (children's family-cart specialty)",
+          "es": "Project quotation (children's family-cart specialty)",
+          "fr": "Project quotation (children's family-cart specialty)",
+          "it": "Project quotation (children's family-cart specialty)",
+          "ru": "Project quotation (children's family-cart specialty)",
+          "pt": "Project quotation (children's family-cart specialty)",
+          "ja": "Project quotation (children's family-cart specialty)",
+          "ko": "Project quotation (children's family-cart specialty)",
+          "ar": "Project quotation (children's family-cart specialty)",
+          "nl": "Project quotation (children's family-cart specialty)",
+          "tr": "Project quotation (children's family-cart specialty)",
+          "th": "Project quotation (children's family-cart specialty)",
+          "vi": "Project quotation (children's family-cart specialty)",
+          "hi": "Project quotation (children's family-cart specialty)"
+        },
+        "moq": {
+          "en": "30 sets (specialty children-cart MOQ)",
+          "zh": "30 台（儿童车特殊款起订量）",
+          "de": "30 sets (specialty children-cart MOQ)",
+          "es": "30 sets (specialty children-cart MOQ)",
+          "fr": "30 sets (specialty children-cart MOQ)",
+          "it": "30 sets (specialty children-cart MOQ)",
+          "ru": "30 sets (specialty children-cart MOQ)",
+          "pt": "30 sets (specialty children-cart MOQ)",
+          "ja": "30 sets (specialty children-cart MOQ)",
+          "ko": "30 sets (specialty children-cart MOQ)",
+          "ar": "30 sets (specialty children-cart MOQ)",
+          "nl": "30 sets (specialty children-cart MOQ)",
+          "tr": "30 sets (specialty children-cart MOQ)",
+          "th": "30 sets (specialty children-cart MOQ)",
+          "vi": "30 sets (specialty children-cart MOQ)",
+          "hi": "30 sets (specialty children-cart MOQ)"
+        },
+        "leadTime": {
+          "en": "35-50 days after deposit",
+          "zh": "收到定金后 35-50 天",
+          "de": "35-50 days after deposit",
+          "es": "35-50 days after deposit",
+          "fr": "35-50 days after deposit",
+          "it": "35-50 days after deposit",
+          "ru": "35-50 days after deposit",
+          "pt": "35-50 days after deposit",
+          "ja": "35-50 days after deposit",
+          "ko": "35-50 days after deposit",
+          "ar": "35-50 days after deposit",
+          "nl": "35-50 days after deposit",
+          "tr": "35-50 days after deposit",
+          "th": "35-50 days after deposit",
+          "vi": "35-50 days after deposit",
+          "hi": "35-50 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-1007/main.png"
+      }
+    },
+    {
+      "id": "YD-1008",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Children Toy Trolley YD-1008 (Orange-Green Cozy Coupe + Triple-Tier Pink Basket)",
+        "nameZh": "童趣车 YD-1008（橙绿卡通车厢 + 三层粉色筐）",
+        "model": "YD-1008",
+        "shortName": "Children Toy Trolley 1008"
+      },
+      "parameters": {
+        "specification": {
+          "en": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "zh": "1350 x 540 x 1050 mm（可定制尺寸）",
+          "de": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "es": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "fr": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "it": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "ru": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "pt": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "ja": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "ko": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "ar": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "nl": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "tr": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "th": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "vi": "1350 x 540 x 1050 mm (custom size acceptable)",
+          "hi": "1350 x 540 x 1050 mm (custom size acceptable)"
+        },
+        "material": {
+          "en": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "zh": "独特的 2 合 1 设计：前部塑料卡通儿童车厢（Cozy Coupe 经典造型，食品级 PP 塑料）—— 橙色车身 + 绿色拱形车顶 + 笑脸前脸 + 绿色小塑料玩具轮（中心粉色轮毂）；后部金属购物区三层粉色喷塑钢丝网筐（错位倾斜排列，便于取放且视觉吸引力强）+ 蓝色喷塑钢制底架 + 红色塑料把手；4 个万向 TPR 脚轮 Phi 100mm（4 英寸）",
+          "de": "EINZIGARTIGES 2-IN-1-DESIGN: VORN Plastik-Cartoon-Kinderauto (Cozy-Coupe-Stil) - ORANGE Unterteil + GRÜNES Bogendach mit Smiley + grüne Spielzeugräder mit rosa Nabe; HINTEN Einkaufsbereich mit DREI ROSA pulverbeschichteten Drahtkörben (versetzt geneigt für leichten Zugriff + Sichtanreiz) + BLAU pulverbeschichteter Stahlrahmen + ROTE Kunststoffgriffe; 4 schwenkbare TPR-Rollen Phi 100mm",
+          "es": "DISENO UNICO 2-EN-1: DELANTE coche infantil tipo cartoon (estilo Cozy Coupe) - cuerpo NARANJA + techo VERDE con cara sonriente + ruedas verdes de juguete con buje rosa; ATRAS seccion metalica con TRES cestas ROSAS pintadas en polvo (disposicion en cascada inclinada para facil acceso y atractivo visual) + chasis AZUL + asas ROJAS; 4 ruedas TPR giratorias Phi 100mm",
+          "fr": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "it": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "ru": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "pt": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "ja": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "ko": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "ar": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "nl": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "tr": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "th": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "vi": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)",
+          "hi": "UNIQUE 2-IN-1 DESIGN: FRONT plastic cartoon CHILD CAR (Cozy Coupe style, food-grade PP plastic) - ORANGE lower body + GREEN arched roof with smiley face front + small green plastic toy wheels with central pink hub; REAR metal shopping section with THREE-TIER PINK powder-coated wire-mesh baskets (cascading/tilted arrangement for easy reach + visual appeal) + BLUE powder-coated steel chassis + RED plastic handle bar; 4 swivel TPR casters Phi 100mm (4-inch)"
+        },
+        "layers": {
+          "en": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "zh": "塑料车厢供孩子乘坐（最大 30 公斤）+ 三层错位粉色筐供家长（~15L × 3 = 45L 总容量，多高度便于取放）；错位视觉设计吸引儿童，促进家庭购物粘性",
+          "de": "Plastik-Spielauto für Kind (max. 30 kg) + DREI versetzte rosa Körbe für Eltern (~15L x 3 = 45L gesamt, leichter Zugriff in mehreren Höhen); kaskadenförmiges Visual zieht Kinder an und fördert Familienkundenbindung",
+          "es": "Compartimento de juguete (max. 30 kg) + TRES cestas rosas en cascada para padres (~15L x 3 = 45L total, facil acceso a multiples alturas); diseno visual en cascada atrae a ninos y fomenta lealtad de compras familiares",
+          "fr": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "it": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "ru": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "pt": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "ja": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "ko": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "ar": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "nl": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "tr": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "th": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "vi": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty",
+          "hi": "Plastic toy car compartment for child (max 30 kg) + THREE-TIER cascading pink baskets for parents (~15L + ~15L + ~15L = 45L total, easy reach at multiple heights); cascading visual design attracts children and encourages family shopping loyalty"
+        },
+        "surfaceTreatment": {
+          "en": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "zh": "塑料车厢：食品级 PP，抗紫外线防褪色色母；金属底架：蓝色喷塑；金属筐：粉色喷塑（亦可定制镀锌/蓝/红色）",
+          "de": "Plastikkarosserie: lebensmittelechtes PP, UV-stabil; Metallrahmen: blaue Pulverbeschichtung; Drahtkörbe: ROSA Pulverbeschichtung (auch Zink/blau/rot wählbar)",
+          "es": "Cuerpo plastico: PP grado alimentario, UV estable; chasis metalico: pintura azul; cestas metalicas: pintura ROSA (o zincado/azul/rojo opcional)",
+          "fr": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "it": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "ru": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "pt": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "ja": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "ko": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "ar": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "nl": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "tr": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "th": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "vi": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)",
+          "hi": "Plastic body: food-grade PP, UV-stabilized anti-fade pigments; metal chassis: blue powder coating; metal baskets: PINK powder coating (or zinc/blue/red optional)"
+        },
+        "capacityPerLayer": {
+          "en": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "zh": "儿童承重 30 公斤；每层筐承载 15 公斤（共 45 公斤）；脚轮 Phi 100mm TPR 静音轮（4 英寸）",
+          "de": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "es": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "fr": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "it": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "ru": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "pt": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "ja": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "ko": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "ar": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "nl": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "tr": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "th": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "vi": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)",
+          "hi": "Child weight max 30 kg; each basket layer max 15 kg (45 kg total); casters Phi 100mm TPR silent wheels (4-inch)"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (children's family-cart specialty)",
+          "zh": "项目报价（儿童家庭车特殊款）",
+          "de": "Project quotation (children's family-cart specialty)",
+          "es": "Project quotation (children's family-cart specialty)",
+          "fr": "Project quotation (children's family-cart specialty)",
+          "it": "Project quotation (children's family-cart specialty)",
+          "ru": "Project quotation (children's family-cart specialty)",
+          "pt": "Project quotation (children's family-cart specialty)",
+          "ja": "Project quotation (children's family-cart specialty)",
+          "ko": "Project quotation (children's family-cart specialty)",
+          "ar": "Project quotation (children's family-cart specialty)",
+          "nl": "Project quotation (children's family-cart specialty)",
+          "tr": "Project quotation (children's family-cart specialty)",
+          "th": "Project quotation (children's family-cart specialty)",
+          "vi": "Project quotation (children's family-cart specialty)",
+          "hi": "Project quotation (children's family-cart specialty)"
+        },
+        "moq": {
+          "en": "30 sets (specialty children-cart MOQ)",
+          "zh": "30 台（儿童车特殊款起订量）",
+          "de": "30 sets (specialty children-cart MOQ)",
+          "es": "30 sets (specialty children-cart MOQ)",
+          "fr": "30 sets (specialty children-cart MOQ)",
+          "it": "30 sets (specialty children-cart MOQ)",
+          "ru": "30 sets (specialty children-cart MOQ)",
+          "pt": "30 sets (specialty children-cart MOQ)",
+          "ja": "30 sets (specialty children-cart MOQ)",
+          "ko": "30 sets (specialty children-cart MOQ)",
+          "ar": "30 sets (specialty children-cart MOQ)",
+          "nl": "30 sets (specialty children-cart MOQ)",
+          "tr": "30 sets (specialty children-cart MOQ)",
+          "th": "30 sets (specialty children-cart MOQ)",
+          "vi": "30 sets (specialty children-cart MOQ)",
+          "hi": "30 sets (specialty children-cart MOQ)"
+        },
+        "leadTime": {
+          "en": "35-50 days after deposit",
+          "zh": "收到定金后 35-50 天",
+          "de": "35-50 days after deposit",
+          "es": "35-50 days after deposit",
+          "fr": "35-50 days after deposit",
+          "it": "35-50 days after deposit",
+          "ru": "35-50 days after deposit",
+          "pt": "35-50 days after deposit",
+          "ja": "35-50 days after deposit",
+          "ko": "35-50 days after deposit",
+          "ar": "35-50 days after deposit",
+          "nl": "35-50 days after deposit",
+          "tr": "35-50 days after deposit",
+          "th": "35-50 days after deposit",
+          "vi": "35-50 days after deposit",
+          "hi": "35-50 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-1008/main.png"
+      }
+    },
+    {
+      "id": "YD-G003",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Mini Children Trolley YD-G003 (Pink/Blue Powder-Coated + Safety Flag)",
+        "nameZh": "儿童手推车 YD-G003（粉/蓝双色喷塑 + 安全旗）",
+        "model": "YD-G003",
+        "shortName": "Mini Kids Trolley G003"
+      },
+      "parameters": {
+        "specification": {
+          "en": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "zh": "480 x 310 x 680 mm（筐体）；可定制尺寸",
+          "de": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "es": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "fr": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "it": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "ru": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "pt": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "ja": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "ko": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "ar": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "nl": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "tr": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "th": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "vi": "480 x 310 x 680 mm (basket); custom size acceptable",
+          "hi": "480 x 310 x 680 mm (basket); custom size acceptable"
+        },
+        "material": {
+          "en": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "zh": "儿童尺寸钢丝网筐，粉色或蓝色喷塑（与底架、脚轮同色配色）+ 同色喷塑钢制底架 + 车后竖立长杆带红色小旗（家长在人群中追踪孩子安全可视）+ 塑料把手 + 圆角倒角儿童安全设计",
+          "de": "Kindergroßer pulverbeschichteter Drahtkorb in ROSA oder BLAU (Farbe passt zu Rahmen und Rollen) + farblich passender Stahlrahmen + kleine rote Flagge auf hohem Heckmast (Sichtbarkeit für Eltern in vollen Läden) + Plastikgriffe + abgerundete kinderfreundliche Kanten",
+          "es": "Cesta de malla tamano nino pintada en polvo ROSA o AZUL (color combina con chasis y ruedas) + chasis de acero pintado a juego + pequena bandera roja en mastil alto trasero (visibilidad para padres en tiendas concurridas) + asas de plastico + bordes redondeados seguros para ninos",
+          "fr": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "it": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "ru": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "pt": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "ja": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "ko": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "ar": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "nl": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "tr": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "th": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "vi": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)",
+          "hi": "Child-sized wire-mesh basket powder-coated in PINK or BLUE (color matches chassis frame and casters) + matching color powder-coated steel chassis + small red flag mounted on tall vertical pole rising from rear of cart (safety visibility for parents in crowded store) + plastic handle grips + smooth rounded child-safe edges (no sharp corners)"
+        },
+        "layers": {
+          "en": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "zh": "单层钢丝网筐（迷你版方正成人款造型）；三轮设计（前两轮 + 后单万向轮）便于幼儿掌控；垂直安全旗杆总高约 1200 mm",
+          "de": "Einzelner Drahtkorb (Mini-Erwachsenenstil); 3-Rad-Dreirad-Design (2 vorn + 1 schwenkbar hinten) für leichte Lenkung durch Kleinkinder; Sicherheitsflaggen-Mast ca. 1200 mm Gesamthöhe",
+          "es": "Cesta unica (estilo mini adulto); diseno TRICICLO de 3 ruedas (2 delanteras + 1 giratoria trasera) para facil manejo por ninos pequenos; mastil con bandera de seguridad altura total aprox 1200 mm",
+          "fr": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "it": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "ru": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "pt": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "ja": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "ko": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "ar": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "nl": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "tr": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "th": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "vi": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height",
+          "hi": "Single wire-mesh basket (mini boxy adult-cart style); 3-wheel TRICYCLE design (2 front + 1 swivel rear) for easy turning by small children; vertical safety flag pole approx 1200 mm total height"
+        },
+        "surfaceTreatment": {
+          "en": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "zh": "粉色或蓝色喷塑（筐体/底架/脚轮全部同色配色）",
+          "de": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "es": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "fr": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "it": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "ru": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "pt": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "ja": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "ko": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "ar": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "nl": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "tr": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "th": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "vi": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)",
+          "hi": "Powder coating in PINK or BLUE (full-color matching across basket / chassis / wheels)"
+        },
+        "capacityPerLayer": {
+          "en": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "zh": "最大承重 15 公斤（儿童玩具规格）；脚轮 Phi 75mm TPR 静音轮（3 英寸）；安全旗便于家长视线追踪",
+          "de": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "es": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "fr": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "it": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "ru": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "pt": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "ja": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "ko": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "ar": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "nl": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "tr": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "th": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "vi": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility",
+          "hi": "Max load 15 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); safety flag for parental visibility"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (kids' play / training cart)",
+          "zh": "项目报价（儿童玩具/学习推车）",
+          "de": "Project quotation (kids' play / training cart)",
+          "es": "Project quotation (kids' play / training cart)",
+          "fr": "Project quotation (kids' play / training cart)",
+          "it": "Project quotation (kids' play / training cart)",
+          "ru": "Project quotation (kids' play / training cart)",
+          "pt": "Project quotation (kids' play / training cart)",
+          "ja": "Project quotation (kids' play / training cart)",
+          "ko": "Project quotation (kids' play / training cart)",
+          "ar": "Project quotation (kids' play / training cart)",
+          "nl": "Project quotation (kids' play / training cart)",
+          "tr": "Project quotation (kids' play / training cart)",
+          "th": "Project quotation (kids' play / training cart)",
+          "vi": "Project quotation (kids' play / training cart)",
+          "hi": "Project quotation (kids' play / training cart)"
+        },
+        "moq": {
+          "en": "100 sets (specialty kids cart MOQ)",
+          "zh": "100 台（儿童玩具车特殊款起订量）",
+          "de": "100 sets (specialty kids cart MOQ)",
+          "es": "100 sets (specialty kids cart MOQ)",
+          "fr": "100 sets (specialty kids cart MOQ)",
+          "it": "100 sets (specialty kids cart MOQ)",
+          "ru": "100 sets (specialty kids cart MOQ)",
+          "pt": "100 sets (specialty kids cart MOQ)",
+          "ja": "100 sets (specialty kids cart MOQ)",
+          "ko": "100 sets (specialty kids cart MOQ)",
+          "ar": "100 sets (specialty kids cart MOQ)",
+          "nl": "100 sets (specialty kids cart MOQ)",
+          "tr": "100 sets (specialty kids cart MOQ)",
+          "th": "100 sets (specialty kids cart MOQ)",
+          "vi": "100 sets (specialty kids cart MOQ)",
+          "hi": "100 sets (specialty kids cart MOQ)"
+        },
+        "leadTime": {
+          "en": "30-45 days after deposit",
+          "zh": "收到定金后 30-45 天",
+          "de": "30-45 days after deposit",
+          "es": "30-45 days after deposit",
+          "fr": "30-45 days after deposit",
+          "it": "30-45 days after deposit",
+          "ru": "30-45 days after deposit",
+          "pt": "30-45 days after deposit",
+          "ja": "30-45 days after deposit",
+          "ko": "30-45 days after deposit",
+          "ar": "30-45 days after deposit",
+          "nl": "30-45 days after deposit",
+          "tr": "30-45 days after deposit",
+          "th": "30-45 days after deposit",
+          "vi": "30-45 days after deposit",
+          "hi": "30-45 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-G003/main.png"
+      }
+    },
+    {
+      "id": "YD-G004",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Mini Children Trolley YD-G004 (Chrome Realistic Replica)",
+        "nameZh": "儿童手推车 YD-G004（镀铬仿真迷你版）",
+        "model": "YD-G004",
+        "shortName": "Mini Kids Trolley G004 Chrome"
+      },
+      "parameters": {
+        "specification": {
+          "en": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "zh": "500 x 350 x 700 mm（筐体）；可定制尺寸",
+          "de": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "es": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "fr": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "it": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "ru": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "pt": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "ja": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "ko": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "ar": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "nl": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "tr": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "th": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "vi": "500 x 350 x 700 mm (basket); custom size acceptable",
+          "hi": "500 x 350 x 700 mm (basket); custom size acceptable"
+        },
+        "material": {
+          "en": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "zh": "镀铬儿童尺寸钢丝网筐（镜面亮铬，仿成人超市购物车的迷你版）+ 镀铬钢制底盘管材 + 红色塑料 L 形角端帽 + 红色塑料把手 + 圆角倒角儿童安全设计",
+          "de": "Verchromter kindergroßer Drahtkorb (spiegelblanker Look, perfekte Miniatur eines erwachsenen Supermarktwagens) + verchromte Stahlrohre + ROTE L-Eckkappen + ROTE Griffe + abgerundete sichere Kanten",
+          "es": "Cesta cromada tamano nino (acabado espejo, miniatura perfecta de carrito adulto) + tubos de chasis cromados + tapas L ROJAS + asas ROJAS + bordes redondeados seguros",
+          "fr": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "it": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "ru": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "pt": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "ja": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "ko": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "ar": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "nl": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "tr": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "th": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "vi": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges",
+          "hi": "Chrome-plated child-sized wire-mesh basket (mirror-bright finish, looks like a perfect miniature of an adult supermarket cart) + chrome-plated steel chassis tubes + RED plastic L-shaped corner end caps + RED plastic handle grips + smooth rounded child-safe edges"
+        },
+        "layers": {
+          "en": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "zh": "单层镀铬钢丝网筐；4 轮成人款仿真布局（迷你底盘带下层平板和后角脚轮）；适合迪卡侬 Decathlon / 宜家 Smaland 风格亲子购物体验或亲子超市促销活动",
+          "de": "Einzelner verchromter Drahtkorb; 4-Rad realistisches Erwachsenen-Layout (Mini-Fahrwerk mit unterer Plattform und Eckrollen hinten); ideal für Decathlon / IKEA Smaland Stil Eltern-Kind-Einkaufserlebnis",
+          "es": "Cesta cromada unica; diseno realista 4 ruedas estilo adulto (mini chasis con plataforma inferior y ruedas traseras); ideal para experiencia padre-hijo estilo Decathlon / IKEA Smaland",
+          "fr": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "it": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "ru": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "pt": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "ja": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "ko": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "ar": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "nl": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "tr": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "th": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "vi": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events",
+          "hi": "Single chrome wire-mesh basket; 4-wheel realistic adult-cart layout (mini chassis with full lower platform and rear-corner casters); ideal for Decathlon-style / IKEA Smaland-style kid shopping experience or parent-child supermarket promotional events"
+        },
+        "surfaceTreatment": {
+          "en": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "zh": "镀铬（Cr）—— 镜面亮铬仿真工艺",
+          "de": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "es": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "fr": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "it": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "ru": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "pt": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "ja": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "ko": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "ar": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "nl": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "tr": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "th": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "vi": "Chrome plating (Cr) - mirror-bright realistic finish",
+          "hi": "Chrome plating (Cr) - mirror-bright realistic finish"
+        },
+        "capacityPerLayer": {
+          "en": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "zh": "最大承重 20 公斤（儿童玩具规格）；脚轮 Phi 75mm TPR 静音轮（3 英寸）",
+          "de": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "es": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "fr": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "it": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "ru": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "pt": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "ja": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "ko": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "ar": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "nl": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "tr": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "th": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "vi": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)",
+          "hi": "Max load 20 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch)"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (chrome realistic miniature)",
+          "zh": "项目报价（镀铬仿真迷你款）",
+          "de": "Project quotation (chrome realistic miniature)",
+          "es": "Project quotation (chrome realistic miniature)",
+          "fr": "Project quotation (chrome realistic miniature)",
+          "it": "Project quotation (chrome realistic miniature)",
+          "ru": "Project quotation (chrome realistic miniature)",
+          "pt": "Project quotation (chrome realistic miniature)",
+          "ja": "Project quotation (chrome realistic miniature)",
+          "ko": "Project quotation (chrome realistic miniature)",
+          "ar": "Project quotation (chrome realistic miniature)",
+          "nl": "Project quotation (chrome realistic miniature)",
+          "tr": "Project quotation (chrome realistic miniature)",
+          "th": "Project quotation (chrome realistic miniature)",
+          "vi": "Project quotation (chrome realistic miniature)",
+          "hi": "Project quotation (chrome realistic miniature)"
+        },
+        "moq": {
+          "en": "100 sets (specialty kids cart MOQ)",
+          "zh": "100 台（儿童玩具车特殊款起订量）",
+          "de": "100 sets (specialty kids cart MOQ)",
+          "es": "100 sets (specialty kids cart MOQ)",
+          "fr": "100 sets (specialty kids cart MOQ)",
+          "it": "100 sets (specialty kids cart MOQ)",
+          "ru": "100 sets (specialty kids cart MOQ)",
+          "pt": "100 sets (specialty kids cart MOQ)",
+          "ja": "100 sets (specialty kids cart MOQ)",
+          "ko": "100 sets (specialty kids cart MOQ)",
+          "ar": "100 sets (specialty kids cart MOQ)",
+          "nl": "100 sets (specialty kids cart MOQ)",
+          "tr": "100 sets (specialty kids cart MOQ)",
+          "th": "100 sets (specialty kids cart MOQ)",
+          "vi": "100 sets (specialty kids cart MOQ)",
+          "hi": "100 sets (specialty kids cart MOQ)"
+        },
+        "leadTime": {
+          "en": "30-45 days after deposit",
+          "zh": "收到定金后 30-45 天",
+          "de": "30-45 days after deposit",
+          "es": "30-45 days after deposit",
+          "fr": "30-45 days after deposit",
+          "it": "30-45 days after deposit",
+          "ru": "30-45 days after deposit",
+          "pt": "30-45 days after deposit",
+          "ja": "30-45 days after deposit",
+          "ko": "30-45 days after deposit",
+          "ar": "30-45 days after deposit",
+          "nl": "30-45 days after deposit",
+          "tr": "30-45 days after deposit",
+          "th": "30-45 days after deposit",
+          "vi": "30-45 days after deposit",
+          "hi": "30-45 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-G004/main.png"
+      }
+    },
+    {
+      "id": "YD-G005",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Mini Children Trolley YD-G005 (Plastic Basket + Extra-Tall Teddy-Bear Safety Flag)",
+        "nameZh": "儿童手推车 YD-G005（塑料筐 + 超长泰迪熊安全旗）",
+        "model": "YD-G005",
+        "shortName": "Mini Kids Trolley G005 Bear-Flag"
+      },
+      "parameters": {
+        "specification": {
+          "en": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "zh": "600 x 375 x 730 mm（筐体）；含旗杆总高 1480 mm；可定制",
+          "de": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "es": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "fr": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "it": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "ru": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "pt": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "ja": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "ko": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "ar": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "nl": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "tr": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "th": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "vi": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable",
+          "hi": "600 x 375 x 730 mm (basket); 1480 mm total height with flag pole; custom size acceptable"
+        },
+        "material": {
+          "en": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "zh": "注塑红色塑料筐（带通风条孔，食品级 PP，区别于钢丝网更安全，无外露钢丝端头）+ 镀锌钢制底架 + 超长可调安全旗杆（总高 1480 mm）配白色长方形旗（印可爱棕色卡通泰迪熊）+ 双侧把手 + 圆角倒角儿童安全设计",
+          "de": "Spritzgegossener ROTER Plastikkorb mit Lüftungsschlitzen (lebensmittelechtes PP statt Draht - sicherer für Kleinkinder, keine offenen Drahtenden) + verzinkter Stahlrahmen + EXTRA-LANGER verstellbarer Sicherheitsflaggen-Mast (1480 mm Gesamthöhe) mit weißer Flagge und braunem TEDDYBÄR-Cartoon + Seitengriffe + abgerundete sichere Kanten",
+          "es": "Cesta plastica ROJA inyectada con ranuras de ventilacion (PP grado alimentario, no malla - mas seguro para ninos pequenos, sin extremos de alambre expuestos) + chasis de acero galvanizado + mastil de seguridad EXTRA-LARGO ajustable (altura total 1480 mm) con bandera blanca y OSITO de peluche marron + asas laterales + bordes redondeados seguros",
+          "fr": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "it": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "ru": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "pt": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "ja": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "ko": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "ar": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "nl": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "tr": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "th": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "vi": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges",
+          "hi": "Injection-molded RED plastic basket with ventilation slots (food-grade PP, NOT wire mesh - safer for very young kids, no exposed wire ends) + zinc-plated steel chassis + EXTRA-TALL adjustable safety flag pole (rises to 1480 mm total height) with WHITE rectangular flag featuring cute brown TEDDY BEAR cartoon graphic + dual side handles + smooth rounded child-safe edges"
+        },
+        "layers": {
+          "en": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "zh": "单层红色塑料筐；三轮设计（前两轮 + 后单万向轮）；超长 1480 mm 安全旗杆（明显高于 G003）—— 家长在大型超市过道远端也能一眼看到孩子（高级安全升级）",
+          "de": "Einzelner roter Plastikkorb; 3-Rad-Dreirad-Design (2 vorn + 1 schwenkbar hinten); EXTRA-LANGER 1480 mm Sicherheitsmast (deutlich höher als G003) - Eltern sehen Kind von der anderen Hypermarkt-Gangseite (Premium-Sicherheitsupgrade)",
+          "es": "Cesta plastica roja unica; diseno TRICICLO 3 ruedas (2 delanteras + 1 giratoria trasera); mastil de seguridad EXTRA-LARGO 1480 mm (significativamente mas alto que G003) - padres ven al nino desde el otro lado del pasillo del hipermercado (mejora premium de seguridad)",
+          "fr": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "it": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "ru": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "pt": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "ja": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "ko": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "ar": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "nl": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "tr": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "th": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "vi": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)",
+          "hi": "Single red plastic basket; 3-wheel TRICYCLE design (2 front + 1 swivel rear); EXTRA-TALL 1480 mm safety flag pole - significantly taller than YD-G003 flag - so parents can spot the kid from across a hypermarket aisle (premium safety upgrade)"
+        },
+        "surfaceTreatment": {
+          "en": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "zh": "塑料筐：食品级 PP 注塑（红色）；底架：镀锌；旗杆：镀铬",
+          "de": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "es": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "fr": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "it": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "ru": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "pt": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "ja": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "ko": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "ar": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "nl": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "tr": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "th": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "vi": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome",
+          "hi": "Plastic basket: food-grade PP injection molding (red); chassis: zinc plating; pole: chrome"
+        },
+        "capacityPerLayer": {
+          "en": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "zh": "最大承重 12 公斤（儿童玩具规格）；脚轮 Phi 75mm TPR 静音轮（3 英寸）；1480mm 大型超市级安全旗",
+          "de": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "es": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "fr": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "it": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "ru": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "pt": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "ja": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "ko": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "ar": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "nl": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "tr": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "th": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "vi": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility",
+          "hi": "Max load 12 kg (child-toy rating); casters Phi 75mm TPR silent wheels (3-inch); 1480mm safety flag for hypermarket-grade parental visibility"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "zh": "项目报价（带超长安全旗塑料筐高级儿童车）",
+          "de": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "es": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "fr": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "it": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "ru": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "pt": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "ja": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "ko": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "ar": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "nl": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "tr": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "th": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "vi": "Project quotation (premium safety-flag plastic-basket kids cart)",
+          "hi": "Project quotation (premium safety-flag plastic-basket kids cart)"
+        },
+        "moq": {
+          "en": "100 sets (specialty kids cart MOQ)",
+          "zh": "100 台（儿童玩具车特殊款起订量）",
+          "de": "100 sets (specialty kids cart MOQ)",
+          "es": "100 sets (specialty kids cart MOQ)",
+          "fr": "100 sets (specialty kids cart MOQ)",
+          "it": "100 sets (specialty kids cart MOQ)",
+          "ru": "100 sets (specialty kids cart MOQ)",
+          "pt": "100 sets (specialty kids cart MOQ)",
+          "ja": "100 sets (specialty kids cart MOQ)",
+          "ko": "100 sets (specialty kids cart MOQ)",
+          "ar": "100 sets (specialty kids cart MOQ)",
+          "nl": "100 sets (specialty kids cart MOQ)",
+          "tr": "100 sets (specialty kids cart MOQ)",
+          "th": "100 sets (specialty kids cart MOQ)",
+          "vi": "100 sets (specialty kids cart MOQ)",
+          "hi": "100 sets (specialty kids cart MOQ)"
+        },
+        "leadTime": {
+          "en": "30-45 days after deposit",
+          "zh": "收到定金后 30-45 天",
+          "de": "30-45 days after deposit",
+          "es": "30-45 days after deposit",
+          "fr": "30-45 days after deposit",
+          "it": "30-45 days after deposit",
+          "ru": "30-45 days after deposit",
+          "pt": "30-45 days after deposit",
+          "ja": "30-45 days after deposit",
+          "ko": "30-45 days after deposit",
+          "ar": "30-45 days after deposit",
+          "nl": "30-45 days after deposit",
+          "tr": "30-45 days after deposit",
+          "th": "30-45 days after deposit",
+          "vi": "30-45 days after deposit",
+          "hi": "30-45 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-G005/main.png"
+      }
+    },
+    {
+      "id": "YD-J001",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Zinc Basket Trolley YD-J001 (2-Tier Handheld Basket Holder)",
+        "nameZh": "镀锌提篮车 YD-J001（双层手提篮专用架）",
+        "model": "YD-J001",
+        "shortName": "Zinc Basket Trolley J001"
+      },
+      "parameters": {
+        "specification": {
+          "en": "560 x 486 x 1036 mm (custom size acceptable)",
+          "zh": "560 x 486 x 1036 mm（可定制尺寸）",
+          "de": "560 x 486 x 1036 mm (custom size acceptable)",
+          "es": "560 x 486 x 1036 mm (custom size acceptable)",
+          "fr": "560 x 486 x 1036 mm (custom size acceptable)",
+          "it": "560 x 486 x 1036 mm (custom size acceptable)",
+          "ru": "560 x 486 x 1036 mm (custom size acceptable)",
+          "pt": "560 x 486 x 1036 mm (custom size acceptable)",
+          "ja": "560 x 486 x 1036 mm (custom size acceptable)",
+          "ko": "560 x 486 x 1036 mm (custom size acceptable)",
+          "ar": "560 x 486 x 1036 mm (custom size acceptable)",
+          "nl": "560 x 486 x 1036 mm (custom size acceptable)",
+          "tr": "560 x 486 x 1036 mm (custom size acceptable)",
+          "th": "560 x 486 x 1036 mm (custom size acceptable)",
+          "vi": "560 x 486 x 1036 mm (custom size acceptable)",
+          "hi": "560 x 486 x 1036 mm (custom size acceptable)"
+        },
+        "material": {
+          "en": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "zh": "镀锌钢管框架 + 两层镀锌开放式钢丝置物架（上层胸高 + 下层近地面）专为放置超市标准手提购物篮设计；带挡边防止篮子滑落；红色塑料把手安装在立柱顶部",
+          "de": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "es": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "fr": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "it": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "ru": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "pt": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "ja": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "ko": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "ar": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "nl": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "tr": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "th": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "vi": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails",
+          "hi": "Zinc-plated steel tube frame + TWO ZINC-PLATED OPEN WIRE SHELVES (upper at chest height + lower near floor) designed to hold standard supermarket handheld shopping baskets; rim guards prevent baskets sliding off; RED plastic handle grips at top of vertical rails"
+        },
+        "layers": {
+          "en": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "zh": "双层放篮设计：上层胸高 + 下层近地面各放 1 个手提篮；约 40L 等效容量；适合便利店、中型超市",
+          "de": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "es": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "fr": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "it": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "ru": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "pt": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "ja": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "ko": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "ar": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "nl": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "tr": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "th": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "vi": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets",
+          "hi": "Two-tier basket-holder design: upper shelf holds 1 shopping basket at chest height + lower shelf holds 1 additional basket near floor; ~40L equivalent capacity (2 standard baskets); ideal for convenience stores, mid-size supermarkets"
+        },
+        "surfaceTreatment": {
+          "en": "Zinc plating (Z) - bright galvanized silver finish",
+          "zh": "镀锌（Z）—— 亮色镀锌银面",
+          "de": "Zinc plating (Z) - bright galvanized silver finish",
+          "es": "Zinc plating (Z) - bright galvanized silver finish",
+          "fr": "Zinc plating (Z) - bright galvanized silver finish",
+          "it": "Zinc plating (Z) - bright galvanized silver finish",
+          "ru": "Zinc plating (Z) - bright galvanized silver finish",
+          "pt": "Zinc plating (Z) - bright galvanized silver finish",
+          "ja": "Zinc plating (Z) - bright galvanized silver finish",
+          "ko": "Zinc plating (Z) - bright galvanized silver finish",
+          "ar": "Zinc plating (Z) - bright galvanized silver finish",
+          "nl": "Zinc plating (Z) - bright galvanized silver finish",
+          "tr": "Zinc plating (Z) - bright galvanized silver finish",
+          "th": "Zinc plating (Z) - bright galvanized silver finish",
+          "vi": "Zinc plating (Z) - bright galvanized silver finish",
+          "hi": "Zinc plating (Z) - bright galvanized silver finish"
+        },
+        "capacityPerLayer": {
+          "en": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "zh": "每层最大承重 25 公斤；脚轮 Phi 75mm TPR 静音轮（3 英寸）；整车总承载 50 公斤",
+          "de": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "es": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "fr": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "it": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "ru": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "pt": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "ja": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "ko": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "ar": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "nl": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "tr": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "th": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "vi": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg",
+          "hi": "Each shelf max load 25 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 50 kg"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (convenience-store specialty)",
+          "zh": "项目报价（便利店专用款）",
+          "de": "Project quotation (convenience-store specialty)",
+          "es": "Project quotation (convenience-store specialty)",
+          "fr": "Project quotation (convenience-store specialty)",
+          "it": "Project quotation (convenience-store specialty)",
+          "ru": "Project quotation (convenience-store specialty)",
+          "pt": "Project quotation (convenience-store specialty)",
+          "ja": "Project quotation (convenience-store specialty)",
+          "ko": "Project quotation (convenience-store specialty)",
+          "ar": "Project quotation (convenience-store specialty)",
+          "nl": "Project quotation (convenience-store specialty)",
+          "tr": "Project quotation (convenience-store specialty)",
+          "th": "Project quotation (convenience-store specialty)",
+          "vi": "Project quotation (convenience-store specialty)",
+          "hi": "Project quotation (convenience-store specialty)"
+        },
+        "moq": {
+          "en": "50 sets (specialty cart MOQ)",
+          "zh": "50 台（特殊车型起订量）",
+          "de": "50 sets (specialty cart MOQ)",
+          "es": "50 sets (specialty cart MOQ)",
+          "fr": "50 sets (specialty cart MOQ)",
+          "it": "50 sets (specialty cart MOQ)",
+          "ru": "50 sets (specialty cart MOQ)",
+          "pt": "50 sets (specialty cart MOQ)",
+          "ja": "50 sets (specialty cart MOQ)",
+          "ko": "50 sets (specialty cart MOQ)",
+          "ar": "50 sets (specialty cart MOQ)",
+          "nl": "50 sets (specialty cart MOQ)",
+          "tr": "50 sets (specialty cart MOQ)",
+          "th": "50 sets (specialty cart MOQ)",
+          "vi": "50 sets (specialty cart MOQ)",
+          "hi": "50 sets (specialty cart MOQ)"
+        },
+        "leadTime": {
+          "en": "30-45 days after deposit",
+          "zh": "收到定金后 30-45 天",
+          "de": "30-45 days after deposit",
+          "es": "30-45 days after deposit",
+          "fr": "30-45 days after deposit",
+          "it": "30-45 days after deposit",
+          "ru": "30-45 days after deposit",
+          "pt": "30-45 days after deposit",
+          "ja": "30-45 days after deposit",
+          "ko": "30-45 days after deposit",
+          "ar": "30-45 days after deposit",
+          "nl": "30-45 days after deposit",
+          "tr": "30-45 days after deposit",
+          "th": "30-45 days after deposit",
+          "vi": "30-45 days after deposit",
+          "hi": "30-45 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-J001/main.png"
+      }
+    },
+    {
+      "id": "YD-J002",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Three Basket Trolley YD-J002 (3-Tier Handheld Basket Holder)",
+        "nameZh": "三篮存放车 YD-J002（三层手提篮专用架）",
+        "model": "YD-J002",
+        "shortName": "Three Basket Trolley J002"
+      },
+      "parameters": {
+        "specification": {
+          "en": "680 x 460 x 900 mm (custom size acceptable)",
+          "zh": "680 x 460 x 900 mm（可定制尺寸）",
+          "de": "680 x 460 x 900 mm (custom size acceptable)",
+          "es": "680 x 460 x 900 mm (custom size acceptable)",
+          "fr": "680 x 460 x 900 mm (custom size acceptable)",
+          "it": "680 x 460 x 900 mm (custom size acceptable)",
+          "ru": "680 x 460 x 900 mm (custom size acceptable)",
+          "pt": "680 x 460 x 900 mm (custom size acceptable)",
+          "ja": "680 x 460 x 900 mm (custom size acceptable)",
+          "ko": "680 x 460 x 900 mm (custom size acceptable)",
+          "ar": "680 x 460 x 900 mm (custom size acceptable)",
+          "nl": "680 x 460 x 900 mm (custom size acceptable)",
+          "tr": "680 x 460 x 900 mm (custom size acceptable)",
+          "th": "680 x 460 x 900 mm (custom size acceptable)",
+          "vi": "680 x 460 x 900 mm (custom size acceptable)",
+          "hi": "680 x 460 x 900 mm (custom size acceptable)"
+        },
+        "material": {
+          "en": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "zh": "镀锌钢管框架 + 三层镀锌开放式钢丝置物架（上中下）同时放 3 个手提篮；带挡边；红色塑料把手",
+          "de": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "es": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "fr": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "it": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "ru": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "pt": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "ja": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "ko": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "ar": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "nl": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "tr": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "th": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "vi": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips",
+          "hi": "Zinc-plated steel tube frame + THREE ZINC-PLATED OPEN WIRE SHELVES (top + middle + bottom) for THREE standard supermarket handheld baskets simultaneously; rim guards prevent sliding; RED plastic handle grips"
+        },
+        "layers": {
+          "en": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "zh": "三层放篮（容量升级版）：垂直堆放 3 个标准手提篮（约 60L 等效）；适合店员收集多个顾客篮或仓储式超市",
+          "de": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "es": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "fr": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "it": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "ru": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "pt": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "ja": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "ko": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "ar": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "nl": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "tr": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "th": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "vi": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores",
+          "hi": "Three-tier basket-holder (CAPACITY UPGRADE vs J001): 3 baskets stacked vertically (~60L equivalent); ideal for STAFF use collecting multiple customer baskets, or warehouse-club / bulk-shopping format stores"
+        },
+        "surfaceTreatment": {
+          "en": "Zinc plating (Z) - bright galvanized silver finish",
+          "zh": "镀锌（Z）—— 亮色镀锌银面",
+          "de": "Zinc plating (Z) - bright galvanized silver finish",
+          "es": "Zinc plating (Z) - bright galvanized silver finish",
+          "fr": "Zinc plating (Z) - bright galvanized silver finish",
+          "it": "Zinc plating (Z) - bright galvanized silver finish",
+          "ru": "Zinc plating (Z) - bright galvanized silver finish",
+          "pt": "Zinc plating (Z) - bright galvanized silver finish",
+          "ja": "Zinc plating (Z) - bright galvanized silver finish",
+          "ko": "Zinc plating (Z) - bright galvanized silver finish",
+          "ar": "Zinc plating (Z) - bright galvanized silver finish",
+          "nl": "Zinc plating (Z) - bright galvanized silver finish",
+          "tr": "Zinc plating (Z) - bright galvanized silver finish",
+          "th": "Zinc plating (Z) - bright galvanized silver finish",
+          "vi": "Zinc plating (Z) - bright galvanized silver finish",
+          "hi": "Zinc plating (Z) - bright galvanized silver finish"
+        },
+        "capacityPerLayer": {
+          "en": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "zh": "每层最大承重 20 公斤；脚轮 Phi 75mm TPR 静音轮（3 英寸）；整车总承载 60 公斤",
+          "de": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "es": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "fr": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "it": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "ru": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "pt": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "ja": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "ko": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "ar": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "nl": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "tr": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "th": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "vi": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg",
+          "hi": "Each shelf max load 20 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 60 kg"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (high-capacity basket collector)",
+          "zh": "项目报价（大容量篮筐收集车）",
+          "de": "Project quotation (high-capacity basket collector)",
+          "es": "Project quotation (high-capacity basket collector)",
+          "fr": "Project quotation (high-capacity basket collector)",
+          "it": "Project quotation (high-capacity basket collector)",
+          "ru": "Project quotation (high-capacity basket collector)",
+          "pt": "Project quotation (high-capacity basket collector)",
+          "ja": "Project quotation (high-capacity basket collector)",
+          "ko": "Project quotation (high-capacity basket collector)",
+          "ar": "Project quotation (high-capacity basket collector)",
+          "nl": "Project quotation (high-capacity basket collector)",
+          "tr": "Project quotation (high-capacity basket collector)",
+          "th": "Project quotation (high-capacity basket collector)",
+          "vi": "Project quotation (high-capacity basket collector)",
+          "hi": "Project quotation (high-capacity basket collector)"
+        },
+        "moq": {
+          "en": "50 sets (specialty cart MOQ)",
+          "zh": "50 台（特殊车型起订量）",
+          "de": "50 sets (specialty cart MOQ)",
+          "es": "50 sets (specialty cart MOQ)",
+          "fr": "50 sets (specialty cart MOQ)",
+          "it": "50 sets (specialty cart MOQ)",
+          "ru": "50 sets (specialty cart MOQ)",
+          "pt": "50 sets (specialty cart MOQ)",
+          "ja": "50 sets (specialty cart MOQ)",
+          "ko": "50 sets (specialty cart MOQ)",
+          "ar": "50 sets (specialty cart MOQ)",
+          "nl": "50 sets (specialty cart MOQ)",
+          "tr": "50 sets (specialty cart MOQ)",
+          "th": "50 sets (specialty cart MOQ)",
+          "vi": "50 sets (specialty cart MOQ)",
+          "hi": "50 sets (specialty cart MOQ)"
+        },
+        "leadTime": {
+          "en": "30-45 days after deposit",
+          "zh": "收到定金后 30-45 天",
+          "de": "30-45 days after deposit",
+          "es": "30-45 days after deposit",
+          "fr": "30-45 days after deposit",
+          "it": "30-45 days after deposit",
+          "ru": "30-45 days after deposit",
+          "pt": "30-45 days after deposit",
+          "ja": "30-45 days after deposit",
+          "ko": "30-45 days after deposit",
+          "ar": "30-45 days after deposit",
+          "nl": "30-45 days after deposit",
+          "tr": "30-45 days after deposit",
+          "th": "30-45 days after deposit",
+          "vi": "30-45 days after deposit",
+          "hi": "30-45 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-J002/main.png"
+      }
+    },
+    {
+      "id": "YD-J003",
+      "category": "shopping-trolley",
+      "basic": {
+        "nameEn": "Wire Basket Trolley YD-J003 (Built-In Basket + Lower Shelf, Blue Powder)",
+        "nameZh": "网篮车 YD-J003（自带网篮 + 下层货架，蓝色喷塑）",
+        "model": "YD-J003",
+        "shortName": "Wire Basket Trolley J003"
+      },
+      "parameters": {
+        "specification": {
+          "en": "560 x 410 x 940 mm (custom size acceptable)",
+          "zh": "560 x 410 x 940 mm（可定制尺寸）",
+          "de": "560 x 410 x 940 mm (custom size acceptable)",
+          "es": "560 x 410 x 940 mm (custom size acceptable)",
+          "fr": "560 x 410 x 940 mm (custom size acceptable)",
+          "it": "560 x 410 x 940 mm (custom size acceptable)",
+          "ru": "560 x 410 x 940 mm (custom size acceptable)",
+          "pt": "560 x 410 x 940 mm (custom size acceptable)",
+          "ja": "560 x 410 x 940 mm (custom size acceptable)",
+          "ko": "560 x 410 x 940 mm (custom size acceptable)",
+          "ar": "560 x 410 x 940 mm (custom size acceptable)",
+          "nl": "560 x 410 x 940 mm (custom size acceptable)",
+          "tr": "560 x 410 x 940 mm (custom size acceptable)",
+          "th": "560 x 410 x 940 mm (custom size acceptable)",
+          "vi": "560 x 410 x 940 mm (custom size acceptable)",
+          "hi": "560 x 410 x 940 mm (custom size acceptable)"
+        },
+        "material": {
+          "en": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "zh": "蓝色喷塑钢管框架 + 顶部一体焊接蓝色喷塑钢丝网篮（顾客直接往篮里购物）+ 篮下层货架平板放大件 + 高立式推杆 + 同色蓝色脚轮立柱",
+          "de": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "es": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "fr": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "it": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "ru": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "pt": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "ja": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "ko": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "ar": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "nl": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "tr": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "th": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "vi": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems",
+          "hi": "BLUE powder-coated steel tube frame + ONE permanently attached BLUE powder-coated wire-mesh basket at top (customers shop DIRECTLY into this basket) + lower wire shelf platform under basket for bulky items + tall vertical push handle bar + matching blue caster stems"
+        },
+        "layers": {
+          "en": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "zh": "单层自带钢丝网篮（约 35L）位于胸高 + 下层平板货架放纸箱、瓶装水或超大件；纤细高瘦造型适合便利店窄过道、药房、电子产品店",
+          "de": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "es": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "fr": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "it": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "ru": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "pt": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "ja": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "ko": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "ar": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "nl": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "tr": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "th": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "vi": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores",
+          "hi": "Single built-in wire-mesh basket (~35L) at chest height + lower flat wire shelf platform for cardboard boxes, bottled water, or oversized items; slim tall compact silhouette ideal for narrow convenience-store aisles, pharmacies, electronics stores"
+        },
+        "surfaceTreatment": {
+          "en": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "zh": "蓝色喷塑全身（可定制色：红/绿/黄/黑等）",
+          "de": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "es": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "fr": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "it": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "ru": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "pt": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "ja": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "ko": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "ar": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "nl": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "tr": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "th": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "vi": "BLUE powder coating throughout (custom color available: red / green / yellow / black)",
+          "hi": "BLUE powder coating throughout (custom color available: red / green / yellow / black)"
+        },
+        "capacityPerLayer": {
+          "en": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "zh": "篮最大承重 25 公斤；下层货架最大承重 30 公斤；脚轮 Phi 75mm TPR 静音轮（3 英寸）；整车总承载 55 公斤",
+          "de": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "es": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "fr": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "it": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "ru": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "pt": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "ja": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "ko": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "ar": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "nl": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "tr": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "th": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "vi": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg",
+          "hi": "Basket max load 25 kg; lower shelf max load 30 kg; casters Phi 75mm TPR silent wheels (3-inch); total cart load 55 kg"
+        }
+      },
+      "commerce": {
+        "price": {
+          "en": "Project quotation (narrow-aisle compact cart)",
+          "zh": "项目报价（窄过道紧凑型推车）",
+          "de": "Project quotation (narrow-aisle compact cart)",
+          "es": "Project quotation (narrow-aisle compact cart)",
+          "fr": "Project quotation (narrow-aisle compact cart)",
+          "it": "Project quotation (narrow-aisle compact cart)",
+          "ru": "Project quotation (narrow-aisle compact cart)",
+          "pt": "Project quotation (narrow-aisle compact cart)",
+          "ja": "Project quotation (narrow-aisle compact cart)",
+          "ko": "Project quotation (narrow-aisle compact cart)",
+          "ar": "Project quotation (narrow-aisle compact cart)",
+          "nl": "Project quotation (narrow-aisle compact cart)",
+          "tr": "Project quotation (narrow-aisle compact cart)",
+          "th": "Project quotation (narrow-aisle compact cart)",
+          "vi": "Project quotation (narrow-aisle compact cart)",
+          "hi": "Project quotation (narrow-aisle compact cart)"
+        },
+        "moq": {
+          "en": "50 sets (specialty cart MOQ)",
+          "zh": "50 台（特殊车型起订量）",
+          "de": "50 sets (specialty cart MOQ)",
+          "es": "50 sets (specialty cart MOQ)",
+          "fr": "50 sets (specialty cart MOQ)",
+          "it": "50 sets (specialty cart MOQ)",
+          "ru": "50 sets (specialty cart MOQ)",
+          "pt": "50 sets (specialty cart MOQ)",
+          "ja": "50 sets (specialty cart MOQ)",
+          "ko": "50 sets (specialty cart MOQ)",
+          "ar": "50 sets (specialty cart MOQ)",
+          "nl": "50 sets (specialty cart MOQ)",
+          "tr": "50 sets (specialty cart MOQ)",
+          "th": "50 sets (specialty cart MOQ)",
+          "vi": "50 sets (specialty cart MOQ)",
+          "hi": "50 sets (specialty cart MOQ)"
+        },
+        "leadTime": {
+          "en": "30-45 days after deposit",
+          "zh": "收到定金后 30-45 天",
+          "de": "30-45 days after deposit",
+          "es": "30-45 days after deposit",
+          "fr": "30-45 days after deposit",
+          "it": "30-45 days after deposit",
+          "ru": "30-45 days after deposit",
+          "pt": "30-45 days after deposit",
+          "ja": "30-45 days after deposit",
+          "ko": "30-45 days after deposit",
+          "ar": "30-45 days after deposit",
+          "nl": "30-45 days after deposit",
+          "tr": "30-45 days after deposit",
+          "th": "30-45 days after deposit",
+          "vi": "30-45 days after deposit",
+          "hi": "30-45 days after deposit"
+        },
+        "sample": {
+          "en": "Sample available, freight by buyer",
+          "zh": "可提供样品，运费买方承担",
+          "de": "Sample available, freight by buyer",
+          "es": "Sample available, freight by buyer",
+          "fr": "Sample available, freight by buyer",
+          "it": "Sample available, freight by buyer",
+          "ru": "Sample available, freight by buyer",
+          "pt": "Sample available, freight by buyer",
+          "ja": "Sample available, freight by buyer",
+          "ko": "Sample available, freight by buyer",
+          "ar": "Sample available, freight by buyer",
+          "nl": "Sample available, freight by buyer",
+          "tr": "Sample available, freight by buyer",
+          "th": "Sample available, freight by buyer",
+          "vi": "Sample available, freight by buyer",
+          "hi": "Sample available, freight by buyer"
+        }
+      },
+      "media": {
+        "mainImage": "products/YD-J003/main.png"
+      }
+    }
+  ],
+  "certs": [
+    {
+      "title": {
+        "en": "ISO 9001 Quality System",
+        "zh": "ISO 9001 质量体系",
+        "de": "ISO 9001 Qualitätssystem",
+        "es": "ISO 9001"
+      },
+      "desc": {
+        "en": "Quality management system certified per ISO 9001 standard. Documented procedures across procurement, production and shipping.",
+        "zh": "通过 ISO 9001 质量管理体系认证。采购、生产、发货全流程标准化文档。",
+        "de": "ISO 9001 zertifiziertes Qualitätsmanagement.",
+        "es": "Sistema certificado ISO 9001."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "View Certificate",
+        "zh": "查看证书",
+        "de": "Zertifikat",
+        "es": "Certificado"
+      },
+      "verifyUrl": ""
+    },
+    {
+      "title": {
+        "en": "Onsite Factory Verified",
+        "zh": "实地工厂核验",
+        "de": "Werk vor Ort verifiziert",
+        "es": "Fábrica Verificada"
+      },
+      "desc": {
+        "en": "Factory inspected and legal status confirmed by independent third-party bodies (SGS / TÜV). 18,505㎡ facility, 10 production lines, 300+ workers.",
+        "zh": "厂区资质经独立第三方机构（SGS / TÜV）实地核验。18,505㎡ 厂区、10 条产线、300+ 员工。",
+        "de": "Werk vor Ort durch unabhängige Drittprüfstellen (SGS / TÜV) verifiziert. 18.505㎡ Fläche, 10 Linien, 300+ Mitarbeiter.",
+        "es": "Fábrica verificada in situ por terceros independientes (SGS / TÜV). 18 505㎡, 10 líneas, 300+ trabajadores.",
+        "fr": "Usine vérifiée sur site par des tiers indépendants (SGS / TÜV). 18 505 m², 10 lignes, 300+ ouvriers.",
+        "it": "Stabilimento verificato in loco da enti terzi indipendenti (SGS / TÜV). 18.505 m², 10 linee, 300+ operai.",
+        "pt": "Fábrica verificada no local por terceiros independentes (SGS / TÜV). 18.505 m², 10 linhas, 300+ trabalhadores.",
+        "nl": "Fabriek ter plaatse geverifieerd door onafhankelijke derden (SGS / TÜV). 18.505 m², 10 lijnen, 300+ medewerkers.",
+        "ru": "Завод проверен на месте независимыми третьими сторонами (SGS / TÜV). 18 505 м², 10 линий, 300+ сотрудников.",
+        "tr": "Fabrika bağımsız üçüncü taraflarca (SGS / TÜV) yerinde doğrulanmıştır. 18.505 m², 10 hat, 300+ işçi.",
+        "ja": "独立第三者機関（SGS / TÜV）による現地工場監査済み。18,505㎡、10 ライン、300+ 名。",
+        "ko": "독립 제3자 기관(SGS / TÜV)이 현장 공장 검증 완료. 18,505㎡, 10 라인, 300+ 명.",
+        "th": "โรงงานผ่านการตรวจสอบ ณ สถานที่จริงโดยหน่วยงานอิสระ (SGS / TÜV). 18,505 ตร.ม. 10 สายการผลิต 300+ คน",
+        "vi": "Nhà máy được kiểm tra tại chỗ bởi tổ chức độc lập (SGS / TÜV). 18.505 m², 10 dây chuyền, 300+ công nhân.",
+        "hi": "स्वतंत्र तृतीय-पक्ष निकायों (SGS / TÜV) द्वारा ऑनसाइट कारखाना सत्यापित। 18,505 वर्गमीटर, 10 लाइनें, 300+ कर्मचारी।",
+        "ar": "تم التحقق من المصنع في الموقع من قبل جهات مستقلة (SGS / TÜV). 18,505 م²، 10 خطوط، 300+ عامل."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "Verify",
+        "zh": "核验",
+        "de": "Verifizieren",
+        "es": "Verificar"
+      },
+      "verifyUrl": ""
+    },
+    {
+      "title": {
+        "en": "Payment & Order Security",
+        "zh": "资金与订单安全",
+        "de": "Zahlungs- und Auftragssicherheit",
+        "es": "Seguridad de pago y pedido",
+        "fr": "Sécurité paiement et commande",
+        "it": "Sicurezza pagamento e ordine",
+        "pt": "Segurança de pagamento e pedido",
+        "nl": "Betalings- en orderbeveiliging",
+        "ru": "Безопасность платежа и заказа",
+        "tr": "Ödeme ve sipariş güvenliği",
+        "ja": "支払い・注文の安全保証",
+        "ko": "결제 및 주문 보안",
+        "th": "ความปลอดภัยการชำระเงินและคำสั่งซื้อ",
+        "vi": "An toàn thanh toán & đơn hàng",
+        "hi": "भुगतान और ऑर्डर सुरक्षा",
+        "ar": "أمان الدفع والطلب"
+      },
+      "desc": {
+        "en": "Bank L/C, escrow via licensed third-party payment gateways and project milestone billing — 100% protection on quality and on-time shipment.",
+        "zh": "接受银行信用证 (L/C)、持牌第三方支付通道资金托管与项目里程碑结算，产品质量与按时交货 100% 保障。",
+        "de": "Bank-Akkreditiv (L/C), Treuhand über lizenzierte Zahlungs-Gateways und Meilenstein-Abrechnung — 100 % Schutz für Qualität und Liefertermin.",
+        "es": "Carta de crédito bancaria (L/C), depósito en garantía mediante pasarelas autorizadas y facturación por hitos — 100 % de protección.",
+        "fr": "Lettre de crédit bancaire (L/C), séquestre via passerelles agréées et facturation par jalons — 100 % de protection.",
+        "it": "Lettera di credito bancaria (L/C), deposito presso gateway autorizzati e fatturazione a milestone — protezione 100 %.",
+        "pt": "Carta de crédito bancária (L/C), custódia via gateways autorizados e faturamento por etapas — 100 % de proteção.",
+        "nl": "Bank-L/C, escrow via gelicentieerde betalingsgateways en mijlpaalfacturatie — 100 % bescherming.",
+        "ru": "Банковский аккредитив (L/C), эскроу через лицензированные платёжные шлюзы и поэтапная оплата — 100 % защита.",
+        "tr": "Banka akreditifi (L/C), lisanslı ödeme kuruluşlarında emanet ve aşamalı faturalama — %100 koruma.",
+        "ja": "銀行 L/C、ライセンス済み決済ゲートウェイのエスクロー、マイルストーン請求で品質・納期を 100% 保証。",
+        "ko": "은행 신용장(L/C), 라이선스 결제 게이트웨이 에스크로, 마일스톤 청구로 품질·납기 100% 보장.",
+        "th": "L/C ของธนาคาร, เอสโครว์ผ่านเกตเวย์ที่ได้รับใบอนุญาต และเรียกเก็บตามไมล์สโตน — คุ้มครอง 100%",
+        "vi": "L/C ngân hàng, ký quỹ qua cổng thanh toán được cấp phép và thanh toán theo cột mốc — bảo vệ 100%.",
+        "hi": "बैंक L/C, लाइसेंस्ड पेमेंट गेटवे एस्क्रो और मील-पत्थर बिलिंग — 100% सुरक्षा।",
+        "ar": "اعتماد بنكي L/C، حساب ضمان عبر بوابات دفع مرخصة وفوترة بالمراحل — حماية 100%."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "Learn More",
+        "zh": "了解更多",
+        "de": "Mehr erfahren",
+        "es": "Más Información"
+      },
+      "verifyUrl": ""
+    }
+  ],
+  "fairs": [
+    {
+      "id": "showroom-catalogue",
+      "name": {
+        "en": "Showroom & Catalogue Program",
+        "zh": "展厅与产品册体系",
+        "de": "Showroom- und Katalogprogramm",
+        "es": "Programa de showroom y catalogo"
+      },
+      "location": {
+        "en": "Yiwu showroom and global project presentations",
+        "zh": "义乌展厅与全球项目展示",
+        "de": "Yiwu-Showroom und globale Projektprasentationen",
+        "es": "Showroom de Yiwu y presentaciones globales"
+      },
+      "description": {
+        "en": "The 2026 catalogue presents Yuanda’s supermarket shelving, warehouse rack, shopping trolley and basket systems for professional buyers. Additional exhibition photos can be added when verified assets are available.",
+        "zh": "2026 产品册系统展示远大的商超货架、仓储架、购物车与购物篮产品线，面向专业采购商。后续可补充真实展会与展厅照片。",
+        "de": "Der 2026-Katalog prasentiert Yuandas Regale, Lagerregale, Einkaufswagen und Korbe fur professionelle Kaufer.",
+        "es": "El catalogo 2026 presenta estanterias, racks, carros y cestas para compradores profesionales."
+      },
+      "poster": "",
+      "editions": [
+        {
+          "id": "catalogue-2026",
+          "dateStart": "2026-01-01",
+          "dateEnd": "2026-12-31",
+          "booth": "2026 Catalogue Release",
+          "photos": [
+            "catalog-pages/page-01.jpg"
+          ],
+          "notes": {
+            "en": "Official 2026 company catalogue available for download and online viewing.",
+            "zh": "2026 官方公司产品册已支持在线查看与下载。",
+            "de": "Offizieller Unternehmenskatalog 2026 online verfugbar.",
+            "es": "Catalogo corporativo oficial 2026 disponible online."
+          }
+        }
+      ]
+    }
+  ],
+  "partners": [
+    {
+      "name": {
+        "en": "Supermarket Chains",
+        "zh": "连锁商超",
+        "de": "Supermarktketten",
+        "es": "Cadenas Supermercado"
+      },
+      "icon": "🛒",
+      "color": "#0A4A8C"
+    },
+    {
+      "name": {
+        "en": "Wholesale Clubs",
+        "zh": "批发会员店",
+        "de": "Großhandelsclubs",
+        "es": "Clubes Mayoristas"
+      },
+      "icon": "📦",
+      "color": "#E63946"
+    },
+    {
+      "name": {
+        "en": "Warehouse Operators",
+        "zh": "仓储运营商",
+        "de": "Lagerbetreiber",
+        "es": "Operadores"
+      },
+      "icon": "🏗",
+      "color": "#073565"
+    },
+    {
+      "name": {
+        "en": "Retail Distributors",
+        "zh": "零售设备分销商",
+        "de": "Einzelhandelsdistributoren",
+        "es": "Distribuidores"
+      },
+      "icon": "🚚",
+      "color": "#0A4A8C"
+    },
+    {
+      "name": {
+        "en": "Store Rollout Contractors",
+        "zh": "门店项目承包商",
+        "de": "Rollout-Auftragnehmer",
+        "es": "Contratistas"
+      },
+      "icon": "🔧",
+      "color": "#E63946"
+    },
+    {
+      "name": {
+        "en": "Convenience Stores",
+        "zh": "便利店连锁",
+        "de": "Convenience-Stores",
+        "es": "Tiendas Conveniencia"
+      },
+      "icon": "🏪",
+      "color": "#073565"
+    }
+  ],
+  "regions": [
+    {
+      "flag": "🇺🇸",
+      "name": {
+        "en": "North America",
+        "zh": "北美",
+        "de": "Nordamerika",
+        "es": "Norteamérica"
+      },
+      "sub": {
+        "en": "USA, Canada — grocery chains, warehouse clubs",
+        "zh": "美国、加拿大 — 商超与会员店",
+        "de": "USA, Kanada",
+        "es": "EE.UU., Canadá"
+      }
+    },
+    {
+      "flag": "🇪🇺",
+      "name": {
+        "en": "Europe",
+        "zh": "欧洲",
+        "de": "Europa",
+        "es": "Europa"
+      },
+      "sub": {
+        "en": "Southern + Eastern Europe — project sourcing",
+        "zh": "南欧、东欧 — 项目采购",
+        "de": "Süd- + Osteuropa",
+        "es": "Sur y Este de Europa"
+      }
+    },
+    {
+      "flag": "🇦🇺",
+      "name": {
+        "en": "Oceania",
+        "zh": "大洋洲",
+        "de": "Ozeanien",
+        "es": "Oceanía"
+      },
+      "sub": {
+        "en": "Australia, NZ — durable store equipment",
+        "zh": "澳大利亚、新西兰 — 耐用门店设备",
+        "de": "Australien, Neuseeland",
+        "es": "Australia, NZ"
+      }
+    },
+    {
+      "flag": "🌍",
+      "name": {
+        "en": "Emerging Markets",
+        "zh": "新兴市场",
+        "de": "Emerging Markets",
+        "es": "Mercados Emergentes"
+      },
+      "sub": {
+        "en": "South America, MEA — cost-effective shelving",
+        "zh": "南美、中东非 — 高性价比货架",
+        "de": "Südamerika, MEA",
+        "es": "Sudamérica, MEA"
+      }
+    }
+  ],
+  "internal": {
+    "intelligence": [
+      {
+        "cat": "Positioning",
+        "t": "Best-fit buyers",
+        "c": "Retail chain procurement teams, supermarket equipment distributors, warehouse project contractors and store fixture buyers."
+      },
+      {
+        "cat": "Risk",
+        "t": "Data gaps",
+        "c": "Official email, verified client logos, exhibition photos and certificate originals should be collected before final commercial launch."
+      },
+      {
+        "cat": "Pitch",
+        "t": "Industrial high-end angle",
+        "c": "Lead with verified factory capacity, project customization, on-time delivery and category breadth rather than low price."
+      }
+    ],
+    "sop": [
+      {
+        "cat": "Inquiry",
+        "t": "First response",
+        "c": "Ask for store layout, target shelf dimensions, load-bearing requirement, finish color, quantity, destination port and rollout timeline."
+      },
+      {
+        "cat": "Sample",
+        "t": "Sample test flow",
+        "c": "Recommend one gondola shelf unit or trolley sample, confirm sample cost, packaging, lead time and freight method before bulk quotation."
+      },
+      {
+        "cat": "Follow-up",
+        "t": "After quotation",
+        "c": "Send 3D layout or drawing confirmation, QC checklist and delivery schedule to reduce buyer uncertainty."
+      }
+    ]
+  },
+  "sections": {
+    "whyTitle": {
+      "en": "Why Yuanda",
+      "zh": "为什么选择远大",
+      "de": "Warum Yuanda",
+      "es": "Por que Yuanda"
+    },
+    "catsTitle": {
+      "en": "Six Product Systems",
+      "zh": "六大产品系统",
+      "de": "Sechs Produktsysteme",
+      "es": "Seis sistemas de producto"
+    },
+    "certTitle": {
+      "en": "Verified capabilities",
+      "zh": "认证能力",
+      "de": "Verifizierte Kapazitaten",
+      "es": "Capacidades verificadas"
+    },
+    "partnersTitle": {
+      "en": "Project buyer profiles",
+      "zh": "项目买家画像",
+      "de": "Projektkauferprofile",
+      "es": "Perfiles de compradores"
+    },
+    "contact": {
+      "en": "Send project specifications",
+      "zh": "发送项目规格",
+      "de": "Projektspezifikationen senden",
+      "es": "Enviar especificaciones"
+    },
+    "contactEmail": "sales@yuanda-commercial.com",
+    "whySub": {
+      "en": "Manufacturing capability, project customization and catalogue-level product management for global B2B buyers.",
+      "zh": "面向全球 B2B 采购商的制造能力、项目定制与产品册级产品管理。",
+      "de": "Fertigung, Projektanpassung und katalogbasierte Produktverwaltung.",
+      "es": "Fabricacion, personalizacion y gestion de catalogo para compradores B2B."
+    },
+    "fairTitle": {
+      "en": "Showroom & Catalogue Program",
+      "zh": "展厅与产品册体系",
+      "de": "Showroom- und Katalogprogramm",
+      "es": "Programa de showroom y catalogo"
+    },
+    "fairSub": {
+      "en": "A brand-owned catalogue and showroom structure for professional retail equipment procurement.",
+      "zh": "面向专业零售设备采购的品牌自有产品册与展厅展示体系。",
+      "de": "Markeneigener Katalog und Showroom fur professionelle Beschaffung.",
+      "es": "Catalogo y showroom propios para compra profesional."
+    },
+    "catsSub": {
+      "en": "Homepage categories focus on business entry points; the full 152-record database is opened separately.",
+      "zh": "首页分类只作为业务入口；完整 152 条产品数据库单独打开。",
+      "de": "Startseiten-Kategorien als Einstieg; vollstandige Datenbank separat.",
+      "es": "Categorias como entrada; base completa separada."
+    },
+    "certSub": {
+      "en": "Manufacturing and project capability signals are presented as brand-owned proof points.",
+      "zh": "以品牌自有证据表达制造与项目能力，而非平台店铺背书。",
+      "de": "Fertigungs- und Projektfahigkeiten als markeneigene Nachweise.",
+      "es": "Capacidades de fabricacion y proyecto como pruebas propias de marca."
+    },
+    "processTitle": {
+      "en": "Project cooperation workflow",
+      "zh": "项目合作流程",
+      "de": "Projektablauf",
+      "es": "Flujo de proyecto"
+    },
+    "processSub": {
+      "en": "A practical B2B path from specification to delivery.",
+      "zh": "从规格确认到交付的实用 B2B 项目路径。",
+      "de": "Praktischer B2B-Weg von Spezifikation bis Lieferung.",
+      "es": "Ruta B2B desde especificacion hasta entrega."
+    },
+    "partnersSub": {
+      "en": "Client logos can be replaced after the factory provides authorized references; current blocks show buyer profiles.",
+      "zh": "客户授权 Logo 到位后可替换；当前以买家类型画像做高级占位。",
+      "de": "Logos konnen nach Autorisierung ersetzt werden.",
+      "es": "Los logos se reemplazan tras autorizacion."
+    },
+    "regionTitle": {
+      "en": "Regional distributor opportunities",
+      "zh": "全球区域代理招商",
+      "de": "Regionale Vertriebspartner",
+      "es": "Oportunidades regionales"
+    },
+    "regionSub": {
+      "en": "Focus on retail equipment distributors, chain-store rollout contractors and warehouse solution partners.",
+      "zh": "面向商超设备经销商、连锁门店项目承包商与仓储方案伙伴。",
+      "de": "Fokus auf Retail-Ausstatters, Rollout-Partner und Lagerlosungen.",
+      "es": "Enfoque en distribuidores, contratistas retail y soluciones de almacen."
+    },
+    "contactSub": {
+      "en": "Share drawings, target dimensions, quantity and delivery market for a reliable quotation.",
+      "zh": "发送图纸、目标尺寸、数量与交付市场，便于快速准确报价。",
+      "de": "Zeichnungen, Masse, Menge und Zielmarkt senden.",
+      "es": "Enviar planos, medidas, cantidad y mercado destino."
+    },
+    "catalogueTitle": {
+      "en": "Yuanda Shelf Company Catalogue 2026",
+      "zh": "远大货架 2026 公司产品册",
+      "de": "Yuanda Shelf Company Catalogue 2026",
+      "es": "Yuanda Shelf Company Catalogue 2026"
+    },
+    "catalogueSub": {
+      "en": "A complete 28-page digital catalogue for project buyers: supermarket shelving, warehouse racks, shopping trolleys and retail equipment systems.",
+      "zh": "完整 28 页电子产品册，面向项目采购商展示商超货架、仓储架、购物车与零售设备系统。",
+      "de": "Ein vollstandiger 28-seitiger digitaler Katalog fur Projektkaufer.",
+      "es": "Catalogo digital completo de 28 paginas para compradores de proyectos."
+    },
+    "catalogueDownload": {
+      "en": "Download original PDF",
+      "zh": "下载原版 PDF",
+      "de": "Original-PDF herunterladen",
+      "es": "Descargar PDF original"
+    },
+    "catalogTitle": {
+      "en": "Product Parameter Catalogue",
+      "zh": "产品参数目录",
+      "de": "Produktparameter-Katalog",
+      "es": "Catalogo de parametros"
+    },
+    "catalogSub": {
+      "en": "152 item numbers extracted from the 2026 PDF catalogue, with specifications, materials, capacities and source pages where visible.",
+      "zh": "已从 2026 PDF 产品册提取 152 个产品型号，展示可识别的规格、材质、承重/容量和来源页码。",
+      "de": "152 Artikelnummern aus dem PDF-Katalog 2026 extrahiert.",
+      "es": "152 modelos extraidos del catalogo PDF 2026."
+    }
+  },
+  "process": [
+    {
+      "n": "01",
+      "t": {
+        "en": "Requirement",
+        "zh": "需求确认",
+        "de": "Anforderung",
+        "es": "Requisito"
+      },
+      "c": {
+        "en": "Store layout, dimensions, load-bearing, finish and quantity.",
+        "zh": "确认门店布局、尺寸、承重、表面处理与数量。",
+        "de": "Layout, Masse, Traglast, Finish und Menge.",
+        "es": "Layout, medidas, carga, acabado y cantidad."
+      }
+    },
+    {
+      "n": "02",
+      "t": {
+        "en": "Drawing & sample",
+        "zh": "图纸与样品",
+        "de": "Zeichnung & Muster",
+        "es": "Plano y muestra"
+      },
+      "c": {
+        "en": "Confirm drawing, sample cost, packaging and freight method.",
+        "zh": "确认图纸、样品费、包装与运输方式。",
+        "de": "Zeichnung, Musterkosten, Verpackung und Fracht.",
+        "es": "Confirmar plano, muestra, embalaje y flete."
+      }
+    },
+    {
+      "n": "03",
+      "t": {
+        "en": "Mass production",
+        "zh": "批量生产",
+        "de": "Serienfertigung",
+        "es": "Produccion"
+      },
+      "c": {
+        "en": "QC checkpoints for raw materials, welding, coating and packing.",
+        "zh": "覆盖原料、焊接、喷涂与包装的质检节点。",
+        "de": "QC fur Material, Schweissen, Beschichtung und Verpackung.",
+        "es": "QC en materia prima, soldadura, recubrimiento y empaque."
+      }
+    },
+    {
+      "n": "04",
+      "t": {
+        "en": "Delivery",
+        "zh": "交付",
+        "de": "Lieferung",
+        "es": "Entrega"
+      },
+      "c": {
+        "en": "Export packing, shipment coordination and rollout support.",
+        "zh": "出口包装、船运协调与项目落地支持。",
+        "de": "Exportverpackung, Versandkoordination und Rollout.",
+        "es": "Embalaje, coordinacion y soporte de rollout."
+      }
+    }
+  ],
+  "checklist": [
+    "Store layout / drawing",
+    "Product line and model",
+    "Dimensions and load-bearing",
+    "Surface finish and color",
+    "Logo or branding requirements",
+    "Quantity and rollout schedule",
+    "Destination port / country",
+    "Sample requirement"
+  ],
+  "catalogue": {
+    "pdf": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
+    "pageCount": 28,
+    "pages": [
+      {
+        "page": 1,
+        "img": "catalog-pages/page-01.jpg"
+      },
+      {
+        "page": 2,
+        "img": "catalog-pages/page-02.jpg"
+      },
+      {
+        "page": 3,
+        "img": "catalog-pages/page-03.jpg"
+      },
+      {
+        "page": 4,
+        "img": "catalog-pages/page-04.jpg"
+      },
+      {
+        "page": 5,
+        "img": "catalog-pages/page-05.jpg"
+      },
+      {
+        "page": 6,
+        "img": "catalog-pages/page-06.jpg"
+      },
+      {
+        "page": 7,
+        "img": "catalog-pages/page-07.jpg"
+      },
+      {
+        "page": 8,
+        "img": "catalog-pages/page-08.jpg"
+      },
+      {
+        "page": 9,
+        "img": "catalog-pages/page-09.jpg"
+      },
+      {
+        "page": 10,
+        "img": "catalog-pages/page-10.jpg"
+      },
+      {
+        "page": 11,
+        "img": "catalog-pages/page-11.jpg"
+      },
+      {
+        "page": 12,
+        "img": "catalog-pages/page-12.jpg"
+      },
+      {
+        "page": 13,
+        "img": "catalog-pages/page-13.jpg"
+      },
+      {
+        "page": 14,
+        "img": "catalog-pages/page-14.jpg"
+      },
+      {
+        "page": 15,
+        "img": "catalog-pages/page-15.jpg"
+      },
+      {
+        "page": 16,
+        "img": "catalog-pages/page-16.jpg"
+      },
+      {
+        "page": 17,
+        "img": "catalog-pages/page-17.jpg"
+      },
+      {
+        "page": 18,
+        "img": "catalog-pages/page-18.jpg"
+      },
+      {
+        "page": 19,
+        "img": "catalog-pages/page-19.jpg"
+      },
+      {
+        "page": 20,
+        "img": "catalog-pages/page-20.jpg"
+      },
+      {
+        "page": 21,
+        "img": "catalog-pages/page-21.jpg"
+      },
+      {
+        "page": 22,
+        "img": "catalog-pages/page-22.jpg"
+      },
+      {
+        "page": 23,
+        "img": "catalog-pages/page-23.jpg"
+      },
+      {
+        "page": 24,
+        "img": "catalog-pages/page-24.jpg"
+      },
+      {
+        "page": 25,
+        "img": "catalog-pages/page-25.jpg"
+      },
+      {
+        "page": 26,
+        "img": "catalog-pages/page-26.jpg"
+      },
+      {
+        "page": 27,
+        "img": "catalog-pages/page-27.jpg"
+      },
+      {
+        "page": 28,
+        "img": "catalog-pages/page-28.jpg"
+      }
+    ],
+    "sections": [
+      {
+        "range": "01-03",
+        "title": {
+          "en": "Corporate profile and catalogue overview",
+          "zh": "企业形象与产品册总览",
+          "de": "Unternehmensprofil und Katalogubersicht",
+          "es": "Perfil corporativo y catalogo"
+        }
+      },
+      {
+        "range": "04-21",
+        "title": {
+          "en": "Supermarket shelving and warehouse systems",
+          "zh": "商超货架与仓储系统",
+          "de": "Supermarktregale und Lagersysteme",
+          "es": "Estanterias y sistemas de almacen"
+        }
+      },
+      {
+        "range": "22-28",
+        "title": {
+          "en": "Shopping trolleys, baskets and retail equipment",
+          "zh": "购物车、购物篮与零售设备",
+          "de": "Einkaufswagen, Korbe und Retail-Ausstattung",
+          "es": "Carros, cestas y equipos retail"
+        }
+      }
+    ]
+  },
+  "productCatalogMeta": {
+    "source": "Yuanda-Shelf-Company-Catalogue-2026.pdf",
+    "productCount": 152,
+    "imageFiles": 141,
+    "adminEditable": true,
+    "note": "Each product record is structured for future admin editing. Auto-cropped images marked needsImageReview should be manually refined before final commercial launch."
+  },
+  "homeCategories": [
+    {
+      "key": "supermarket-shelf",
+      "searchKey": "supermarket-shelf",
+      "count": 36,
+      "img": "products/supermarket-shelf/yd-s001.jpg",
+      "title": {
+        "en": "Supermarket Shelf",
+        "zh": "Supermarket Shelf",
+        "de": "Supermarket Shelf",
+        "es": "Supermarket Shelf"
+      },
+      "sub": {
+        "en": "36 editable product records with parameters and media.",
+        "zh": "36 个可编辑产品档案，包含图片与参数。",
+        "de": "36 Produktdatensatze.",
+        "es": "36 registros de producto."
+      }
+    },
+    {
+      "key": "shopping-trolley-cart",
+      "searchKey": "shopping-trolley-cart",
+      "count": 45,
+      "img": "products/shopping-trolley-cart/yd-a-100l.jpg",
+      "title": {
+        "en": "Shopping Trolley / Cart",
+        "zh": "Shopping Trolley / Cart",
+        "de": "Shopping Trolley / Cart",
+        "es": "Shopping Trolley / Cart"
+      },
+      "sub": {
+        "en": "45 editable product records with parameters and media.",
+        "zh": "45 个可编辑产品档案，包含图片与参数。",
+        "de": "45 Produktdatensatze.",
+        "es": "45 registros de producto."
+      }
+    },
+    {
+      "key": "warehouse-rack",
+      "searchKey": "warehouse-rack",
+      "count": 6,
+      "img": "products/warehouse-rack/yd-s026.jpg",
+      "title": {
+        "en": "Warehouse Rack",
+        "zh": "Warehouse Rack",
+        "de": "Warehouse Rack",
+        "es": "Warehouse Rack"
+      },
+      "sub": {
+        "en": "6 editable product records with parameters and media.",
+        "zh": "6 个可编辑产品档案，包含图片与参数。",
+        "de": "6 Produktdatensatze.",
+        "es": "6 registros de producto."
+      }
+    }
+  ],
+  "ui": {
+    "navHome": {
+      "en": "Home",
+      "zh": "首页",
+      "de": "Startseite",
+      "es": "Inicio",
+      "fr": "Accueil",
+      "it": "Home",
+      "ru": "Главная",
+      "pt": "Início",
+      "ja": "ホーム",
+      "ko": "홈",
+      "ar": "الرئيسية",
+      "nl": "Home",
+      "tr": "Anasayfa",
+      "th": "หน้าแรก",
+      "vi": "Trang chủ",
+      "hi": "होम"
+    },
+    "navCerts": {
+      "en": "Credentials",
+      "zh": "认证资质",
+      "de": "Zertifikate",
+      "es": "Credenciales",
+      "fr": "Certifications",
+      "it": "Credenziali",
+      "ru": "Сертификаты",
+      "pt": "Credenciais",
+      "ja": "認証",
+      "ko": "인증",
+      "ar": "الشهادات",
+      "nl": "Certificaten",
+      "tr": "Sertifikalar",
+      "th": "การรับรอง",
+      "vi": "Chứng chỉ",
+      "hi": "प्रमाणपत्र"
+    },
+    "navCatalog": {
+      "en": "Product Catalog",
+      "zh": "产品目录",
+      "de": "Produktkatalog",
+      "es": "Catalogo",
+      "fr": "Catalogue",
+      "it": "Catalogo",
+      "ru": "Каталог",
+      "pt": "Catálogo",
+      "ja": "製品カタログ",
+      "ko": "제품 카탈로그",
+      "ar": "كتالوج المنتجات",
+      "nl": "Catalogus",
+      "tr": "Katalog",
+      "th": "แคตตาล็อก",
+      "vi": "Danh mục",
+      "hi": "कैटलॉग"
+    },
+    "navPartners": {
+      "en": "Who We Serve",
+      "zh": "合作客户",
+      "de": "Unsere Kunden",
+      "es": "A Quien Servimos",
+      "fr": "Nos Clients",
+      "it": "I Nostri Clienti",
+      "ru": "Наши клиенты",
+      "pt": "Quem Servimos",
+      "ja": "取引先",
+      "ko": "고객사",
+      "ar": "عملاؤنا",
+      "nl": "Klanten",
+      "tr": "Müşterilerimiz",
+      "th": "ลูกค้า",
+      "vi": "Khách hàng",
+      "hi": "हमारे ग्राहक"
+    },
+    "navStaff": {
+      "en": "Intel & Persona",
+      "zh": "情报/画像",
+      "de": "Intel & Persona",
+      "es": "Inteligencia",
+      "fr": "Intel",
+      "it": "Intel",
+      "ru": "Аналитика",
+      "pt": "Intel",
+      "ja": "情報",
+      "ko": "인텔",
+      "ar": "المعلومات",
+      "nl": "Intel",
+      "tr": "İstihbarat",
+      "th": "ข้อมูล",
+      "vi": "Thông tin",
+      "hi": "इंटेल"
+    },
+    "navSop": {
+      "en": "Scripts & SOP",
+      "zh": "话术/SOP",
+      "de": "Skripte & SOP",
+      "es": "Guiones & SOP",
+      "fr": "SOP",
+      "it": "SOP",
+      "ru": "Сценарии",
+      "pt": "SOP",
+      "ja": "スクリプト",
+      "ko": "스크립트",
+      "ar": "السيناريوهات",
+      "nl": "SOP",
+      "tr": "Senaryolar",
+      "th": "สคริปต์",
+      "vi": "Kịch bản",
+      "hi": "स्क्रिप्ट"
+    },
+    "ctaContact": {
+      "en": "Request Project Quote",
+      "zh": "项目询价",
+      "de": "Projektangebot",
+      "es": "Cotización de Proyecto",
+      "fr": "Devis projet",
+      "it": "Preventivo Progetto",
+      "ru": "Запрос проекта",
+      "pt": "Cotação de Projeto",
+      "ja": "プロジェクト見積",
+      "ko": "프로젝트 견적",
+      "ar": "عرض المشروع",
+      "nl": "Projectofferte",
+      "tr": "Proje Teklifi",
+      "th": "ขอใบเสนอราคา",
+      "vi": "Báo giá dự án",
+      "hi": "प्रोजेक्ट कोटेशन"
+    },
+    "ctaCatalog": {
+      "en": "View Catalog",
+      "zh": "浏览目录",
+      "de": "Katalog ansehen",
+      "es": "Ver Catalogo",
+      "fr": "Voir le catalogue",
+      "it": "Vedi catalogo",
+      "ru": "Каталог",
+      "pt": "Ver catálogo",
+      "ja": "カタログ",
+      "ko": "카탈로그",
+      "ar": "الكتالوج",
+      "nl": "Bekijk catalogus",
+      "tr": "Kataloğa bak",
+      "th": "ดูแคตตาล็อก",
+      "vi": "Xem danh mục",
+      "hi": "कैटलॉग देखें"
+    },
+    "ctaInquire": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "de": "Angebot anfordern",
+      "es": "Solicitar Cotización",
+      "fr": "Demander un devis",
+      "it": "Richiedi preventivo",
+      "ru": "Запросить цену",
+      "pt": "Solicitar cotação",
+      "ja": "見積依頼",
+      "ko": "견적 요청",
+      "ar": "اطلب عرض سعر",
+      "nl": "Offerte aanvragen",
+      "tr": "Fiyat İste",
+      "th": "ขอใบเสนอราคา",
+      "vi": "Yêu cầu báo giá",
+      "hi": "कोटेशन माँगें"
+    },
+    "catalogEyebrow": {
+      "en": "CATALOG",
+      "zh": "产品目录",
+      "de": "KATALOG",
+      "es": "CATÁLOGO",
+      "fr": "CATALOGUE",
+      "it": "CATALOGO",
+      "ru": "КАТАЛОГ",
+      "pt": "CATÁLOGO",
+      "ja": "カタログ",
+      "ko": "카탈로그",
+      "ar": "الكتالوج",
+      "nl": "CATALOGUS",
+      "tr": "KATALOG",
+      "th": "แคตตาล็อก",
+      "vi": "DANH MỤC",
+      "hi": "कैटलॉग"
+    },
+    "catalogPageTitle": {
+      "en": "Product Catalog",
+      "zh": "产品目录",
+      "de": "Produktkatalog",
+      "es": "Catálogo de Productos",
+      "fr": "Catalogue Produits",
+      "it": "Catalogo Prodotti",
+      "ru": "Каталог продукции",
+      "pt": "Catálogo de Produtos",
+      "ja": "製品カタログ",
+      "ko": "제품 카탈로그",
+      "ar": "كتالوج المنتجات",
+      "nl": "Productcatalogus",
+      "tr": "Ürün Kataloğu",
+      "th": "แคตตาล็อกสินค้า",
+      "vi": "Danh mục sản phẩm",
+      "hi": "उत्पाद कैटलॉग"
+    },
+    "catalogSearchHint": {
+      "en": "Search by model or name...",
+      "zh": "按型号或名称搜索...",
+      "de": "Suche nach Modell oder Name...",
+      "es": "Buscar por modelo o nombre...",
+      "fr": "Rechercher par modèle ou nom...",
+      "it": "Cerca per modello o nome...",
+      "ru": "Поиск по модели или имени...",
+      "pt": "Buscar por modelo ou nome...",
+      "ja": "型番または名称で検索...",
+      "ko": "모델 또는 이름으로 검색...",
+      "ar": "ابحث بالنموذج أو الاسم...",
+      "nl": "Zoeken op model of naam...",
+      "tr": "Model veya ad ile ara...",
+      "th": "ค้นหาตามรุ่นหรือชื่อ...",
+      "vi": "Tìm theo mẫu hoặc tên...",
+      "hi": "मॉडल या नाम से खोजें..."
+    },
+    "filterAll": {
+      "en": "All Categories",
+      "zh": "全部分类",
+      "de": "Alle Kategorien",
+      "es": "Todas las Categorías",
+      "fr": "Toutes les catégories",
+      "it": "Tutte le categorie",
+      "ru": "Все категории",
+      "pt": "Todas as categorias",
+      "ja": "すべて",
+      "ko": "모든 카테고리",
+      "ar": "كل الفئات",
+      "nl": "Alle categorieën",
+      "tr": "Tüm Kategoriler",
+      "th": "ทั้งหมด",
+      "vi": "Tất cả",
+      "hi": "सभी श्रेणियाँ"
+    },
+    "backHome": {
+      "en": "← Back to Home",
+      "zh": "← 返回首页",
+      "de": "← Zur Startseite",
+      "es": "← Volver al Inicio",
+      "fr": "← Retour à l'accueil",
+      "it": "← Torna alla home",
+      "ru": "← Назад на главную",
+      "pt": "← Voltar ao início",
+      "ja": "← ホームに戻る",
+      "ko": "← 홈으로",
+      "ar": "← العودة للرئيسية",
+      "nl": "← Terug naar home",
+      "tr": "← Anasayfaya dön",
+      "th": "← กลับหน้าแรก",
+      "vi": "← Về trang chủ",
+      "hi": "← होम पर वापस"
+    },
+    "detailsTitle": {
+      "en": "Details",
+      "zh": "细节展示",
+      "de": "Details",
+      "es": "Detalles",
+      "fr": "Détails",
+      "it": "Dettagli",
+      "ru": "Детали",
+      "pt": "Detalhes",
+      "ja": "詳細",
+      "ko": "세부 사항",
+      "ar": "التفاصيل",
+      "nl": "Details",
+      "tr": "Detaylar",
+      "th": "รายละเอียด",
+      "vi": "Chi tiết",
+      "hi": "विवरण"
+    }
+  },
+  "footer": {
+    "ourCompany": {
+      "en": "Our Company",
+      "zh": "关于我们",
+      "de": "Unser Unternehmen",
+      "es": "Nuestra Empresa"
+    },
+    "contact": {
+      "en": "Contact",
+      "zh": "联系我们",
+      "de": "Kontakt",
+      "es": "Contacto",
+      "fr": "Contact",
+      "it": "Contatti",
+      "ru": "Контакты",
+      "pt": "Contato",
+      "ja": "お問い合わせ",
+      "ko": "문의",
+      "ar": "اتصل بنا",
+      "nl": "Contact",
+      "tr": "İletişim",
+      "th": "ติดต่อเรา",
+      "vi": "Liên hệ",
+      "hi": "संपर्क"
+    },
+    "address": {
+      "en": "Address",
+      "zh": "地址",
+      "de": "Adresse",
+      "es": "Dirección",
+      "fr": "Adresse",
+      "it": "Indirizzo",
+      "ru": "Адрес",
+      "pt": "Endereço",
+      "ja": "所在地",
+      "ko": "주소",
+      "ar": "العنوان",
+      "nl": "Adres",
+      "tr": "Adres",
+      "th": "ที่อยู่",
+      "vi": "Địa chỉ",
+      "hi": "पता"
+    },
+    "capabilities": {
+      "en": "Capabilities",
+      "zh": "工厂能力",
+      "de": "Kompetenzen",
+      "es": "Capacidades",
+      "fr": "Capacités",
+      "it": "Capacità",
+      "ru": "Возможности",
+      "pt": "Capacidades",
+      "ja": "能力",
+      "ko": "역량",
+      "ar": "الإمكانيات",
+      "nl": "Capaciteiten",
+      "tr": "Yetkinlikler",
+      "th": "ความสามารถ",
+      "vi": "Năng lực",
+      "hi": "क्षमताएँ"
+    },
+    "rights": {
+      "en": "All rights reserved.",
+      "zh": "版权所有",
+      "de": "Alle Rechte vorbehalten.",
+      "es": "Todos los derechos reservados.",
+      "fr": "Tous droits réservés.",
+      "it": "Tutti i diritti riservati.",
+      "ru": "Все права защищены.",
+      "pt": "Todos os direitos reservados.",
+      "ja": "全著作権所有",
+      "ko": "모든 권리 보유",
+      "ar": "جميع الحقوق محفوظة",
+      "nl": "Alle rechten voorbehouden.",
+      "tr": "Tüm hakları saklıdır.",
+      "th": "สงวนลิขสิทธิ์",
+      "vi": "Bảo lưu mọi quyền.",
+      "hi": "सर्वाधिकार सुरक्षित।"
+    }
+  },
+  "whyTitle": {
+    "en": "Why Yuanda",
+    "zh": "为什么选远大",
+    "de": "Warum Yuanda",
+    "es": "Por qué Yuanda",
+    "fr": "Pourquoi Yuanda",
+    "it": "Perché Yuanda",
+    "ru": "Почему Yuanda",
+    "pt": "Por que Yuanda",
+    "ja": "なぜYuanda",
+    "ko": "왜 Yuanda",
+    "ar": "لماذا Yuanda",
+    "nl": "Waarom Yuanda",
+    "tr": "Neden Yuanda",
+    "th": "ทำไมต้อง Yuanda",
+    "vi": "Vì sao chọn Yuanda",
+    "hi": "Yuanda क्यों"
+  },
+  "whySub": {
+    "en": "Six reasons retail buyers, distributors and project contractors source from us.",
+    "zh": "零售采购商、分销商与项目承包方选择远大的六大理由",
+    "de": "Sechs Gründe, warum Käufer bei Yuanda einkaufen.",
+    "es": "Seis razones para elegir Yuanda."
+  },
+  "catsTitle": {
+    "en": "Six Product Systems",
+    "zh": "六大产品系统",
+    "de": "Sechs Produktsysteme",
+    "es": "Seis sistemas de producto",
+    "fr": "Six systèmes de produit",
+    "it": "Sei sistemi di prodotto",
+    "pt": "Seis sistemas de produto",
+    "nl": "Zes productsystemen",
+    "ru": "Шесть продуктовых систем",
+    "tr": "Altı ürün sistemi",
+    "ja": "6 つの製品システム",
+    "ko": "6대 제품 시스템",
+    "th": "6 ระบบสินค้า",
+    "vi": "6 hệ thống sản phẩm",
+    "hi": "छह उत्पाद प्रणालियाँ",
+    "ar": "ستة أنظمة منتجات"
+  },
+  "catsSub": {
+    "en": "Six retail equipment lines covering supermarket, warehouse, trolley, checkout, basket and mall accessories — continuously expanding.",
+    "zh": "覆盖超市货架、仓储货架、手推车、收银台、购物篮、商场配套设备六大零售装备品类，型号持续上新。",
+    "de": "Sechs Einzelhandels-Ausrüstungslinien — Sortiment wird kontinuierlich erweitert.",
+    "es": "Seis líneas de equipamiento retail en expansión continua.",
+    "fr": "Six gammes d'équipements de vente au détail en expansion continue.",
+    "it": "Sei linee di attrezzature retail in continua espansione.",
+    "pt": "Seis linhas de equipamentos de varejo em expansão contínua.",
+    "nl": "Zes retail-uitrustingslijnen, voortdurend uitgebreid.",
+    "ru": "Шесть направлений торгового оборудования, ассортимент постоянно расширяется.",
+    "tr": "Sürekli genişleyen altı perakende ekipman serisi.",
+    "ja": "6 つの小売設備ラインを継続的に拡充。",
+    "ko": "6대 리테일 설비 라인을 지속적으로 확장 중.",
+    "th": "6 กลุ่มอุปกรณ์ค้าปลีก ขยายตัวอย่างต่อเนื่อง",
+    "vi": "6 dòng thiết bị bán lẻ, liên tục mở rộng.",
+    "hi": "छह रिटेल उपकरण श्रेणियाँ, निरंतर विस्तार।",
+    "ar": "ست خطوط من معدات البيع بالتجزئة، في توسع مستمر."
+  },
+  "cats": [
+    {
+      "img": "hero/hero1.png",
+      "title": {
+        "en": "Supermarket Shelf",
+        "zh": "超市货架",
+        "de": "Supermarktregal",
+        "es": "Estantería Supermercado",
+        "fr": "Rayonnage Supermarché",
+        "it": "Scaffale Supermercato",
+        "ru": "Стеллаж супермаркета",
+        "pt": "Prateleira Supermercado",
+        "ja": "スーパーマーケット棚",
+        "ko": "슈퍼마켓 진열대",
+        "ar": "رف سوبر ماركت",
+        "nl": "Supermarktstelling",
+        "tr": "Süpermarket Raf",
+        "th": "ชั้นวางซูเปอร์มาร์เก็ต",
+        "vi": "Kệ siêu thị",
+        "hi": "सुपरमार्केट शेल्फ"
+      },
+      "sub": {
+        "en": "Single/double-side, end-cap, display rack, fruit & vegetable shelf.",
+        "zh": "单双面货架、端架、展示架、果蔬架",
+        "de": "Einseitig/doppelseitig, Endregale, Display, Obstregale.",
+        "es": "Una/dos caras, end-cap, displays, frutas/verduras."
+      },
+      "searchKey": "supermarket-shelf"
+    },
+    {
+      "img": "hero/hero3.png",
+      "title": {
+        "en": "Warehouse Rack",
+        "zh": "仓储货架",
+        "de": "Lagerregal",
+        "es": "Estantería Almacén",
+        "fr": "Rayonnage Entrepôt",
+        "it": "Scaffale Magazzino",
+        "ru": "Складской стеллаж",
+        "pt": "Estante Armazém",
+        "ja": "倉庫ラック",
+        "ko": "창고 랙",
+        "ar": "رف مخزن",
+        "nl": "Magazijnrek",
+        "tr": "Depo Raf",
+        "th": "ชั้นวางคลังสินค้า",
+        "vi": "Kệ kho",
+        "hi": "वेयरहाउस रैक"
+      },
+      "sub": {
+        "en": "Heavy-duty rack, pallets, storage cage, ladder truck.",
+        "zh": "重型货架、托盘、仓储笼、梯车",
+        "de": "Schwerlast-Regale, Paletten, Lagerkäfige, Leiterwagen.",
+        "es": "Racks pesados, palets, jaulas, escaleras."
+      },
+      "searchKey": "warehouse-rack"
+    },
+    {
+      "img": "hero/hero2.png",
+      "title": {
+        "en": "Shopping Trolley",
+        "zh": "手推车",
+        "de": "Einkaufswagen",
+        "es": "Carro de Compra",
+        "fr": "Chariot de Course",
+        "it": "Carrello Spesa",
+        "ru": "Тележка покупок",
+        "pt": "Carrinho de Compras",
+        "ja": "ショッピングカート",
+        "ko": "쇼핑카트",
+        "ar": "عربة تسوق",
+        "nl": "Winkelwagen",
+        "tr": "Alışveriş Arabası",
+        "th": "รถเข็นช้อปปิ้ง",
+        "vi": "Xe đẩy mua sắm",
+        "hi": "शॉपिंग ट्रॉली"
+      },
+      "sub": {
+        "en": "American, European, Australian, kids and plastic trolleys.",
+        "zh": "美式、欧式、澳式、儿童、塑料推车",
+        "de": "Amerikanische, europäische, australische, Kinder- und Plastikwagen.",
+        "es": "Americano, europeo, australiano, infantil, plástico."
+      },
+      "searchKey": "shopping-trolley"
+    },
+    {
+      "img": "hero/hero-checkout.png",
+      "title": {
+        "en": "Checkout Counter",
+        "zh": "收银台",
+        "de": "Kassentheke",
+        "es": "Caja Registradora",
+        "fr": "Caisse",
+        "it": "Cassa",
+        "ru": "Кассовый стол",
+        "pt": "Balcão Caixa",
+        "ja": "レジカウンター",
+        "ko": "계산대",
+        "ar": "كاونتر الدفع",
+        "nl": "Kassabalie",
+        "tr": "Kasa Tezgahı",
+        "th": "เคาน์เตอร์ชำระเงิน",
+        "vi": "Quầy thu ngân",
+        "hi": "चेकआउट काउंटर"
+      },
+      "sub": {
+        "en": "Standard counters, entrance gates, lockers and accessories.",
+        "zh": "收银台、入口闸机、寄存柜及配件",
+        "de": "Theken, Eingangstore, Schließfächer.",
+        "es": "Cajas, entradas, casilleros."
+      },
+      "searchKey": "checkout-counter"
+    },
+    {
+      "img": "hero/hero-baskets.png",
+      "title": {
+        "en": "Shopping Basket",
+        "zh": "购物篮",
+        "de": "Einkaufskorb",
+        "es": "Cesta Compra",
+        "fr": "Panier",
+        "it": "Cestino",
+        "ru": "Корзина покупок",
+        "pt": "Cesta Compras",
+        "ja": "買物カゴ",
+        "ko": "쇼핑바구니",
+        "ar": "سلة تسوق",
+        "nl": "Boodschappenmandje",
+        "tr": "Alışveriş Sepeti",
+        "th": "ตะกร้าช้อปปิ้ง",
+        "vi": "Giỏ mua sắm",
+        "hi": "शॉपिंग बास्केट"
+      },
+      "sub": {
+        "en": "Plastic, wire, wheeled, kids and luxury baskets.",
+        "zh": "塑料篮、铁线篮、带轮篮、儿童篮、豪华篮",
+        "de": "Kunststoff-, Draht-, Räder-, Kinder- und Luxuskörbe.",
+        "es": "Plástico, alambre, ruedas, infantil, lujo."
+      },
+      "searchKey": "shopping-basket"
+    },
+    {
+      "img": "hero/hero-market-necessary.png",
+      "title": {
+        "en": "Market Necessary",
+        "zh": "商场配套设备",
+        "de": "Marktzubehör",
+        "es": "Accesorios",
+        "fr": "Accessoires de Marché",
+        "it": "Accessori",
+        "ru": "Аксессуары",
+        "pt": "Acessórios",
+        "ja": "マーケット設備",
+        "ko": "시장 부속품",
+        "ar": "ملحقات السوق",
+        "nl": "Marktbenodigdheden",
+        "tr": "Pazar Aksesuarları",
+        "th": "อุปกรณ์ตลาด",
+        "vi": "Phụ kiện chợ",
+        "hi": "मार्केट उपकरण"
+      },
+      "sub": {
+        "en": "Roll containers, logistics carts and ancillary fixtures.",
+        "zh": "物流车、滚笼及其他配套",
+        "de": "Rollbehälter, Logistikwagen.",
+        "es": "Contenedores, carros logísticos."
+      },
+      "searchKey": "market-necessary"
+    }
+  ],
+  "partnersTitle": {
+    "en": "Who We Serve",
+    "zh": "合作客户类型",
+    "de": "Unsere Kunden",
+    "es": "A Quien Servimos"
+  },
+  "partnersSub": {
+    "en": "Six categories of professional B2B buyers running our equipment.",
+    "zh": "使用我们设备的六类专业 B2B 采购商",
+    "de": "Sechs Kategorien professioneller B2B-Käufer.",
+    "es": "Seis categorías de compradores B2B."
+  },
+  "regionsTitle": {
+    "en": "Markets We Serve",
+    "zh": "服务市场",
+    "de": "Unsere Märkte",
+    "es": "Nuestros Mercados"
+  },
+  "regionsSub": {
+    "en": "Active project clients across four major regions.",
+    "zh": "四大地区项目客户在运行",
+    "de": "Aktive Projektkunden in vier Regionen.",
+    "es": "Clientes activos en cuatro regiones."
+  },
+  "certsTitle": {
+    "en": "Credentials & Verification",
+    "zh": "认证资质",
+    "de": "Zertifikate & Verifizierung",
+    "es": "Credenciales"
+  }
+}
