@@ -13237,7 +13237,11 @@
       },
       "media": {
         "mainImage": "products/YD-M009/main.png"
-      }
+      },
+      "images": [
+        "products/YD-M009/main.png",
+        "products/YD-M009/variant-black.png"
+      ]
     },
     {
       "id": "YD-S020",
